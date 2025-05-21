@@ -3,7 +3,7 @@ Hyperparameter Optimization"
 
 ## How to access the experimental data?
 
-We have published the experimental data on Qiniu cloud: http://restic.gwusun.top/tscash/tscash_expermental_data.zip
+The experimental data is avaliable at: http://restic.gwusun.top/tscash/tscash_expermental_data.zip
 
 ## How to run
 
