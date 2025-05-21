@@ -1,0 +1,14 @@
+#https://nni.readthedocs.io/zh/stable/reference/experiment_config.html
+experimentName: {{exp_name}}
+searchSpaceFile: {{search_space_file}}
+trialCommand: python {{entry_file}}  {{entry_file_args}}
+trialCodeDirectory: {{trial_code_directory}}
+maxTrialNumber: {{max_trial_number}}
+trialConcurrency: {{trial_concurrency}}
+experimentWorkingDirectory: {{exp_working_directory}}
+tuner:
+  name: {{nni_tuner}}
+  classArgs:
+    {{class_args}}
+trainingService:
+  platform: local

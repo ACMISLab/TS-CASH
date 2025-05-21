@@ -1,0 +1,55 @@
+desc: "在数据集上使用特征选择FSC，看看最终选出的精度如果。PCA还没测试哦 b01_abs_test_json_v2_original_20241015_0358.csv"
+random_state: 42
+n_fold: 5
+max_iteration: [ 50 ]
+n_high_performing_model: [ 1,2,3,4,5,6,7,8,9,10,11,12,13,14 ]
+datasets:
+  # 小数据集  n_row <= 1000
+  - dresses-sales
+  - cylinder-bands
+  - climate-model-simulation-crashes
+  - ilpd
+  - credit-approval
+  - breast-w
+  - tic-tac-toe
+  - diabetes
+  #  中型数据集        < 1000 n_rows < 1w
+#  - credit-g
+#  - qsar-biodeg
+#  - pc1
+#  - pc4
+#  - pc3
+#  - kc1
+#  - ozone-level-8hr
+#  - madelon
+#  - kr-vs-kp
+#  - Bioresponse
+#  - sick
+#  - spambase
+#  - wilt
+#  - churn
+#  - phoneme
+#  #  大型数据集 n row >= 1w
+#  - jm1
+#  - PhishingWebsites
+#  - nomao
+#  - bank-marketing
+#  - electricity
+
+metrics:
+  - roc_auc
+  - accuracy
+feature_selec_method:
+  - RF
+feature_selec_rate:
+  - 1
+#超参数优化方法
+hpo_opt_methods:
+  - rs
+  - bo
+  - hyperband
+
+data_sample_method:
+  - random
+data_sample_rate:
+  - 1

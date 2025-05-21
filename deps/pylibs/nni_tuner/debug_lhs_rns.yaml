@@ -1,0 +1,16 @@
+#https://nni.readthedocs.io/zh/stable/reference/experiment_config.html
+searchSpace:
+  f1:
+    _type: uniform
+    _value: [2, 20]
+
+experimentName: minist
+trialCommand: python demo_model.py
+trialCodeDirectory: .
+maxTrialNumber: 2
+trialConcurrency: 1
+tuner:
+  name: Random
+
+training_service:
+  platform: local

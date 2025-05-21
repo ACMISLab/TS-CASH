@@ -1,0 +1,3 @@
+algoType: tuner
+builtinName: RS
+className: tuner.sample_base.rs_tuner.RandomTuner

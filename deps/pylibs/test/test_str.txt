@@ -1,0 +1,25 @@
+\begin{figure*}
+    \centering
+    \includegraphics[width=\linewidth]{results/exp1_time_consumption_exp1_aiops_coca_9kpis_v03}
+    \caption{Training time for COCA.    \label{fig:time_coca}  }
+\end{figure*}
+\begin{figure*}
+    \centering
+    \includegraphics[width=\linewidth]{results/exp1_time_consumption_exp1_aiops_vae_9kpis_v03}
+    \caption{Training time for VAE.    \label{fig:time_vae}  }
+\end{figure*}
+\begin{figure*}
+    \centering
+    \includegraphics[width=\linewidth]{results/exp1_time_consumption_exp1_aiops_ae_9kpis_v03}
+    \caption{Training time for AE.    \label{fig:time_ae}  }
+\end{figure*}
+\begin{figure*}
+    \centering
+    \includegraphics[width=\linewidth]{results/exp1_time_consumption_exp1_aiops_random_forest_v02}
+    \caption{Training time for RF.    \label{fig:time_rf}  }
+\end{figure*}
+\begin{figure*}
+    \centering
+    \includegraphics[width=\linewidth]{results/exp1_time_consumption_exp_aiops_if_final_v27}
+    \caption{Training time for iForest.    \label{fig:time_iforest}  }
+\end{figure*}

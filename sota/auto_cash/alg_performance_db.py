@@ -1,0 +1,110 @@
+"""
+将历史训练数据(数据,算法及其超参数配置,性能)搜集起来, 组成一个数据库, 避免同样的算法训练两次,以节省时间
+这里只处理baseline组中的数据(未经过行列抽样的数据), 用于训练Auto-CASH或者其他不使用抽烟的SOTA
+
+"""
+import os
+import sys
+
+sys.path.append("/Users/sunwu/SW-Research/AutoML-Benchmark")
+sys.path.append("/Users/sunwu/SW-Research/AutoML-Benchmark/deps")
+from sota.auto_cash.auto_cash_helper import get_model_args_from_dict_by_model_name, KVDB
+
+DB_HOME = "/Users/sunwu/SW-Research/AutoML-Benchmark/sota/auto_cash/algdb"
+os.makedirs(DB_HOME, exist_ok=True)
+from tshpo.automl_libs import *
+
+
+class Configuration:
+    def __init__(self, **kwargs):
+        self.kwargs = kwargs
+        self.model_name = kwargs['values']['__choice__']
+
+        # 算法的名称,例如: 'adaboost'
+
+        hpys = kwargs['values']
+        del hpys['__choice__']
+        self.hpys = hpys
+
+
+class RunValue:
+    def __init__(self, **kwargs):
+        self.kwargs = kwargs
+        self.accuracy = kwargs['accuracy']
+        self.roc_auc = kwargs['roc_auc']
+
+        # auto-cash 的fscore定义
+        self.fscore_autocash = self.accuracy * self.roc_auc
+
+        # 模型的训练时间
+        self.runtime = kwargs['elapsed_seconds']
+
+
+if __name__ == '__main__':
+
+    metircs = [AnaHelper.METRIC_ROC_AUC,
+               AnaHelper.METRIC_F1,
+               AnaHelper.METRIC_ACCURACY]
+    df_baseline = AnaHelper.load_csv_file("c00_baseline_n500_madelon_original_20241029_1434.csv.gz")
+    kvdb = KVDB()
+
+    db = {}
+    kvarray = []
+    for k, v in tqdm(df_baseline.iterrows(), total=df_baseline.shape[0]):
+
+        config_and_value = v['configs_and_metrics']
+        dataset = v['dataset']
+        conf_and_perf = eval(config_and_value)
+        # 'dresses-sales:::gaussian_nb'
+        #     elapsed_seconds: float
+        #     f1: float
+        #     precision: float
+        #     recall: float
+        #     roc_auc: float
+        #     log_loss: float
+        #     accuracy: float
+        #     error_msg: str = ""
+        for _c, _v in conf_and_perf:
+            hpys = _c.hpys
+            hpys["__choice__"] = _c.model_name
+            item = get_model_args_from_dict_by_model_name(hpys, _c.model_name)
+            model_name = _c.model_name
+            _key = copy.deepcopy(item)
+            _key.update({
+                "model": model_name,
+                "dataset": dataset,
+                "fold_index": v['fold_index']})
+
+            _val = {"elapsed_seconds": _v.kwargs['elapsed_seconds'],
+                    "f1": _v.kwargs['f1'],
+                    "precision": _v.kwargs['precision'],
+                    "recall": _v.kwargs['recall'],
+                    "roc_auc": _v.kwargs['roc_auc'],
+                    "log_loss": -1,
+                    "accuracy": _v.kwargs['accuracy'],
+                    "error_msg": _v.kwargs['error_msg']
+                    }
+
+            # key按键排序
+            _key_sort = KVDB.sort_dict_by_key(_key)
+            kvarray.append([str(_key_sort), _val])
+            item.update({
+                "model": model_name,
+                "dataset": dataset,
+                "fold_index": v['fold_index'],
+                "elapsed_seconds": _v.kwargs['elapsed_seconds'],
+                "f1": _v.kwargs['f1'],
+                "precision": _v.kwargs['precision'],
+                "recall": _v.kwargs['recall'],
+                "roc_auc": _v.kwargs['roc_auc'],
+                "log_loss": -1,
+                "accuracy": _v.kwargs['accuracy'],
+                "error_msg": _v.kwargs['error_msg']
+
+            })
+            if db.get(model_name) is None:
+                db[model_name] = []
+            db[model_name].append(item)
+    kvdb.adds(kvarray)
+    for model_name, items in db.items():
+        pd.DataFrame(items).to_csv(f"{DB_HOME}/{model_name}.csv")

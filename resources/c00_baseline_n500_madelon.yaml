@@ -1,0 +1,54 @@
+desc:
+  baseline 是每个算法优化500次，共计7000次
+  python main.py --file c00_baseline_n500_madelon.yaml
+
+#最大次数的有了，更小次数的就有了
+n_exploration: 500
+#下面的参数不动
+random_state: 42
+n_fold: 5
+datasets:
+  # 小数据集（首先运行）
+  - dresses-sales
+  - climate-model-simulation-crashes
+  - cylinder-bands
+  - ilpd
+  - credit-approval
+  - breast-w
+  - diabetes
+  - tic-tac-toe
+  - credit-g
+  - qsar-biodeg
+  - pc1
+  #  中型数据集（然后运行）
+  - pc4
+  - pc3
+  - kc1
+  - ozone-level-8hr
+  - madelon
+  - kr-vs-kp
+  - Bioresponse
+  - sick
+  - spambase
+  - wilt
+  - churn
+  - phoneme
+  # 大 (最后尝试）
+  - jm1
+  - PhishingWebsites
+  - nomao
+  - bank-marketing
+  - electricity
+
+hpo_opt_methods:
+  - RS
+metrics:
+  - roc_auc
+feature_selec_method:
+  - RF
+feature_selec_rate:
+  - 1
+data_sample_method:
+  - RS
+data_sample_rate:
+  - 1

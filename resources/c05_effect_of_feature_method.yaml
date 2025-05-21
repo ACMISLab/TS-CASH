@@ -1,0 +1,62 @@
+desc: |
+  列选取方法对Acc_sel 的影响，禁用行处理
+  python main.py --file  c05_effect_of_feature_method.yaml ;python main.py --file c05_effect_of_sample_method.yaml
+  优化什么指标是无所谓的，因为是随机优化，所以直接读取精度即可
+
+random_state: 42
+n_fold: 5
+datasets:
+  # 小数据集  n_row <= 1000
+  - dresses-sales
+  - cylinder-bands
+  - climate-model-simulation-crashes
+  - ilpd
+  - credit-approval
+  - breast-w
+  - tic-tac-toe
+  - diabetes
+  #  中型数据集        < 1000 n_rows < 1w
+  - credit-g
+  - qsar-biodeg
+  - pc1
+  - pc4
+  - pc3
+  - kc1
+  - ozone-level-8hr
+  - madelon
+  - kr-vs-kp
+  - Bioresponse
+  - sick
+  - spambase
+  - wilt
+  - churn
+  - phoneme
+  #  大型数据集 n row >= 1w
+  - jm1
+  - PhishingWebsites
+  - nomao
+  - bank-marketing
+  - electricity
+
+metrics:
+  - roc_auc
+#  - accuracy
+#  - f1
+feature_selec_method:
+  - RF
+  - PCA
+feature_selec_rate:
+  - 0.1
+  - 0.3
+  - 0.5
+  - 0.8
+#  - 1
+#超参数优化方法
+hpo_opt_methods:
+  - rs
+n_exploration:
+  - 30
+data_sample_method:
+  - random
+data_sample_rate:
+  - 1

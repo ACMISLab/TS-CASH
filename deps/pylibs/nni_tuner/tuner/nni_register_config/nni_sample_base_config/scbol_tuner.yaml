@@ -1,0 +1,3 @@
+algoType: tuner
+builtinName: SCBOL
+className: tuner.sample_base.scbol_tuner.SCBOLTuner

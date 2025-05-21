@@ -1,0 +1,265 @@
+{
+  "hyperparameters": [
+    {
+      "name": "classifier",
+      "type": "categorical",
+      "choices": [
+        "ae",
+        "hbos",
+        "lof",
+        "knn",
+        "lstm",
+        "iforest"
+      ],
+      "default": "ae",
+      "weights": null
+    },
+    {
+      "name": "ae_batch_size",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 10,
+      "upper": 200,
+      "default": 105,
+      "q": null
+    },
+    {
+      "name": "ae_dropout_rate",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 1.0,
+      "default": 0.5,
+      "q": null
+    },
+    {
+      "name": "ae_epochs",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 10,
+      "upper": 200,
+      "default": 105,
+      "q": null
+    },
+    {
+      "name": "ae_hidden_activation",
+      "type": "categorical",
+      "choices": [
+        "relu",
+        "sigmoid",
+        "softmax",
+        "softsign",
+        "selu"
+      ],
+      "default": "relu",
+      "weights": null
+    },
+    {
+      "name": "ae_l2_regularizer",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 1.0,
+      "default": 0.5,
+      "q": null
+    },
+    {
+      "name": "hbos_alpha",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 1.0,
+      "default": 0.5,
+      "q": null
+    },
+    {
+      "name": "hbos_n_bins",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 1,
+      "upper": 100,
+      "default": 50,
+      "q": null
+    },
+    {
+      "name": "hbos_tol",
+      "type": "uniform_float",
+      "log": false,
+      "lower": 0.0,
+      "upper": 1.0,
+      "default": 0.5,
+      "q": null
+    },
+    {
+      "name": "iforest_n_estimators",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 10,
+      "upper": 200,
+      "default": 105,
+      "q": null
+    },
+    {
+      "name": "knn_n_neighbors",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 10,
+      "upper": 100,
+      "default": 55,
+      "q": null
+    },
+    {
+      "name": "lof_n_neighbors",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 10,
+      "upper": 100,
+      "default": 55,
+      "q": null
+    },
+    {
+      "name": "lstm_batch_size",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 10,
+      "upper": 100,
+      "default": 55,
+      "q": null
+    },
+    {
+      "name": "lstm_epochs",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 10,
+      "upper": 200,
+      "default": 105,
+      "q": null
+    },
+    {
+      "name": "lstm_n_neurons",
+      "type": "uniform_int",
+      "log": false,
+      "lower": 10,
+      "upper": 100,
+      "default": 55,
+      "q": null
+    }
+  ],
+  "conditions": [
+    {
+      "child": "ae_batch_size",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "ae"
+      ]
+    },
+    {
+      "child": "ae_dropout_rate",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "ae"
+      ]
+    },
+    {
+      "child": "ae_epochs",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "ae"
+      ]
+    },
+    {
+      "child": "ae_hidden_activation",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "ae"
+      ]
+    },
+    {
+      "child": "ae_l2_regularizer",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "ae"
+      ]
+    },
+    {
+      "child": "hbos_alpha",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "hbos"
+      ]
+    },
+    {
+      "child": "hbos_n_bins",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "hbos"
+      ]
+    },
+    {
+      "child": "hbos_tol",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "hbos"
+      ]
+    },
+    {
+      "child": "iforest_n_estimators",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "iforest"
+      ]
+    },
+    {
+      "child": "knn_n_neighbors",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "knn"
+      ]
+    },
+    {
+      "child": "lof_n_neighbors",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "lof"
+      ]
+    },
+    {
+      "child": "lstm_batch_size",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "lstm"
+      ]
+    },
+    {
+      "child": "lstm_epochs",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "lstm"
+      ]
+    },
+    {
+      "child": "lstm_n_neurons",
+      "parent": "classifier",
+      "type": "IN",
+      "values": [
+        "lstm"
+      ]
+    }
+  ],
+  "forbiddens": [],
+  "python_module_version": "0.6.1",
+  "json_format_version": 0.4
+}

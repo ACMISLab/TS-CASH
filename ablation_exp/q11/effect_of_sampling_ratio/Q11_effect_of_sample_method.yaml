@@ -1,0 +1,41 @@
+desc: "抽样方法对目标性能的影响"
+random_state: 42
+n_fold: 5
+n_high_performing_model: [ 2 ]
+datasets:
+  # 中数据
+  - pc4
+  - pc3
+  - kc1
+  - ozone-level-8hr
+  - madelon
+  - kr-vs-kp
+  - Bioresponse
+  - sick
+  - spambase
+  - wilt
+  - churn
+  - phoneme
+
+metrics:
+  - roc_auc
+#  - accuracy
+feature_selec_method:
+  - RF
+feature_selec_rate:
+  - 1
+#超参数优化方法
+hpo_opt_methods:
+  - BO
+n_exploration: [ 0 ]
+max_iteration: [ 100 ]
+data_sample_method:
+  - RS
+  - LHS
+  - Sobol
+data_sample_rate:
+  - 0.1
+  - 0.3
+  - 0.5
+  - 0.8
+  - 1.0

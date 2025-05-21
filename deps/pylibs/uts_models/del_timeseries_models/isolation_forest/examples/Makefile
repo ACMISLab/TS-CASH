@@ -1,0 +1,8 @@
+run:
+	python 01_isolation_aiops_sliding_windows.py
+	python 05_isolation_exp1.py
+	python 06_isolation_manal_sliding_windows.py
+	python 07_isolation_dim_my_impl.py
+	python 08_isolation_manal_sliding_windows_peroid_obvious.py
+	python 09_isolation_manal_sliding_windows_peroid_vague.py
+	python

@@ -1,0 +1,55 @@
+desc: "抽样+降维 vs. 不抽样不降维选出的算法表现如何？ 作为论文中的observation实验"
+random_state: 42
+n_fold: 5
+datasets:
+  - dresses-sales
+  - kc2
+  - climate-model-simulation-crashes
+  - cylinder-bands
+  - wdbc
+  - ilpd
+  - credit-approval
+  - breast-w
+  - blood-transfusion-service-center
+  - diabetes
+  - tic-tac-toe
+  - credit-g
+  - qsar-biodeg
+  - pc1
+  - banknote-authentication
+  - pc4
+  - pc3
+  - kc1
+  - ozone-level-8hr
+  #  - madelon
+  - kr-vs-kp
+#  - Internet-Advertisements
+#  - sick
+#  - spambase
+#  - wilt
+#  - churn
+#  - phoneme
+#  - jm1
+#  - PhishingWebsites
+#  - Bioresponse
+#  - nomao
+#  - bank-marketing
+#  - electricity
+#  - numerai28.6
+metrics:
+  - roc_auc
+  - accuracy
+feature_selec_method:
+  - RF
+feature_selec_rate:
+  - 0.3
+  - 1
+hpo_opt_methods:
+  - random
+n_exploration:
+  - 50
+data_sample_method:
+  - random
+data_sample_rate:
+  - 0.3
+  - 1

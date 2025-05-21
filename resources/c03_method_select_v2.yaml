@@ -1,0 +1,57 @@
+desc: "用于计算在各种条件下acc_sel的值。这里的不同条件包括"
+random_state: 42
+n_fold: 5
+datasets:
+  # 小数据集  n_row <= 1000
+  - dresses-sales
+  - cylinder-bands
+  - climate-model-simulation-crashes
+  - ilpd
+  - credit-approval
+  - breast-w
+  - tic-tac-toe
+  - diabetes
+  #  中型数据集        < 1000 n_rows < 1w
+  - credit-g
+  - qsar-biodeg
+  - pc1
+  - pc4
+  - pc3
+  - kc1
+  - ozone-level-8hr
+  - madelon
+  - kr-vs-kp
+  - Bioresponse
+  - sick
+  - spambase
+  - wilt
+  - churn
+  - phoneme
+  #  大型数据集 n row >= 1w
+  - jm1
+  - PhishingWebsites
+  - nomao
+  - bank-marketing
+  - electricity
+feature_selec_method:
+  - RF
+  - PCA
+feature_selec_rate:
+  - 0.1
+  - 0.3
+  - 0.5
+data_sample_method:
+  - random
+  - stratified
+data_sample_rate:
+  - 0.1
+  - 0.3
+  - 0.5
+hpo_opt_methods:
+  - random
+n_exploration:
+  - 30
+metrics:
+  - roc_auc
+  #  - f1
+  - accuracy

@@ -1,0 +1,32 @@
+datasets:
+# 小
+ - dresses-sales
+ - climate-model-simulation-crashes
+ - cylinder-bands
+ - ilpd
+ - credit-approval
+ - breast-w
+ - diabetes
+ - tic-tac-toe
+ - credit-g
+ - qsar-biodeg
+ - pc1
+# 中
+ - pc4
+ - pc3
+ - kc1
+ - ozone-level-8hr
+ - madelon
+ - kr-vs-kp
+ - Bioresponse
+ - sick
+ - spambase
+ - wilt
+ - churn
+ - phoneme
+# 大
+ - jm1
+ - PhishingWebsites
+ - nomao
+ - bank-marketing
+ - electricity

@@ -1,0 +1,5 @@
+run:
+	python 04_vae_aiops_d2.py
+	python 01_vae_aiops_sliding_windows.py
+	python 02_vae_aiops_sliding_windows_period_data_obvious.py
+	python 03_vae_aiops_sliding_windows_period_data_vague.py

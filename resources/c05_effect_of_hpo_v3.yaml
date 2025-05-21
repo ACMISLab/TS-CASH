@@ -1,0 +1,52 @@
+desc: |
+  超参数优化方法对Acc_sel 的影响，禁用列特征处理
+  只在中型数据集上作测试
+  优化什么指标是无所谓的，因为是随机优化，所以直接读取精度即可
+  python main.py --file c05_effect_of_hpo_v2.yaml
+
+random_state: 42
+n_fold: 5
+datasets:
+  # 小数据集
+  - dresses-sales
+  - climate-model-simulation-crashes
+  - cylinder-bands
+  - ilpd
+  - credit-approval
+  - breast-w
+  - diabetes
+  - tic-tac-toe
+  - credit-g
+  - qsar-biodeg
+  - pc1
+  #  中
+  - pc4
+  - pc3
+  - kc1
+  - ozone-level-8hr
+  - madelon
+  - kr-vs-kp
+  - Bioresponse
+  - sick
+  - spambase
+  - wilt
+  - churn
+  - phoneme
+
+metrics:
+  - roc_auc
+  - accuracy
+feature_selec_method:
+  - RF
+feature_selec_rate:
+  - 0.3
+hpo_opt_methods:
+  - HB
+  - RS
+  - BO
+n_exploration:
+  - 200
+data_sample_method:
+  - Halton
+data_sample_rate:
+  - 0.3

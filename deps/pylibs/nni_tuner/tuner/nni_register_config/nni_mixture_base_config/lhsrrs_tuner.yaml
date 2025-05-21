@@ -1,0 +1,3 @@
+algoType: nni_tuner
+builtinName: LHSRRS
+className: nni_tuner.lhsrrs_tuner.LHSRRSTuner
