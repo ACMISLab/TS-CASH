@@ -1,10 +1,6 @@
 The source code and data for "A Two-Stage Framework with Search Space Pruning for Combined Algorithm Selection and
 Hyperparameter Optimization"
 
-## How to access the experimental data?
-
-The experimental data is avaliable at: http://restic.gwusun.top/tscash/tscash_expermental_data.zip
-
 ## How to run
 
 0. Prepare the environment:
