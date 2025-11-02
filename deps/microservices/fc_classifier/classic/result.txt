@@ -1,0 +1,156 @@
+
+========load data/D1/chunk_train.pkl==========
+
+
+========load data/D1/chunk_test.pkl==========
+
+[{'dataset_name': 'D1', 'model_name': 'RF'}] classification Report:
+               precision    recall  f1-score   support
+
+           0       0.65      0.66      0.65        61
+           1       0.40      0.87      0.55        38
+           2       0.00      0.00      0.00        15
+           3       0.50      0.04      0.07        26
+           4       0.00      0.00      0.00         7
+
+    accuracy                           0.50       147
+   macro avg       0.31      0.31      0.25       147
+weighted avg       0.46      0.50      0.42       147
+
+
+========load data/D1/chunk_train.pkl==========
+
+
+========load data/D1/chunk_test.pkl==========
+
+[{'dataset_name': 'D1', 'model_name': 'SVM'}] classification Report:
+               precision    recall  f1-score   support
+
+           0       0.65      0.79      0.71        61
+           1       0.48      0.82      0.60        38
+           2       0.00      0.00      0.00        15
+           3       0.25      0.08      0.12        26
+           4       0.00      0.00      0.00         7
+
+    accuracy                           0.55       147
+   macro avg       0.28      0.34      0.29       147
+weighted avg       0.44      0.55      0.47       147
+
+
+========load data/D1/chunk_train.pkl==========
+
+
+========load data/D1/chunk_test.pkl==========
+
+[{'dataset_name': 'D1', 'model_name': 'ADABOOST'}] classification Report:
+               precision    recall  f1-score   support
+
+           0       0.76      0.41      0.53        61
+           1       0.30      0.89      0.45        38
+           2       0.00      0.00      0.00        15
+           3       0.00      0.00      0.00        26
+           4       0.00      0.00      0.00         7
+
+    accuracy                           0.40       147
+   macro avg       0.21      0.26      0.20       147
+weighted avg       0.39      0.40      0.34       147
+
+
+========load data/D2/chunk_train.pkl==========
+
+
+========load data/D2/chunk_test.pkl==========
+
+[{'dataset_name': 'D2', 'model_name': 'RF'}] classification Report:
+               precision    recall  f1-score   support
+
+           0       0.10      1.00      0.17         2
+           1       0.00      0.00      0.00         1
+           2       0.05      0.25      0.09         4
+           3       0.43      0.25      0.32        24
+           4       0.50      0.17      0.25        42
+           5       0.24      0.30      0.27        20
+
+    accuracy                           0.24        93
+   macro avg       0.22      0.33      0.18        93
+weighted avg       0.39      0.24      0.26        93
+
+
+========load data/D2/chunk_train.pkl==========
+
+
+========load data/D2/chunk_test.pkl==========
+
+[{'dataset_name': 'D2', 'model_name': 'SVM'}] classification Report:
+               precision    recall  f1-score   support
+
+           0       0.08      0.50      0.13         2
+           1       0.00      0.00      0.00         1
+           2       0.00      0.00      0.00         4
+           3       0.71      0.21      0.32        24
+           4       0.48      0.38      0.43        42
+           5       0.28      0.25      0.26        20
+
+    accuracy                           0.29        93
+   macro avg       0.26      0.22      0.19        93
+weighted avg       0.46      0.29      0.34        93
+
+
+========load data/D2/chunk_train.pkl==========
+
+
+========load data/D2/chunk_test.pkl==========
+
+[{'dataset_name': 'D2', 'model_name': 'ADABOOST'}] classification Report:
+               precision    recall  f1-score   support
+
+           0       0.03      1.00      0.06         2
+           1       0.00      0.00      0.00         1
+           2       0.04      0.25      0.07         4
+           3       0.40      0.08      0.14        24
+           4       0.00      0.00      0.00        42
+           5       0.00      0.00      0.00        20
+
+    accuracy                           0.05        93
+   macro avg       0.08      0.22      0.04        93
+weighted avg       0.11      0.05      0.04        93
+
+
+========load data/D1/chunk_train.pkl==========
+
+
+========load data/D1/chunk_test.pkl==========
+
+[{'dataset_name': 'D1', 'model_name': 'MLP'}] classification Report:
+               precision    recall  f1-score   support
+
+           0       0.63      0.62      0.63        61
+           1       0.41      0.76      0.53        38
+           2       0.12      0.07      0.09        15
+           3       0.43      0.12      0.18        26
+           4       0.00      0.00      0.00         7
+
+    accuracy                           0.48       147
+   macro avg       0.32      0.31      0.29       147
+weighted avg       0.46      0.48      0.44       147
+
+
+========load data/D2/chunk_train.pkl==========
+
+
+========load data/D2/chunk_test.pkl==========
+
+[{'dataset_name': 'D2', 'model_name': 'MLP'}] classification Report:
+               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         2
+           1       0.00      0.00      0.00         1
+           2       0.06      0.25      0.10         4
+           3       0.58      0.29      0.39        24
+           4       0.52      0.33      0.41        42
+           5       0.29      0.35      0.32        20
+
+    accuracy                           0.31        93
+   macro avg       0.24      0.20      0.20        93
+weighted avg       0.45      0.31      0.36        93
+

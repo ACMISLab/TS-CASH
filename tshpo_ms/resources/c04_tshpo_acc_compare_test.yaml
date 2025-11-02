@@ -1,0 +1,42 @@
+desc: |
+  TSHPO与非TSHPO的精度对比，在5个超参数优化方法，两个精度指标和三类28个数据集上进行了实验
+
+random_state: 5
+n_fold: 5
+n_high_performing_model: [ 1,14 ]
+datasets:
+  #  中型数据集         2000 <= n_rows < 1w
+#  - pc4
+#  - pc3
+#  - kc1
+#  - ozone-level-8hr
+  - madelon
+#  - kr-vs-kp
+#  - Bioresponse
+#  - sick
+#  - spambase
+#  - wilt
+#  - churn
+#  - phoneme
+
+metrics:
+  - roc_auc
+  - accuracy
+feature_selec_method:
+  - RF
+feature_selec_rate:
+  - 1
+#超参数优化方法
+hpo_opt_methods:
+#  - hyperband
+  - rs
+#  - bo
+#  - smac
+#  - soar
+max_iteration: [ 50 ]
+#n_exploration:
+#  - 30
+data_sample_method:
+  - random
+data_sample_rate:
+  - 1

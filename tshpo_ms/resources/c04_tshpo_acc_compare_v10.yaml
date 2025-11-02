@@ -1,0 +1,57 @@
+desc: |
+  2024-10-31 最后的结果，抽样率都为0.3，exploration 次数为50次
+  python main_tshpo.py -f c04_tshpo_acc_compare_v10.yaml
+
+random_state: 42
+n_fold: 5
+n_high_performing_model: [ 2,3,4,5,14 ]
+datasets:
+  #小数据
+  - dresses-sales
+  - climate-model-simulation-crashes
+  - cylinder-bands
+  - ilpd
+  - credit-approval
+  - breast-w
+  - diabetes
+  - tic-tac-toe
+  - credit-g
+  - qsar-biodeg
+  - pc1
+  # 中数据
+  - pc4
+  - pc3
+  - kc1
+  - ozone-level-8hr
+  - madelon
+  - kr-vs-kp
+  - Bioresponse
+  - sick
+  - spambase
+  - wilt
+  - churn
+  - phoneme
+  # big
+  - jm1
+  - PhishingWebsites
+  - nomao
+  - bank-marketing
+  - electricity
+
+metrics:
+  - roc_auc
+  - accuracy
+feature_selec_method:
+  - RF
+feature_selec_rate:
+  - 0.9
+#超参数优化方法
+hpo_opt_methods:
+  - HB
+  - RS
+  - BO
+max_iteration: [ 300 ]
+data_sample_method:
+  - RS
+data_sample_rate:
+  - 0.9

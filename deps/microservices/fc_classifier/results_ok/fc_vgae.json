@@ -1,0 +1,302 @@
+{
+  "{'dataset_name': 'D1', 'mlp_batch_size': 118, 'mlp_drop_rate': 0.411876, 'mlp_hidden_dims': 436, 'train_ratio': 0.1, 'vgae_batch_size': 213, 'vgae_drop_rate': 0.10617, 'vgae_hidden_dim': 243, 'vgae_latent_dim': 57, 'vgae_num_layers': 3}": {
+    "f1": 0.0952,
+    "pre": 0.2011,
+    "recall": 0.1429
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 67, 'mlp_drop_rate': 0.33874, 'mlp_hidden_dims': 163, 'train_ratio': 0.1, 'vgae_batch_size': 372, 'vgae_drop_rate': 0.090912, 'vgae_hidden_dim': 96, 'vgae_latent_dim': 107, 'vgae_num_layers': 3}": {
+    "f1": 0.4403,
+    "pre": 0.5288,
+    "recall": 0.4286
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 108, 'mlp_drop_rate': 0.278333, 'mlp_hidden_dims': 423, 'train_ratio': 0.1, 'vgae_batch_size': 321, 'vgae_drop_rate': 0.091702, 'vgae_hidden_dim': 56, 'vgae_latent_dim': 75, 'vgae_num_layers': 4}": {
+    "f1": 0.3208,
+    "pre": 0.3101,
+    "recall": 0.3333
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 30, 'mlp_drop_rate': 0.13999, 'mlp_hidden_dims': 215, 'train_ratio': 0.1, 'vgae_batch_size': 407, 'vgae_drop_rate': 0.152121, 'vgae_hidden_dim': 226, 'vgae_latent_dim': 95, 'vgae_num_layers': 3}": {
+    "f1": 0.0166,
+    "pre": 0.0091,
+    "recall": 0.0952
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 122, 'mlp_drop_rate': 0.2837, 'mlp_hidden_dims': 194, 'train_ratio': 0.1, 'vgae_batch_size': 477, 'vgae_drop_rate': 0.262378, 'vgae_hidden_dim': 66, 'vgae_latent_dim': 30, 'vgae_num_layers': 4}": {
+    "f1": 0.2461,
+    "pre": 0.2889,
+    "recall": 0.369
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 123, 'mlp_drop_rate': 0.343018, 'mlp_hidden_dims': 305, 'train_ratio': 0.1, 'vgae_batch_size': 403, 'vgae_drop_rate': 0.247588, 'vgae_hidden_dim': 9, 'vgae_latent_dim': 69, 'vgae_num_layers': 5}": {
+    "f1": 0.0167,
+    "pre": 0.0092,
+    "recall": 0.0952
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 70, 'mlp_drop_rate': 0.16821, 'mlp_hidden_dims': 328, 'train_ratio': 0.1, 'vgae_batch_size': 155, 'vgae_drop_rate': 0.017194, 'vgae_hidden_dim': 141, 'vgae_latent_dim': 108, 'vgae_num_layers': 3}": {
+    "f1": 0.1773,
+    "pre": 0.3024,
+    "recall": 0.1905
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 79, 'mlp_drop_rate': 0.126021, 'mlp_hidden_dims': 409, 'train_ratio': 0.1, 'vgae_batch_size': 430, 'vgae_drop_rate': 0.45466, 'vgae_hidden_dim': 61, 'vgae_latent_dim': 78, 'vgae_num_layers': 3}": {
+    "f1": 0.4258,
+    "pre": 0.4182,
+    "recall": 0.4405
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 18, 'mlp_drop_rate': 0.479554, 'mlp_hidden_dims': 116, 'train_ratio': 0.1, 'vgae_batch_size': 507, 'vgae_drop_rate': 0.12939, 'vgae_hidden_dim': 113, 'vgae_latent_dim': 33, 'vgae_num_layers': 3}": {
+    "f1": 0.1778,
+    "pre": 0.3783,
+    "recall": 0.1667
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 116, 'mlp_drop_rate': 0.486253, 'mlp_hidden_dims': 449, 'train_ratio': 0.1, 'vgae_batch_size': 491, 'vgae_drop_rate': 0.331261, 'vgae_hidden_dim': 11, 'vgae_latent_dim': 105, 'vgae_num_layers': 5}": {
+    "f1": 0.0166,
+    "pre": 0.0091,
+    "recall": 0.0952
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 29, 'mlp_drop_rate': 0.328178, 'mlp_hidden_dims': 430, 'train_ratio': 0.1, 'vgae_batch_size': 315, 'vgae_drop_rate': 0.401098, 'vgae_hidden_dim': 223, 'vgae_latent_dim': 23, 'vgae_num_layers': 3}": {
+    "f1": 0.0166,
+    "pre": 0.0091,
+    "recall": 0.0952
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 110, 'mlp_drop_rate': 0.308334, 'mlp_hidden_dims': 116, 'train_ratio': 0.1, 'vgae_batch_size': 251, 'vgae_drop_rate': 0.037275, 'vgae_hidden_dim': 70, 'vgae_latent_dim': 50, 'vgae_num_layers': 4}": {
+    "f1": 0.2713,
+    "pre": 0.3112,
+    "recall": 0.2619
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 63, 'mlp_drop_rate': 0.484469, 'mlp_hidden_dims': 343, 'train_ratio': 0.1, 'vgae_batch_size': 443, 'vgae_drop_rate': 0.493443, 'vgae_hidden_dim': 146, 'vgae_latent_dim': 50, 'vgae_num_layers': 3}": {
+    "f1": 0.0874,
+    "pre": 0.3447,
+    "recall": 0.0952
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 30, 'mlp_drop_rate': 0.437814, 'mlp_hidden_dims': 473, 'train_ratio': 0.1, 'vgae_batch_size': 104, 'vgae_drop_rate': 0.386122, 'vgae_hidden_dim': 250, 'vgae_latent_dim': 48, 'vgae_num_layers': 2}": {
+    "f1": 0.8868,
+    "pre": 0.9044,
+    "recall": 0.881
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 87, 'mlp_drop_rate': 0.398928, 'mlp_hidden_dims': 280, 'train_ratio': 0.1, 'vgae_batch_size': 220, 'vgae_drop_rate': 0.099358, 'vgae_hidden_dim': 88, 'vgae_latent_dim': 20, 'vgae_num_layers': 5}": {
+    "f1": 0.2516,
+    "pre": 0.4359,
+    "recall": 0.2262
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 22, 'mlp_drop_rate': 0.138164, 'mlp_hidden_dims': 277, 'train_ratio': 0.1, 'vgae_batch_size': 494, 'vgae_drop_rate': 0.117992, 'vgae_hidden_dim': 131, 'vgae_latent_dim': 118, 'vgae_num_layers': 3}": {
+    "f1": 0.2796,
+    "pre": 0.5175,
+    "recall": 0.2857
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 88, 'mlp_drop_rate': 0.248327, 'mlp_hidden_dims': 98, 'train_ratio': 0.1, 'vgae_batch_size': 194, 'vgae_drop_rate': 0.128034, 'vgae_hidden_dim': 212, 'vgae_latent_dim': 128, 'vgae_num_layers': 2}": {
+    "f1": 0.7965,
+    "pre": 0.8046,
+    "recall": 0.7976
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 87, 'mlp_drop_rate': 0.367537, 'mlp_hidden_dims': 512, 'train_ratio': 0.1, 'vgae_batch_size': 320, 'vgae_drop_rate': 0.020217, 'vgae_hidden_dim': 186, 'vgae_latent_dim': 67, 'vgae_num_layers': 4}": {
+    "f1": 0.0166,
+    "pre": 0.0091,
+    "recall": 0.0952
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 27, 'mlp_drop_rate': 0.366369, 'mlp_hidden_dims': 290, 'train_ratio': 0.1, 'vgae_batch_size': 68, 'vgae_drop_rate': 0.355331, 'vgae_hidden_dim': 70, 'vgae_latent_dim': 111, 'vgae_num_layers': 4}": {
+    "f1": 0.0167,
+    "pre": 0.0092,
+    "recall": 0.0952
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 49, 'mlp_drop_rate': 0.336519, 'mlp_hidden_dims': 164, 'train_ratio': 0.1, 'vgae_batch_size': 281, 'vgae_drop_rate': 0.055445, 'vgae_hidden_dim': 103, 'vgae_latent_dim': 19, 'vgae_num_layers': 2}": {
+    "f1": 0.7571,
+    "pre": 0.7861,
+    "recall": 0.7619
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 30, 'mlp_drop_rate': 0.130792, 'mlp_hidden_dims': 504, 'train_ratio': 0.1, 'vgae_batch_size': 107, 'vgae_drop_rate': 0.162173, 'vgae_hidden_dim': 34, 'vgae_latent_dim': 120, 'vgae_num_layers': 4}": {
+    "f1": 0.1017,
+    "pre": 0.3884,
+    "recall": 0.1429
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 58, 'mlp_drop_rate': 0.215901, 'mlp_hidden_dims': 197, 'train_ratio': 0.1, 'vgae_batch_size': 403, 'vgae_drop_rate': 0.061044, 'vgae_hidden_dim': 197, 'vgae_latent_dim': 18, 'vgae_num_layers': 2}": {
+    "f1": 0.7813,
+    "pre": 0.8074,
+    "recall": 0.7738
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 44, 'mlp_drop_rate': 0.164489, 'mlp_hidden_dims': 347, 'train_ratio': 0.1, 'vgae_batch_size': 349, 'vgae_drop_rate': 0.178149, 'vgae_hidden_dim': 128, 'vgae_latent_dim': 118, 'vgae_num_layers': 3}": {
+    "f1": 0.4383,
+    "pre": 0.4515,
+    "recall": 0.4286
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 51, 'mlp_drop_rate': 0.471879, 'mlp_hidden_dims': 91, 'train_ratio': 0.1, 'vgae_batch_size': 509, 'vgae_drop_rate': 0.453414, 'vgae_hidden_dim': 123, 'vgae_latent_dim': 85, 'vgae_num_layers': 2}": {
+    "f1": 0.466,
+    "pre": 0.492,
+    "recall": 0.4524
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 28, 'mlp_drop_rate': 0.423248, 'mlp_hidden_dims': 171, 'train_ratio': 0.1, 'vgae_batch_size': 394, 'vgae_drop_rate': 0.136066, 'vgae_hidden_dim': 212, 'vgae_latent_dim': 87, 'vgae_num_layers': 2}": {
+    "f1": 0.528,
+    "pre": 0.6238,
+    "recall": 0.4881
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 66, 'mlp_drop_rate': 0.167316, 'mlp_hidden_dims': 505, 'train_ratio': 0.1, 'vgae_batch_size': 450, 'vgae_drop_rate': 0.018443, 'vgae_hidden_dim': 232, 'vgae_latent_dim': 68, 'vgae_num_layers': 5}": {
+    "f1": 0.0166,
+    "pre": 0.0091,
+    "recall": 0.0952
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 121, 'mlp_drop_rate': 0.187506, 'mlp_hidden_dims': 115, 'train_ratio': 0.1, 'vgae_batch_size': 176, 'vgae_drop_rate': 0.304782, 'vgae_hidden_dim': 136, 'vgae_latent_dim': 59, 'vgae_num_layers': 4}": {
+    "f1": 0.0908,
+    "pre": 0.2286,
+    "recall": 0.119
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 59, 'mlp_drop_rate': 0.323241, 'mlp_hidden_dims': 331, 'train_ratio': 0.1, 'vgae_batch_size': 164, 'vgae_drop_rate': 0.25134, 'vgae_hidden_dim': 154, 'vgae_latent_dim': 105, 'vgae_num_layers': 5}": {
+    "f1": 0.0273,
+    "pre": 0.2881,
+    "recall": 0.0595
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 39, 'mlp_drop_rate': 0.261534, 'mlp_hidden_dims': 358, 'train_ratio': 0.1, 'vgae_batch_size': 176, 'vgae_drop_rate': 0.025739, 'vgae_hidden_dim': 133, 'vgae_latent_dim': 47, 'vgae_num_layers': 4}": {
+    "f1": 0.2905,
+    "pre": 0.5467,
+    "recall": 0.2619
+  },
+  "{'dataset_name': 'D1', 'mlp_batch_size': 94, 'mlp_drop_rate': 0.125957, 'mlp_hidden_dims': 449, 'train_ratio': 0.1, 'vgae_batch_size': 503, 'vgae_drop_rate': 0.139323, 'vgae_hidden_dim': 137, 'vgae_latent_dim': 85, 'vgae_num_layers': 4}": {
+    "f1": 0.2969,
+    "pre": 0.4275,
+    "recall": 0.2738
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 118, 'mlp_drop_rate': 0.411876, 'mlp_hidden_dims': 436, 'train_ratio': 0.1, 'vgae_batch_size': 213, 'vgae_drop_rate': 0.10617, 'vgae_hidden_dim': 243, 'vgae_latent_dim': 57, 'vgae_num_layers': 3}": {
+    "f1": 0.6371,
+    "pre": 0.6344,
+    "recall": 0.6481
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 67, 'mlp_drop_rate': 0.33874, 'mlp_hidden_dims': 163, 'train_ratio': 0.1, 'vgae_batch_size': 372, 'vgae_drop_rate': 0.090912, 'vgae_hidden_dim': 96, 'vgae_latent_dim': 107, 'vgae_num_layers': 3}": {
+    "f1": 0.6588,
+    "pre": 0.643,
+    "recall": 0.6852
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 108, 'mlp_drop_rate': 0.278333, 'mlp_hidden_dims': 423, 'train_ratio': 0.1, 'vgae_batch_size': 321, 'vgae_drop_rate': 0.091702, 'vgae_hidden_dim': 56, 'vgae_latent_dim': 75, 'vgae_num_layers': 4}": {
+    "f1": 0.5652,
+    "pre": 0.5806,
+    "recall": 0.5741
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 30, 'mlp_drop_rate': 0.13999, 'mlp_hidden_dims': 215, 'train_ratio': 0.1, 'vgae_batch_size': 407, 'vgae_drop_rate': 0.152121, 'vgae_hidden_dim': 226, 'vgae_latent_dim': 95, 'vgae_num_layers': 3}": {
+    "f1": 0.6737,
+    "pre": 0.6599,
+    "recall": 0.7037
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 122, 'mlp_drop_rate': 0.2837, 'mlp_hidden_dims': 194, 'train_ratio': 0.1, 'vgae_batch_size': 477, 'vgae_drop_rate': 0.262378, 'vgae_hidden_dim': 66, 'vgae_latent_dim': 30, 'vgae_num_layers': 4}": {
+    "f1": 0.6551,
+    "pre": 0.6299,
+    "recall": 0.7037
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 123, 'mlp_drop_rate': 0.343018, 'mlp_hidden_dims': 305, 'train_ratio': 0.1, 'vgae_batch_size': 403, 'vgae_drop_rate': 0.247588, 'vgae_hidden_dim': 9, 'vgae_latent_dim': 69, 'vgae_num_layers': 5}": {
+    "f1": 0.2913,
+    "pre": 0.297,
+    "recall": 0.2963
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 70, 'mlp_drop_rate': 0.16821, 'mlp_hidden_dims': 328, 'train_ratio': 0.1, 'vgae_batch_size': 155, 'vgae_drop_rate': 0.017194, 'vgae_hidden_dim': 141, 'vgae_latent_dim': 108, 'vgae_num_layers': 3}": {
+    "f1": 0.641,
+    "pre": 0.6619,
+    "recall": 0.6667
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 79, 'mlp_drop_rate': 0.126021, 'mlp_hidden_dims': 409, 'train_ratio': 0.1, 'vgae_batch_size': 430, 'vgae_drop_rate': 0.45466, 'vgae_hidden_dim': 61, 'vgae_latent_dim': 78, 'vgae_num_layers': 3}": {
+    "f1": 0.6843,
+    "pre": 0.7277,
+    "recall": 0.7222
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 18, 'mlp_drop_rate': 0.479554, 'mlp_hidden_dims': 116, 'train_ratio': 0.1, 'vgae_batch_size': 507, 'vgae_drop_rate': 0.12939, 'vgae_hidden_dim': 113, 'vgae_latent_dim': 33, 'vgae_num_layers': 3}": {
+    "f1": 0.6903,
+    "pre": 0.6795,
+    "recall": 0.7222
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 116, 'mlp_drop_rate': 0.486253, 'mlp_hidden_dims': 449, 'train_ratio': 0.1, 'vgae_batch_size': 491, 'vgae_drop_rate': 0.331261, 'vgae_hidden_dim': 11, 'vgae_latent_dim': 105, 'vgae_num_layers': 5}": {
+    "f1": 0.2029,
+    "pre": 0.1398,
+    "recall": 0.3704
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 29, 'mlp_drop_rate': 0.328178, 'mlp_hidden_dims': 430, 'train_ratio': 0.1, 'vgae_batch_size': 315, 'vgae_drop_rate': 0.401098, 'vgae_hidden_dim': 223, 'vgae_latent_dim': 23, 'vgae_num_layers': 3}": {
+    "f1": 0.6945,
+    "pre": 0.7282,
+    "recall": 0.6667
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 110, 'mlp_drop_rate': 0.308334, 'mlp_hidden_dims': 116, 'train_ratio': 0.1, 'vgae_batch_size': 251, 'vgae_drop_rate': 0.037275, 'vgae_hidden_dim': 70, 'vgae_latent_dim': 50, 'vgae_num_layers': 4}": {
+    "f1": 0.6152,
+    "pre": 0.6242,
+    "recall": 0.6296
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 63, 'mlp_drop_rate': 0.484469, 'mlp_hidden_dims': 343, 'train_ratio': 0.1, 'vgae_batch_size': 443, 'vgae_drop_rate': 0.493443, 'vgae_hidden_dim': 146, 'vgae_latent_dim': 50, 'vgae_num_layers': 3}": {
+    "f1": 0.633,
+    "pre": 0.6311,
+    "recall": 0.6481
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 30, 'mlp_drop_rate': 0.437814, 'mlp_hidden_dims': 473, 'train_ratio': 0.1, 'vgae_batch_size': 104, 'vgae_drop_rate': 0.386122, 'vgae_hidden_dim': 250, 'vgae_latent_dim': 48, 'vgae_num_layers': 2}": {
+    "f1": 0.6811,
+    "pre": 0.7108,
+    "recall": 0.6667
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 87, 'mlp_drop_rate': 0.398928, 'mlp_hidden_dims': 280, 'train_ratio': 0.1, 'vgae_batch_size': 220, 'vgae_drop_rate': 0.099358, 'vgae_hidden_dim': 88, 'vgae_latent_dim': 20, 'vgae_num_layers': 5}": {
+    "f1": 0.3455,
+    "pre": 0.3385,
+    "recall": 0.3704
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 22, 'mlp_drop_rate': 0.138164, 'mlp_hidden_dims': 277, 'train_ratio': 0.1, 'vgae_batch_size': 494, 'vgae_drop_rate': 0.117992, 'vgae_hidden_dim': 131, 'vgae_latent_dim': 118, 'vgae_num_layers': 3}": {
+    "f1": 0.7126,
+    "pre": 0.707,
+    "recall": 0.7222
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 88, 'mlp_drop_rate': 0.248327, 'mlp_hidden_dims': 98, 'train_ratio': 0.1, 'vgae_batch_size': 194, 'vgae_drop_rate': 0.128034, 'vgae_hidden_dim': 212, 'vgae_latent_dim': 128, 'vgae_num_layers': 2}": {
+    "f1": 0.6773,
+    "pre": 0.706,
+    "recall": 0.6852
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 87, 'mlp_drop_rate': 0.367537, 'mlp_hidden_dims': 512, 'train_ratio': 0.1, 'vgae_batch_size': 320, 'vgae_drop_rate': 0.020217, 'vgae_hidden_dim': 186, 'vgae_latent_dim': 67, 'vgae_num_layers': 4}": {
+    "f1": 0.7289,
+    "pre": 0.7323,
+    "recall": 0.7407
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 27, 'mlp_drop_rate': 0.366369, 'mlp_hidden_dims': 290, 'train_ratio': 0.1, 'vgae_batch_size': 68, 'vgae_drop_rate': 0.355331, 'vgae_hidden_dim': 70, 'vgae_latent_dim': 111, 'vgae_num_layers': 4}": {
+    "f1": 0.6212,
+    "pre": 0.6505,
+    "recall": 0.6111
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 49, 'mlp_drop_rate': 0.336519, 'mlp_hidden_dims': 164, 'train_ratio': 0.1, 'vgae_batch_size': 281, 'vgae_drop_rate': 0.055445, 'vgae_hidden_dim': 103, 'vgae_latent_dim': 19, 'vgae_num_layers': 2}": {
+    "f1": 0.7291,
+    "pre": 0.7034,
+    "recall": 0.7593
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 30, 'mlp_drop_rate': 0.130792, 'mlp_hidden_dims': 504, 'train_ratio': 0.1, 'vgae_batch_size': 107, 'vgae_drop_rate': 0.162173, 'vgae_hidden_dim': 34, 'vgae_latent_dim': 120, 'vgae_num_layers': 4}": {
+    "f1": 0.7429,
+    "pre": 0.7489,
+    "recall": 0.7593
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 58, 'mlp_drop_rate': 0.215901, 'mlp_hidden_dims': 197, 'train_ratio': 0.1, 'vgae_batch_size': 403, 'vgae_drop_rate': 0.061044, 'vgae_hidden_dim': 197, 'vgae_latent_dim': 18, 'vgae_num_layers': 2}": {
+    "f1": 0.7398,
+    "pre": 0.7151,
+    "recall": 0.7778
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 44, 'mlp_drop_rate': 0.164489, 'mlp_hidden_dims': 347, 'train_ratio': 0.1, 'vgae_batch_size': 349, 'vgae_drop_rate': 0.178149, 'vgae_hidden_dim': 128, 'vgae_latent_dim': 118, 'vgae_num_layers': 3}": {
+    "f1": 0.6649,
+    "pre": 0.6315,
+    "recall": 0.7037
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 51, 'mlp_drop_rate': 0.471879, 'mlp_hidden_dims': 91, 'train_ratio': 0.1, 'vgae_batch_size': 509, 'vgae_drop_rate': 0.453414, 'vgae_hidden_dim': 123, 'vgae_latent_dim': 85, 'vgae_num_layers': 2}": {
+    "f1": 0.7865,
+    "pre": 0.8012,
+    "recall": 0.7963
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 28, 'mlp_drop_rate': 0.423248, 'mlp_hidden_dims': 171, 'train_ratio': 0.1, 'vgae_batch_size': 394, 'vgae_drop_rate': 0.136066, 'vgae_hidden_dim': 212, 'vgae_latent_dim': 87, 'vgae_num_layers': 2}": {
+    "f1": 0.7323,
+    "pre": 0.7104,
+    "recall": 0.7593
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 66, 'mlp_drop_rate': 0.167316, 'mlp_hidden_dims': 505, 'train_ratio': 0.1, 'vgae_batch_size': 450, 'vgae_drop_rate': 0.018443, 'vgae_hidden_dim': 232, 'vgae_latent_dim': 68, 'vgae_num_layers': 5}": {
+    "f1": 0.2439,
+    "pre": 0.2785,
+    "recall": 0.2222
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 121, 'mlp_drop_rate': 0.187506, 'mlp_hidden_dims': 115, 'train_ratio': 0.1, 'vgae_batch_size': 176, 'vgae_drop_rate': 0.304782, 'vgae_hidden_dim': 136, 'vgae_latent_dim': 59, 'vgae_num_layers': 4}": {
+    "f1": 0.604,
+    "pre": 0.5858,
+    "recall": 0.6296
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 59, 'mlp_drop_rate': 0.323241, 'mlp_hidden_dims': 331, 'train_ratio': 0.1, 'vgae_batch_size': 164, 'vgae_drop_rate': 0.25134, 'vgae_hidden_dim': 154, 'vgae_latent_dim': 105, 'vgae_num_layers': 5}": {
+    "f1": 0.3093,
+    "pre": 0.3361,
+    "recall": 0.3148
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 39, 'mlp_drop_rate': 0.261534, 'mlp_hidden_dims': 358, 'train_ratio': 0.1, 'vgae_batch_size': 176, 'vgae_drop_rate': 0.025739, 'vgae_hidden_dim': 133, 'vgae_latent_dim': 47, 'vgae_num_layers': 4}": {
+    "f1": 0.724,
+    "pre": 0.7424,
+    "recall": 0.7222
+  },
+  "{'dataset_name': 'D2', 'mlp_batch_size': 94, 'mlp_drop_rate': 0.125957, 'mlp_hidden_dims': 449, 'train_ratio': 0.1, 'vgae_batch_size': 503, 'vgae_drop_rate': 0.139323, 'vgae_hidden_dim': 137, 'vgae_latent_dim': 85, 'vgae_num_layers': 4}": {
+    "f1": 0.6355,
+    "pre": 0.6341,
+    "recall": 0.6667
+  }
+}

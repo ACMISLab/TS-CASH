@@ -1,0 +1,302 @@
+{
+  "{'activation': 'tanh', 'alpha': 0.004766, 'dataset_name': 'D1', 'early_stopping': True, 'hidden_layer_size': 199, 'learning_rate': 'invscaling', 'learning_rate_init': 0.001256, 'max_iter': 575, 'solver': 'sgd', 'train_ratio': 0.1, 'validation_fraction': 0.271988}": {
+    "f1": 0.1629,
+    "pre": 0.1627,
+    "recall": 0.1786
+  },
+  "{'activation': 'relu', 'alpha': 0.000381, 'dataset_name': 'D1', 'early_stopping': False, 'hidden_layer_size': 358, 'learning_rate': 'invscaling', 'learning_rate_init': 0.000534, 'max_iter': 799, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.236062}": {
+    "f1": 0.2344,
+    "pre": 0.2705,
+    "recall": 0.2381
+  },
+  "{'activation': 'identity', 'alpha': 4.7e-05, 'dataset_name': 'D1', 'early_stopping': False, 'hidden_layer_size': 307, 'learning_rate': 'constant', 'learning_rate_init': 0.000146, 'max_iter': 882, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.1901}": {
+    "f1": 0.2832,
+    "pre": 0.3102,
+    "recall": 0.2738
+  },
+  "{'activation': 'tanh', 'alpha': 0.0, 'dataset_name': 'D1', 'early_stopping': False, 'hidden_layer_size': 393, 'learning_rate': 'constant', 'learning_rate_init': 0.002802, 'max_iter': 289, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.102653}": {
+    "f1": 0.2803,
+    "pre": 0.2785,
+    "recall": 0.2857
+  },
+  "{'activation': 'tanh', 'alpha': 5.7e-05, 'dataset_name': 'D1', 'early_stopping': True, 'hidden_layer_size': 463, 'learning_rate': 'invscaling', 'learning_rate_init': 3.6e-05, 'max_iter': 786, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.28844}": {
+    "f1": 0.2722,
+    "pre": 0.3185,
+    "recall": 0.2976
+  },
+  "{'activation': 'logistic', 'alpha': 0.0, 'dataset_name': 'D1', 'early_stopping': True, 'hidden_layer_size': 99, 'learning_rate': 'invscaling', 'learning_rate_init': 0.023396, 'max_iter': 370, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.207938}": {
+    "f1": 0.256,
+    "pre": 0.2783,
+    "recall": 0.2738
+  },
+  "{'activation': 'logistic', 'alpha': 0.001275, 'dataset_name': 'D1', 'early_stopping': True, 'hidden_layer_size': 409, 'learning_rate': 'invscaling', 'learning_rate_init': 0.00063, 'max_iter': 555, 'solver': 'sgd', 'train_ratio': 0.1, 'validation_fraction': 0.21735}": {
+    "f1": 0.2571,
+    "pre": 0.1837,
+    "recall": 0.4286
+  },
+  "{'activation': 'logistic', 'alpha': 4.4e-05, 'dataset_name': 'D1', 'early_stopping': False, 'hidden_layer_size': 437, 'learning_rate': 'invscaling', 'learning_rate_init': 0.000381, 'max_iter': 561, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.293051}": {
+    "f1": 0.2469,
+    "pre": 0.2822,
+    "recall": 0.25
+  },
+  "{'activation': 'identity', 'alpha': 1e-06, 'dataset_name': 'D1', 'early_stopping': True, 'hidden_layer_size': 51, 'learning_rate': 'constant', 'learning_rate_init': 0.05089, 'max_iter': 826, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.221407}": {
+    "f1": 0.2545,
+    "pre": 0.2638,
+    "recall": 0.25
+  },
+  "{'activation': 'logistic', 'alpha': 9.4e-05, 'dataset_name': 'D1', 'early_stopping': False, 'hidden_layer_size': 439, 'learning_rate': 'adaptive', 'learning_rate_init': 0.008111, 'max_iter': 351, 'solver': 'sgd', 'train_ratio': 0.1, 'validation_fraction': 0.1552}": {
+    "f1": 0.108,
+    "pre": 0.0698,
+    "recall": 0.2381
+  },
+  "{'activation': 'identity', 'alpha': 0.08343, 'dataset_name': 'D1', 'early_stopping': True, 'hidden_layer_size': 428, 'learning_rate': 'adaptive', 'learning_rate_init': 0.000175, 'max_iter': 838, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.198759}": {
+    "f1": 0.2647,
+    "pre": 0.2764,
+    "recall": 0.2738
+  },
+  "{'activation': 'tanh', 'alpha': 0.0043, 'dataset_name': 'D1', 'early_stopping': False, 'hidden_layer_size': 310, 'learning_rate': 'constant', 'learning_rate_init': 0.0002, 'max_iter': 712, 'solver': 'sgd', 'train_ratio': 0.1, 'validation_fraction': 0.204547}": {
+    "f1": 0.2307,
+    "pre": 0.5216,
+    "recall": 0.2976
+  },
+  "{'activation': 'identity', 'alpha': 2e-06, 'dataset_name': 'D1', 'early_stopping': True, 'hidden_layer_size': 280, 'learning_rate': 'invscaling', 'learning_rate_init': 0.008288, 'max_iter': 561, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.185508}": {
+    "f1": 0.2073,
+    "pre": 0.2359,
+    "recall": 0.25
+  },
+  "{'activation': 'identity', 'alpha': 0.0, 'dataset_name': 'D1', 'early_stopping': True, 'hidden_layer_size': 90, 'learning_rate': 'constant', 'learning_rate_init': 0.00355, 'max_iter': 742, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.105084}": {
+    "f1": 0.208,
+    "pre": 0.4841,
+    "recall": 0.2976
+  },
+  "{'activation': 'identity', 'alpha': 0.007812, 'dataset_name': 'D1', 'early_stopping': True, 'hidden_layer_size': 77, 'learning_rate': 'adaptive', 'learning_rate_init': 0.035388, 'max_iter': 868, 'solver': 'sgd', 'train_ratio': 0.1, 'validation_fraction': 0.121578}": {
+    "f1": 0.1245,
+    "pre": 0.0853,
+    "recall": 0.2381
+  },
+  "{'activation': 'tanh', 'alpha': 0.00024, 'dataset_name': 'D1', 'early_stopping': True, 'hidden_layer_size': 236, 'learning_rate': 'invscaling', 'learning_rate_init': 0.030609, 'max_iter': 605, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.100104}": {
+    "f1": 0.2333,
+    "pre": 0.2336,
+    "recall": 0.25
+  },
+  "{'activation': 'relu', 'alpha': 0.00149, 'dataset_name': 'D1', 'early_stopping': False, 'hidden_layer_size': 292, 'learning_rate': 'constant', 'learning_rate_init': 0.016394, 'max_iter': 447, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.170514}": {
+    "f1": 0.188,
+    "pre": 0.2095,
+    "recall": 0.2143
+  },
+  "{'activation': 'tanh', 'alpha': 1e-06, 'dataset_name': 'D1', 'early_stopping': True, 'hidden_layer_size': 135, 'learning_rate': 'invscaling', 'learning_rate_init': 5.6e-05, 'max_iter': 572, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.160956}": {
+    "f1": 0.2338,
+    "pre": 0.253,
+    "recall": 0.25
+  },
+  "{'activation': 'identity', 'alpha': 0.000423, 'dataset_name': 'D1', 'early_stopping': False, 'hidden_layer_size': 333, 'learning_rate': 'constant', 'learning_rate_init': 0.037174, 'max_iter': 330, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.132931}": {
+    "f1": 0.2634,
+    "pre": 0.2765,
+    "recall": 0.2619
+  },
+  "{'activation': 'relu', 'alpha': 0.000173, 'dataset_name': 'D1', 'early_stopping': True, 'hidden_layer_size': 115, 'learning_rate': 'constant', 'learning_rate_init': 0.001437, 'max_iter': 289, 'solver': 'sgd', 'train_ratio': 0.1, 'validation_fraction': 0.206818}": {
+    "f1": 0.0166,
+    "pre": 0.0091,
+    "recall": 0.0952
+  },
+  "{'activation': 'logistic', 'alpha': 1.1e-05, 'dataset_name': 'D1', 'early_stopping': True, 'hidden_layer_size': 317, 'learning_rate': 'constant', 'learning_rate_init': 0.080623, 'max_iter': 737, 'solver': 'sgd', 'train_ratio': 0.1, 'validation_fraction': 0.148432}": {
+    "f1": 0.1087,
+    "pre": 0.0686,
+    "recall": 0.2619
+  },
+  "{'activation': 'identity', 'alpha': 0.045442, 'dataset_name': 'D1', 'early_stopping': False, 'hidden_layer_size': 344, 'learning_rate': 'constant', 'learning_rate_init': 0.000441, 'max_iter': 229, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.260628}": {
+    "f1": 0.2941,
+    "pre": 0.3067,
+    "recall": 0.2976
+  },
+  "{'activation': 'identity', 'alpha': 9e-06, 'dataset_name': 'D1', 'early_stopping': True, 'hidden_layer_size': 435, 'learning_rate': 'constant', 'learning_rate_init': 1.4e-05, 'max_iter': 152, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.19406}": {
+    "f1": 0.1368,
+    "pre": 0.0926,
+    "recall": 0.2619
+  },
+  "{'activation': 'tanh', 'alpha': 0.00013, 'dataset_name': 'D1', 'early_stopping': False, 'hidden_layer_size': 436, 'learning_rate': 'adaptive', 'learning_rate_init': 0.00024, 'max_iter': 783, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.296685}": {
+    "f1": 0.2763,
+    "pre": 0.2888,
+    "recall": 0.2738
+  },
+  "{'activation': 'logistic', 'alpha': 0.001652, 'dataset_name': 'D1', 'early_stopping': False, 'hidden_layer_size': 162, 'learning_rate': 'constant', 'learning_rate_init': 0.003447, 'max_iter': 829, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.179765}": {
+    "f1": 0.2375,
+    "pre": 0.2601,
+    "recall": 0.2262
+  },
+  "{'activation': 'tanh', 'alpha': 8e-06, 'dataset_name': 'D1', 'early_stopping': True, 'hidden_layer_size': 197, 'learning_rate': 'adaptive', 'learning_rate_init': 2.8e-05, 'max_iter': 445, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.137741}": {
+    "f1": 0.2373,
+    "pre": 0.2503,
+    "recall": 0.2381
+  },
+  "{'activation': 'relu', 'alpha': 1e-06, 'dataset_name': 'D1', 'early_stopping': False, 'hidden_layer_size': 401, 'learning_rate': 'invscaling', 'learning_rate_init': 0.049977, 'max_iter': 723, 'solver': 'sgd', 'train_ratio': 0.1, 'validation_fraction': 0.155774}": {
+    "f1": 0.1082,
+    "pre": 0.0711,
+    "recall": 0.2262
+  },
+  "{'activation': 'relu', 'alpha': 0.0, 'dataset_name': 'D1', 'early_stopping': True, 'hidden_layer_size': 248, 'learning_rate': 'constant', 'learning_rate_init': 0.032312, 'max_iter': 671, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.240072}": {
+    "f1": 0.2174,
+    "pre": 0.2575,
+    "recall": 0.2262
+  },
+  "{'activation': 'identity', 'alpha': 0.000351, 'dataset_name': 'D1', 'early_stopping': True, 'hidden_layer_size': 357, 'learning_rate': 'adaptive', 'learning_rate_init': 0.000108, 'max_iter': 980, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.269332}": {
+    "f1": 0.2535,
+    "pre": 0.2635,
+    "recall": 0.25
+  },
+  "{'activation': 'identity', 'alpha': 0.001162, 'dataset_name': 'D1', 'early_stopping': True, 'hidden_layer_size': 466, 'learning_rate': 'constant', 'learning_rate_init': 0.004365, 'max_iter': 101, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.271265}": {
+    "f1": 0.2125,
+    "pre": 0.3851,
+    "recall": 0.2619
+  },
+  "{'activation': 'tanh', 'alpha': 0.004766, 'dataset_name': 'D2', 'early_stopping': True, 'hidden_layer_size': 199, 'learning_rate': 'invscaling', 'learning_rate_init': 0.001256, 'max_iter': 575, 'solver': 'sgd', 'train_ratio': 0.1, 'validation_fraction': 0.271988}": {
+    "f1": 0.0017,
+    "pre": 0.0009,
+    "recall": 0.0185
+  },
+  "{'activation': 'relu', 'alpha': 0.000381, 'dataset_name': 'D2', 'early_stopping': False, 'hidden_layer_size': 358, 'learning_rate': 'invscaling', 'learning_rate_init': 0.000534, 'max_iter': 799, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.236062}": {
+    "f1": 0.0556,
+    "pre": 0.1111,
+    "recall": 0.037
+  },
+  "{'activation': 'identity', 'alpha': 4.7e-05, 'dataset_name': 'D2', 'early_stopping': False, 'hidden_layer_size': 307, 'learning_rate': 'constant', 'learning_rate_init': 0.000146, 'max_iter': 882, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.1901}": {
+    "f1": 0.0936,
+    "pre": 0.127,
+    "recall": 0.0741
+  },
+  "{'activation': 'tanh', 'alpha': 0.0, 'dataset_name': 'D2', 'early_stopping': False, 'hidden_layer_size': 393, 'learning_rate': 'constant', 'learning_rate_init': 0.002802, 'max_iter': 289, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.102653}": {
+    "f1": 0.0833,
+    "pre": 0.1667,
+    "recall": 0.0556
+  },
+  "{'activation': 'tanh', 'alpha': 5.7e-05, 'dataset_name': 'D2', 'early_stopping': True, 'hidden_layer_size': 463, 'learning_rate': 'invscaling', 'learning_rate_init': 3.6e-05, 'max_iter': 786, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.28844}": {
+    "f1": 0.0466,
+    "pre": 0.0382,
+    "recall": 0.0741
+  },
+  "{'activation': 'logistic', 'alpha': 0.0, 'dataset_name': 'D2', 'early_stopping': True, 'hidden_layer_size': 99, 'learning_rate': 'invscaling', 'learning_rate_init': 0.023396, 'max_iter': 370, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.207938}": {
+    "f1": 0.0784,
+    "pre": 0.1333,
+    "recall": 0.0556
+  },
+  "{'activation': 'logistic', 'alpha': 0.001275, 'dataset_name': 'D2', 'early_stopping': True, 'hidden_layer_size': 409, 'learning_rate': 'invscaling', 'learning_rate_init': 0.00063, 'max_iter': 555, 'solver': 'sgd', 'train_ratio': 0.1, 'validation_fraction': 0.21735}": {
+    "f1": 0.0026,
+    "pre": 0.0014,
+    "recall": 0.037
+  },
+  "{'activation': 'logistic', 'alpha': 4.4e-05, 'dataset_name': 'D2', 'early_stopping': False, 'hidden_layer_size': 437, 'learning_rate': 'invscaling', 'learning_rate_init': 0.000381, 'max_iter': 561, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.293051}": {
+    "f1": 0.0619,
+    "pre": 0.1496,
+    "recall": 0.0556
+  },
+  "{'activation': 'identity', 'alpha': 1e-06, 'dataset_name': 'D2', 'early_stopping': True, 'hidden_layer_size': 51, 'learning_rate': 'constant', 'learning_rate_init': 0.05089, 'max_iter': 826, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.221407}": {
+    "f1": 0.0556,
+    "pre": 0.1111,
+    "recall": 0.037
+  },
+  "{'activation': 'logistic', 'alpha': 9.4e-05, 'dataset_name': 'D2', 'early_stopping': False, 'hidden_layer_size': 439, 'learning_rate': 'adaptive', 'learning_rate_init': 0.008111, 'max_iter': 351, 'solver': 'sgd', 'train_ratio': 0.1, 'validation_fraction': 0.1552}": {
+    "f1": 0.0013,
+    "pre": 0.0007,
+    "recall": 0.0185
+  },
+  "{'activation': 'identity', 'alpha': 0.08343, 'dataset_name': 'D2', 'early_stopping': True, 'hidden_layer_size': 428, 'learning_rate': 'adaptive', 'learning_rate_init': 0.000175, 'max_iter': 838, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.198759}": {
+    "f1": 0.0523,
+    "pre": 0.0889,
+    "recall": 0.037
+  },
+  "{'activation': 'tanh', 'alpha': 0.0043, 'dataset_name': 'D2', 'early_stopping': False, 'hidden_layer_size': 310, 'learning_rate': 'constant', 'learning_rate_init': 0.0002, 'max_iter': 712, 'solver': 'sgd', 'train_ratio': 0.1, 'validation_fraction': 0.204547}": {
+    "f1": 0.0,
+    "pre": 0.0,
+    "recall": 0.0
+  },
+  "{'activation': 'identity', 'alpha': 2e-06, 'dataset_name': 'D2', 'early_stopping': True, 'hidden_layer_size': 280, 'learning_rate': 'invscaling', 'learning_rate_init': 0.008288, 'max_iter': 561, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.185508}": {
+    "f1": 0.0013,
+    "pre": 0.0007,
+    "recall": 0.0185
+  },
+  "{'activation': 'identity', 'alpha': 0.0, 'dataset_name': 'D2', 'early_stopping': True, 'hidden_layer_size': 90, 'learning_rate': 'constant', 'learning_rate_init': 0.00355, 'max_iter': 742, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.105084}": {
+    "f1": 0.0278,
+    "pre": 0.0556,
+    "recall": 0.0185
+  },
+  "{'activation': 'identity', 'alpha': 0.007812, 'dataset_name': 'D2', 'early_stopping': True, 'hidden_layer_size': 77, 'learning_rate': 'adaptive', 'learning_rate_init': 0.035388, 'max_iter': 868, 'solver': 'sgd', 'train_ratio': 0.1, 'validation_fraction': 0.121578}": {
+    "f1": 0.003,
+    "pre": 0.0016,
+    "recall": 0.0185
+  },
+  "{'activation': 'tanh', 'alpha': 0.00024, 'dataset_name': 'D2', 'early_stopping': True, 'hidden_layer_size': 236, 'learning_rate': 'invscaling', 'learning_rate_init': 0.030609, 'max_iter': 605, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.100104}": {
+    "f1": 0.0593,
+    "pre": 0.1481,
+    "recall": 0.037
+  },
+  "{'activation': 'relu', 'alpha': 0.00149, 'dataset_name': 'D2', 'early_stopping': False, 'hidden_layer_size': 292, 'learning_rate': 'constant', 'learning_rate_init': 0.016394, 'max_iter': 447, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.170514}": {
+    "f1": 0.0556,
+    "pre": 0.1111,
+    "recall": 0.037
+  },
+  "{'activation': 'tanh', 'alpha': 1e-06, 'dataset_name': 'D2', 'early_stopping': True, 'hidden_layer_size': 135, 'learning_rate': 'invscaling', 'learning_rate_init': 5.6e-05, 'max_iter': 572, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.160956}": {
+    "f1": 0.0556,
+    "pre": 0.1111,
+    "recall": 0.037
+  },
+  "{'activation': 'identity', 'alpha': 0.000423, 'dataset_name': 'D2', 'early_stopping': False, 'hidden_layer_size': 333, 'learning_rate': 'constant', 'learning_rate_init': 0.037174, 'max_iter': 330, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.132931}": {
+    "f1": 0.0741,
+    "pre": 0.1111,
+    "recall": 0.0556
+  },
+  "{'activation': 'relu', 'alpha': 0.000173, 'dataset_name': 'D2', 'early_stopping': True, 'hidden_layer_size': 115, 'learning_rate': 'constant', 'learning_rate_init': 0.001437, 'max_iter': 289, 'solver': 'sgd', 'train_ratio': 0.1, 'validation_fraction': 0.206818}": {
+    "f1": 0.0,
+    "pre": 0.0,
+    "recall": 0.0
+  },
+  "{'activation': 'logistic', 'alpha': 1.1e-05, 'dataset_name': 'D2', 'early_stopping': True, 'hidden_layer_size': 317, 'learning_rate': 'constant', 'learning_rate_init': 0.080623, 'max_iter': 737, 'solver': 'sgd', 'train_ratio': 0.1, 'validation_fraction': 0.148432}": {
+    "f1": 0.0026,
+    "pre": 0.0014,
+    "recall": 0.037
+  },
+  "{'activation': 'identity', 'alpha': 0.045442, 'dataset_name': 'D2', 'early_stopping': False, 'hidden_layer_size': 344, 'learning_rate': 'constant', 'learning_rate_init': 0.000441, 'max_iter': 229, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.260628}": {
+    "f1": 0.0936,
+    "pre": 0.127,
+    "recall": 0.0741
+  },
+  "{'activation': 'identity', 'alpha': 9e-06, 'dataset_name': 'D2', 'early_stopping': True, 'hidden_layer_size': 435, 'learning_rate': 'constant', 'learning_rate_init': 1.4e-05, 'max_iter': 152, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.19406}": {
+    "f1": 0.0529,
+    "pre": 0.037,
+    "recall": 0.0926
+  },
+  "{'activation': 'tanh', 'alpha': 0.00013, 'dataset_name': 'D2', 'early_stopping': False, 'hidden_layer_size': 436, 'learning_rate': 'adaptive', 'learning_rate_init': 0.00024, 'max_iter': 783, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.296685}": {
+    "f1": 0.0988,
+    "pre": 0.1481,
+    "recall": 0.0741
+  },
+  "{'activation': 'logistic', 'alpha': 0.001652, 'dataset_name': 'D2', 'early_stopping': False, 'hidden_layer_size': 162, 'learning_rate': 'constant', 'learning_rate_init': 0.003447, 'max_iter': 829, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.179765}": {
+    "f1": 0.0741,
+    "pre": 0.1111,
+    "recall": 0.0556
+  },
+  "{'activation': 'tanh', 'alpha': 8e-06, 'dataset_name': 'D2', 'early_stopping': True, 'hidden_layer_size': 197, 'learning_rate': 'adaptive', 'learning_rate_init': 2.8e-05, 'max_iter': 445, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.137741}": {
+    "f1": 0.0833,
+    "pre": 0.1667,
+    "recall": 0.0556
+  },
+  "{'activation': 'relu', 'alpha': 1e-06, 'dataset_name': 'D2', 'early_stopping': False, 'hidden_layer_size': 401, 'learning_rate': 'invscaling', 'learning_rate_init': 0.049977, 'max_iter': 723, 'solver': 'sgd', 'train_ratio': 0.1, 'validation_fraction': 0.155774}": {
+    "f1": 0.0018,
+    "pre": 0.0009,
+    "recall": 0.0185
+  },
+  "{'activation': 'relu', 'alpha': 0.0, 'dataset_name': 'D2', 'early_stopping': True, 'hidden_layer_size': 248, 'learning_rate': 'constant', 'learning_rate_init': 0.032312, 'max_iter': 671, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.240072}": {
+    "f1": 0.0343,
+    "pre": 0.1125,
+    "recall": 0.037
+  },
+  "{'activation': 'identity', 'alpha': 0.000351, 'dataset_name': 'D2', 'early_stopping': True, 'hidden_layer_size': 357, 'learning_rate': 'adaptive', 'learning_rate_init': 0.000108, 'max_iter': 980, 'solver': 'lbfgs', 'train_ratio': 0.1, 'validation_fraction': 0.269332}": {
+    "f1": 0.0556,
+    "pre": 0.1111,
+    "recall": 0.037
+  },
+  "{'activation': 'identity', 'alpha': 0.001162, 'dataset_name': 'D2', 'early_stopping': True, 'hidden_layer_size': 466, 'learning_rate': 'constant', 'learning_rate_init': 0.004365, 'max_iter': 101, 'solver': 'adam', 'train_ratio': 0.1, 'validation_fraction': 0.271265}": {
+    "f1": 0.0,
+    "pre": 0.0,
+    "recall": 0.0
+  }
+}

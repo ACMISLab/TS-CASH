@@ -1,0 +1,302 @@
+{
+  "{'bootstrap': True, 'dataset_name': 'D1', 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 8, 'min_samples_split': 3, 'n_estimators': 469, 'train_ratio': 0.1}": {
+    "f1": 0.1999,
+    "pre": 0.3632,
+    "recall": 0.2976
+  },
+  "{'bootstrap': False, 'dataset_name': 'D1', 'max_depth': 23, 'max_features': 'sqrt', 'min_samples_leaf': 8, 'min_samples_split': 13, 'n_estimators': 323, 'train_ratio': 0.1}": {
+    "f1": 0.1918,
+    "pre": 0.2891,
+    "recall": 0.2857
+  },
+  "{'bootstrap': True, 'dataset_name': 'D1', 'max_depth': 41, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 7, 'n_estimators': 31, 'train_ratio': 0.1}": {
+    "f1": 0.19,
+    "pre": 0.3537,
+    "recall": 0.2857
+  },
+  "{'bootstrap': True, 'dataset_name': 'D1', 'max_depth': 21, 'max_features': 'sqrt', 'min_samples_leaf': 6, 'min_samples_split': 3, 'n_estimators': 262, 'train_ratio': 0.1}": {
+    "f1": 0.198,
+    "pre": 0.3224,
+    "recall": 0.2976
+  },
+  "{'bootstrap': True, 'dataset_name': 'D1', 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 245, 'train_ratio': 0.1}": {
+    "f1": 0.2163,
+    "pre": 0.3851,
+    "recall": 0.3095
+  },
+  "{'bootstrap': True, 'dataset_name': 'D1', 'max_depth': 44, 'max_features': 'log2', 'min_samples_leaf': 9, 'min_samples_split': 10, 'n_estimators': 251, 'train_ratio': 0.1}": {
+    "f1": 0.1912,
+    "pre": 0.3176,
+    "recall": 0.2857
+  },
+  "{'bootstrap': True, 'dataset_name': 'D1', 'max_depth': 30, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 8, 'n_estimators': 274, 'train_ratio': 0.1}": {
+    "f1": 0.2168,
+    "pre": 0.2964,
+    "recall": 0.3095
+  },
+  "{'bootstrap': True, 'dataset_name': 'D1', 'max_depth': 18, 'max_features': 'log2', 'min_samples_leaf': 5, 'min_samples_split': 19, 'n_estimators': 355, 'train_ratio': 0.1}": {
+    "f1": 0.1773,
+    "pre": 0.3315,
+    "recall": 0.2857
+  },
+  "{'bootstrap': True, 'dataset_name': 'D1', 'max_depth': 17, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 5, 'n_estimators': 62, 'train_ratio': 0.1}": {
+    "f1": 0.1813,
+    "pre": 0.2284,
+    "recall": 0.2619
+  },
+  "{'bootstrap': True, 'dataset_name': 'D1', 'max_depth': 49, 'max_features': 'log2', 'min_samples_leaf': 7, 'min_samples_split': 15, 'n_estimators': 395, 'train_ratio': 0.1}": {
+    "f1": 0.1563,
+    "pre": 0.2876,
+    "recall": 0.2738
+  },
+  "{'bootstrap': False, 'dataset_name': 'D1', 'max_depth': 46, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 19, 'n_estimators': 279, 'train_ratio': 0.1}": {
+    "f1": 0.1888,
+    "pre": 0.2643,
+    "recall": 0.2857
+  },
+  "{'bootstrap': False, 'dataset_name': 'D1', 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 6, 'min_samples_split': 13, 'n_estimators': 360, 'train_ratio': 0.1}": {
+    "f1": 0.2257,
+    "pre": 0.332,
+    "recall": 0.3095
+  },
+  "{'bootstrap': True, 'dataset_name': 'D1', 'max_depth': 49, 'max_features': 'log2', 'min_samples_leaf': 6, 'min_samples_split': 3, 'n_estimators': 313, 'train_ratio': 0.1}": {
+    "f1": 0.1574,
+    "pre": 0.2886,
+    "recall": 0.2738
+  },
+  "{'bootstrap': False, 'dataset_name': 'D1', 'max_depth': 37, 'max_features': 'log2', 'min_samples_leaf': 10, 'min_samples_split': 11, 'n_estimators': 280, 'train_ratio': 0.1}": {
+    "f1": 0.1756,
+    "pre": 0.259,
+    "recall": 0.2857
+  },
+  "{'bootstrap': True, 'dataset_name': 'D1', 'max_depth': 16, 'max_features': 'log2', 'min_samples_leaf': 4, 'min_samples_split': 5, 'n_estimators': 465, 'train_ratio': 0.1}": {
+    "f1": 0.1974,
+    "pre": 0.3611,
+    "recall": 0.2976
+  },
+  "{'bootstrap': False, 'dataset_name': 'D1', 'max_depth': 42, 'max_features': 'sqrt', 'min_samples_leaf': 9, 'min_samples_split': 2, 'n_estimators': 90, 'train_ratio': 0.1}": {
+    "f1": 0.2079,
+    "pre": 0.3119,
+    "recall": 0.2976
+  },
+  "{'bootstrap': True, 'dataset_name': 'D1', 'max_depth': 23, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 13, 'n_estimators': 401, 'train_ratio': 0.1}": {
+    "f1": 0.1968,
+    "pre": 0.3616,
+    "recall": 0.2857
+  },
+  "{'bootstrap': False, 'dataset_name': 'D1', 'max_depth': 18, 'max_features': 'log2', 'min_samples_leaf': 9, 'min_samples_split': 9, 'n_estimators': 172, 'train_ratio': 0.1}": {
+    "f1": 0.1849,
+    "pre": 0.2844,
+    "recall": 0.2738
+  },
+  "{'bootstrap': True, 'dataset_name': 'D1', 'max_depth': 47, 'max_features': 'log2', 'min_samples_leaf': 7, 'min_samples_split': 12, 'n_estimators': 428, 'train_ratio': 0.1}": {
+    "f1": 0.1773,
+    "pre": 0.3315,
+    "recall": 0.2857
+  },
+  "{'bootstrap': False, 'dataset_name': 'D1', 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 9, 'min_samples_split': 20, 'n_estimators': 298, 'train_ratio': 0.1}": {
+    "f1": 0.1979,
+    "pre": 0.2836,
+    "recall": 0.2738
+  },
+  "{'bootstrap': True, 'dataset_name': 'D1', 'max_depth': 43, 'max_features': 'log2', 'min_samples_leaf': 7, 'min_samples_split': 4, 'n_estimators': 471, 'train_ratio': 0.1}": {
+    "f1": 0.1773,
+    "pre": 0.3315,
+    "recall": 0.2857
+  },
+  "{'bootstrap': True, 'dataset_name': 'D1', 'max_depth': 30, 'max_features': 'log2', 'min_samples_leaf': 8, 'min_samples_split': 2, 'n_estimators': 140, 'train_ratio': 0.1}": {
+    "f1": 0.2205,
+    "pre": 0.398,
+    "recall": 0.3214
+  },
+  "{'bootstrap': False, 'dataset_name': 'D1', 'max_depth': 9, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 4, 'n_estimators': 266, 'train_ratio': 0.1}": {
+    "f1": 0.219,
+    "pre": 0.2886,
+    "recall": 0.2976
+  },
+  "{'bootstrap': True, 'dataset_name': 'D1', 'max_depth': 11, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 6, 'n_estimators': 14, 'train_ratio': 0.1}": {
+    "f1": 0.2784,
+    "pre": 0.3522,
+    "recall": 0.3333
+  },
+  "{'bootstrap': False, 'dataset_name': 'D1', 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 8, 'min_samples_split': 16, 'n_estimators': 227, 'train_ratio': 0.1}": {
+    "f1": 0.2079,
+    "pre": 0.3119,
+    "recall": 0.2976
+  },
+  "{'bootstrap': True, 'dataset_name': 'D1', 'max_depth': 11, 'max_features': 'log2', 'min_samples_leaf': 7, 'min_samples_split': 8, 'n_estimators': 22, 'train_ratio': 0.1}": {
+    "f1": 0.1939,
+    "pre": 0.4146,
+    "recall": 0.2857
+  },
+  "{'bootstrap': True, 'dataset_name': 'D1', 'max_depth': 17, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 14, 'n_estimators': 169, 'train_ratio': 0.1}": {
+    "f1": 0.2109,
+    "pre": 0.2925,
+    "recall": 0.2976
+  },
+  "{'bootstrap': False, 'dataset_name': 'D1', 'max_depth': 17, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 16, 'n_estimators': 336, 'train_ratio': 0.1}": {
+    "f1": 0.2368,
+    "pre": 0.3243,
+    "recall": 0.3095
+  },
+  "{'bootstrap': True, 'dataset_name': 'D1', 'max_depth': 28, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 12, 'n_estimators': 196, 'train_ratio': 0.1}": {
+    "f1": 0.2398,
+    "pre": 0.3419,
+    "recall": 0.3333
+  },
+  "{'bootstrap': True, 'dataset_name': 'D1', 'max_depth': 44, 'max_features': 'log2', 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 252, 'train_ratio': 0.1}": {
+    "f1": 0.2163,
+    "pre": 0.3851,
+    "recall": 0.3095
+  },
+  "{'bootstrap': True, 'dataset_name': 'D2', 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 8, 'min_samples_split': 3, 'n_estimators': 469, 'train_ratio': 0.1}": {
+    "f1": 0.0017,
+    "pre": 0.0009,
+    "recall": 0.0185
+  },
+  "{'bootstrap': False, 'dataset_name': 'D2', 'max_depth': 23, 'max_features': 'sqrt', 'min_samples_leaf': 8, 'min_samples_split': 13, 'n_estimators': 323, 'train_ratio': 0.1}": {
+    "f1": 0.0022,
+    "pre": 0.0012,
+    "recall": 0.0185
+  },
+  "{'bootstrap': True, 'dataset_name': 'D2', 'max_depth': 41, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 7, 'n_estimators': 31, 'train_ratio': 0.1}": {
+    "f1": 0.0059,
+    "pre": 0.0031,
+    "recall": 0.0556
+  },
+  "{'bootstrap': True, 'dataset_name': 'D2', 'max_depth': 21, 'max_features': 'sqrt', 'min_samples_leaf': 6, 'min_samples_split': 3, 'n_estimators': 262, 'train_ratio': 0.1}": {
+    "f1": 0.0045,
+    "pre": 0.0024,
+    "recall": 0.037
+  },
+  "{'bootstrap': True, 'dataset_name': 'D2', 'max_depth': 25, 'max_features': 'log2', 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 245, 'train_ratio': 0.1}": {
+    "f1": 0.006,
+    "pre": 0.0032,
+    "recall": 0.0556
+  },
+  "{'bootstrap': True, 'dataset_name': 'D2', 'max_depth': 44, 'max_features': 'log2', 'min_samples_leaf': 9, 'min_samples_split': 10, 'n_estimators': 251, 'train_ratio': 0.1}": {
+    "f1": 0.0015,
+    "pre": 0.0008,
+    "recall": 0.0185
+  },
+  "{'bootstrap': True, 'dataset_name': 'D2', 'max_depth': 30, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 8, 'n_estimators': 274, 'train_ratio': 0.1}": {
+    "f1": 0.0061,
+    "pre": 0.0032,
+    "recall": 0.0556
+  },
+  "{'bootstrap': True, 'dataset_name': 'D2', 'max_depth': 18, 'max_features': 'log2', 'min_samples_leaf': 5, 'min_samples_split': 19, 'n_estimators': 355, 'train_ratio': 0.1}": {
+    "f1": 0.0041,
+    "pre": 0.0022,
+    "recall": 0.037
+  },
+  "{'bootstrap': True, 'dataset_name': 'D2', 'max_depth': 17, 'max_features': 'sqrt', 'min_samples_leaf': 3, 'min_samples_split': 5, 'n_estimators': 62, 'train_ratio': 0.1}": {
+    "f1": 0.0034,
+    "pre": 0.0018,
+    "recall": 0.037
+  },
+  "{'bootstrap': True, 'dataset_name': 'D2', 'max_depth': 49, 'max_features': 'log2', 'min_samples_leaf': 7, 'min_samples_split': 15, 'n_estimators': 395, 'train_ratio': 0.1}": {
+    "f1": 0.0041,
+    "pre": 0.0022,
+    "recall": 0.037
+  },
+  "{'bootstrap': False, 'dataset_name': 'D2', 'max_depth': 46, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 19, 'n_estimators': 279, 'train_ratio': 0.1}": {
+    "f1": 0.0042,
+    "pre": 0.0022,
+    "recall": 0.037
+  },
+  "{'bootstrap': False, 'dataset_name': 'D2', 'max_depth': 10, 'max_features': 'log2', 'min_samples_leaf': 6, 'min_samples_split': 13, 'n_estimators': 360, 'train_ratio': 0.1}": {
+    "f1": 0.0044,
+    "pre": 0.0023,
+    "recall": 0.037
+  },
+  "{'bootstrap': True, 'dataset_name': 'D2', 'max_depth': 49, 'max_features': 'log2', 'min_samples_leaf': 6, 'min_samples_split': 3, 'n_estimators': 313, 'train_ratio': 0.1}": {
+    "f1": 0.0061,
+    "pre": 0.0032,
+    "recall": 0.0556
+  },
+  "{'bootstrap': False, 'dataset_name': 'D2', 'max_depth': 37, 'max_features': 'log2', 'min_samples_leaf': 10, 'min_samples_split': 11, 'n_estimators': 280, 'train_ratio': 0.1}": {
+    "f1": 0.0017,
+    "pre": 0.0009,
+    "recall": 0.0185
+  },
+  "{'bootstrap': True, 'dataset_name': 'D2', 'max_depth': 16, 'max_features': 'log2', 'min_samples_leaf': 4, 'min_samples_split': 5, 'n_estimators': 465, 'train_ratio': 0.1}": {
+    "f1": 0.0066,
+    "pre": 0.0035,
+    "recall": 0.0556
+  },
+  "{'bootstrap': False, 'dataset_name': 'D2', 'max_depth': 42, 'max_features': 'sqrt', 'min_samples_leaf': 9, 'min_samples_split': 2, 'n_estimators': 90, 'train_ratio': 0.1}": {
+    "f1": 0.0016,
+    "pre": 0.0008,
+    "recall": 0.0185
+  },
+  "{'bootstrap': True, 'dataset_name': 'D2', 'max_depth': 23, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 13, 'n_estimators': 401, 'train_ratio': 0.1}": {
+    "f1": 0.006,
+    "pre": 0.0032,
+    "recall": 0.0556
+  },
+  "{'bootstrap': False, 'dataset_name': 'D2', 'max_depth': 18, 'max_features': 'log2', 'min_samples_leaf': 9, 'min_samples_split': 9, 'n_estimators': 172, 'train_ratio': 0.1}": {
+    "f1": 0.004,
+    "pre": 0.0021,
+    "recall": 0.037
+  },
+  "{'bootstrap': True, 'dataset_name': 'D2', 'max_depth': 47, 'max_features': 'log2', 'min_samples_leaf': 7, 'min_samples_split': 12, 'n_estimators': 428, 'train_ratio': 0.1}": {
+    "f1": 0.0042,
+    "pre": 0.0022,
+    "recall": 0.037
+  },
+  "{'bootstrap': False, 'dataset_name': 'D2', 'max_depth': 20, 'max_features': 'sqrt', 'min_samples_leaf': 9, 'min_samples_split': 20, 'n_estimators': 298, 'train_ratio': 0.1}": {
+    "f1": 0.0015,
+    "pre": 0.0008,
+    "recall": 0.0185
+  },
+  "{'bootstrap': True, 'dataset_name': 'D2', 'max_depth': 43, 'max_features': 'log2', 'min_samples_leaf': 7, 'min_samples_split': 4, 'n_estimators': 471, 'train_ratio': 0.1}": {
+    "f1": 0.004,
+    "pre": 0.0021,
+    "recall": 0.037
+  },
+  "{'bootstrap': True, 'dataset_name': 'D2', 'max_depth': 30, 'max_features': 'log2', 'min_samples_leaf': 8, 'min_samples_split': 2, 'n_estimators': 140, 'train_ratio': 0.1}": {
+    "f1": 0.0059,
+    "pre": 0.0031,
+    "recall": 0.0556
+  },
+  "{'bootstrap': False, 'dataset_name': 'D2', 'max_depth': 9, 'max_features': 'sqrt', 'min_samples_leaf': 5, 'min_samples_split': 4, 'n_estimators': 266, 'train_ratio': 0.1}": {
+    "f1": 0.0041,
+    "pre": 0.0022,
+    "recall": 0.037
+  },
+  "{'bootstrap': True, 'dataset_name': 'D2', 'max_depth': 11, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 6, 'n_estimators': 14, 'train_ratio': 0.1}": {
+    "f1": 0.0062,
+    "pre": 0.0033,
+    "recall": 0.0556
+  },
+  "{'bootstrap': False, 'dataset_name': 'D2', 'max_depth': 10, 'max_features': 'sqrt', 'min_samples_leaf': 8, 'min_samples_split': 16, 'n_estimators': 227, 'train_ratio': 0.1}": {
+    "f1": 0.0022,
+    "pre": 0.0012,
+    "recall": 0.0185
+  },
+  "{'bootstrap': True, 'dataset_name': 'D2', 'max_depth': 11, 'max_features': 'log2', 'min_samples_leaf': 7, 'min_samples_split': 8, 'n_estimators': 22, 'train_ratio': 0.1}": {
+    "f1": 0.0064,
+    "pre": 0.0034,
+    "recall": 0.0556
+  },
+  "{'bootstrap': True, 'dataset_name': 'D2', 'max_depth': 17, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 14, 'n_estimators': 169, 'train_ratio': 0.1}": {
+    "f1": 0.0061,
+    "pre": 0.0032,
+    "recall": 0.0556
+  },
+  "{'bootstrap': False, 'dataset_name': 'D2', 'max_depth': 17, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 16, 'n_estimators': 336, 'train_ratio': 0.1}": {
+    "f1": 0.0042,
+    "pre": 0.0022,
+    "recall": 0.037
+  },
+  "{'bootstrap': True, 'dataset_name': 'D2', 'max_depth': 28, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 12, 'n_estimators': 196, 'train_ratio': 0.1}": {
+    "f1": 0.0064,
+    "pre": 0.0034,
+    "recall": 0.0556
+  },
+  "{'bootstrap': True, 'dataset_name': 'D2', 'max_depth': 44, 'max_features': 'log2', 'min_samples_leaf': 5, 'min_samples_split': 5, 'n_estimators': 252, 'train_ratio': 0.1}": {
+    "f1": 0.0059,
+    "pre": 0.0031,
+    "recall": 0.0556
+  }
+}

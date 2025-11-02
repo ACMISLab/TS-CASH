@@ -1,0 +1,5 @@
+baseline:
+  desc: |
+    每个算法随机优化100次，目的是找到每个数据集中效果最好的算法
+  #  file: "c00_baseline_n100_madelon_original_20241027_1055.csv.gz"
+  file: c00_baseline_n500_madelon_original_20241029_1434.csv.gz

@@ -1,0 +1,302 @@
+{
+  "{'algorithm': 'SAMME', 'dataset_name': 'D1', 'learning_rate': 1.561585, 'max_depth': 5, 'min_samples_leaf': 2, 'min_samples_split': 13, 'n_estimators': 24, 'train_ratio': 0.1}": {
+    "f1": 0.2166,
+    "pre": 0.25,
+    "recall": 0.25
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D1', 'learning_rate': 1.197732, 'max_depth': 4, 'min_samples_leaf': 12, 'min_samples_split': 13, 'n_estimators': 199, 'train_ratio': 0.1}": {
+    "f1": 0.1554,
+    "pre": 0.2172,
+    "recall": 0.2738
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D1', 'learning_rate': 0.897207, 'max_depth': 8, 'min_samples_leaf': 6, 'min_samples_split': 18, 'n_estimators': 199, 'train_ratio': 0.1}": {
+    "f1": 0.2482,
+    "pre": 0.2794,
+    "recall": 0.2857
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D1', 'learning_rate': 0.20895, 'max_depth': 8, 'min_samples_leaf': 2, 'min_samples_split': 11, 'n_estimators': 184, 'train_ratio': 0.1}": {
+    "f1": 0.2041,
+    "pre": 0.2412,
+    "recall": 0.2619
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D1', 'learning_rate': 0.923905, 'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 17, 'n_estimators': 199, 'train_ratio': 0.1}": {
+    "f1": 0.2237,
+    "pre": 0.2391,
+    "recall": 0.2619
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D1', 'learning_rate': 0.938858, 'max_depth': 9, 'min_samples_leaf': 2, 'min_samples_split': 9, 'n_estimators': 173, 'train_ratio': 0.1}": {
+    "f1": 0.1958,
+    "pre": 0.2782,
+    "recall": 0.2619
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D1', 'learning_rate': 1.721281, 'max_depth': 2, 'min_samples_leaf': 20, 'min_samples_split': 16, 'n_estimators': 59, 'train_ratio': 0.1}": {
+    "f1": 0.2603,
+    "pre": 0.2949,
+    "recall": 0.2976
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D1', 'learning_rate': 1.363812, 'max_depth': 10, 'min_samples_leaf': 15, 'min_samples_split': 4, 'n_estimators': 113, 'train_ratio': 0.1}": {
+    "f1": 0.133,
+    "pre": 0.138,
+    "recall": 0.1786
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D1', 'learning_rate': 0.906494, 'max_depth': 9, 'min_samples_leaf': 7, 'min_samples_split': 15, 'n_estimators': 141, 'train_ratio': 0.1}": {
+    "f1": 0.1551,
+    "pre": 0.2867,
+    "recall": 0.2738
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D1', 'learning_rate': 0.036397, 'max_depth': 10, 'min_samples_leaf': 12, 'min_samples_split': 18, 'n_estimators': 11, 'train_ratio': 0.1}": {
+    "f1": 0.1712,
+    "pre": 0.2564,
+    "recall": 0.2738
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D1', 'learning_rate': 0.37786, 'max_depth': 8, 'min_samples_leaf': 16, 'min_samples_split': 10, 'n_estimators': 18, 'train_ratio': 0.1}": {
+    "f1": 0.1766,
+    "pre": 0.2616,
+    "recall": 0.2262
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D1', 'learning_rate': 1.939473, 'max_depth': 7, 'min_samples_leaf': 13, 'min_samples_split': 16, 'n_estimators': 97, 'train_ratio': 0.1}": {
+    "f1": 0.1983,
+    "pre": 0.2662,
+    "recall": 0.2738
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D1', 'learning_rate': 1.552514, 'max_depth': 9, 'min_samples_leaf': 18, 'min_samples_split': 14, 'n_estimators': 138, 'train_ratio': 0.1}": {
+    "f1": 0.1317,
+    "pre": 0.2851,
+    "recall": 0.25
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D1', 'learning_rate': 1.879603, 'max_depth': 8, 'min_samples_leaf': 15, 'min_samples_split': 2, 'n_estimators': 145, 'train_ratio': 0.1}": {
+    "f1": 0.1752,
+    "pre": 0.1925,
+    "recall": 0.2738
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D1', 'learning_rate': 1.790706, 'max_depth': 5, 'min_samples_leaf': 13, 'min_samples_split': 8, 'n_estimators': 72, 'train_ratio': 0.1}": {
+    "f1": 0.2521,
+    "pre": 0.4318,
+    "recall": 0.3214
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D1', 'learning_rate': 1.582449, 'max_depth': 9, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 140, 'train_ratio': 0.1}": {
+    "f1": 0.2421,
+    "pre": 0.3932,
+    "recall": 0.3095
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D1', 'learning_rate': 1.21586, 'max_depth': 8, 'min_samples_leaf': 3, 'min_samples_split': 4, 'n_estimators': 10, 'train_ratio': 0.1}": {
+    "f1": 0.2228,
+    "pre": 0.2408,
+    "recall": 0.25
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D1', 'learning_rate': 1.853339, 'max_depth': 2, 'min_samples_leaf': 12, 'min_samples_split': 6, 'n_estimators': 14, 'train_ratio': 0.1}": {
+    "f1": 0.3368,
+    "pre": 0.3697,
+    "recall": 0.381
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D1', 'learning_rate': 1.305643, 'max_depth': 1, 'min_samples_leaf': 8, 'min_samples_split': 16, 'n_estimators': 151, 'train_ratio': 0.1}": {
+    "f1": 0.1694,
+    "pre": 0.2442,
+    "recall": 0.2381
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D1', 'learning_rate': 1.83077, 'max_depth': 7, 'min_samples_leaf': 3, 'min_samples_split': 15, 'n_estimators': 112, 'train_ratio': 0.1}": {
+    "f1": 0.2345,
+    "pre": 0.3056,
+    "recall": 0.2976
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D1', 'learning_rate': 0.060584, 'max_depth': 4, 'min_samples_leaf': 13, 'min_samples_split': 14, 'n_estimators': 137, 'train_ratio': 0.1}": {
+    "f1": 0.2112,
+    "pre": 0.2814,
+    "recall": 0.2738
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D1', 'learning_rate': 0.224704, 'max_depth': 5, 'min_samples_leaf': 7, 'min_samples_split': 7, 'n_estimators': 101, 'train_ratio': 0.1}": {
+    "f1": 0.1902,
+    "pre": 0.2184,
+    "recall": 0.2381
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D1', 'learning_rate': 0.072544, 'max_depth': 7, 'min_samples_leaf': 19, 'min_samples_split': 13, 'n_estimators': 199, 'train_ratio': 0.1}": {
+    "f1": 0.2463,
+    "pre": 0.2491,
+    "recall": 0.2619
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D1', 'learning_rate': 1.276457, 'max_depth': 7, 'min_samples_leaf': 2, 'min_samples_split': 13, 'n_estimators': 138, 'train_ratio': 0.1}": {
+    "f1": 0.2406,
+    "pre": 0.42,
+    "recall": 0.3214
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D1', 'learning_rate': 0.635568, 'max_depth': 4, 'min_samples_leaf': 10, 'min_samples_split': 12, 'n_estimators': 130, 'train_ratio': 0.1}": {
+    "f1": 0.135,
+    "pre": 0.4997,
+    "recall": 0.2738
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D1', 'learning_rate': 1.722854, 'max_depth': 3, 'min_samples_leaf': 9, 'min_samples_split': 13, 'n_estimators': 110, 'train_ratio': 0.1}": {
+    "f1": 0.2599,
+    "pre": 0.3469,
+    "recall": 0.3214
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D1', 'learning_rate': 0.023835, 'max_depth': 10, 'min_samples_leaf': 20, 'min_samples_split': 8, 'n_estimators': 122, 'train_ratio': 0.1}": {
+    "f1": 0.1833,
+    "pre": 0.2619,
+    "recall": 0.2619
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D1', 'learning_rate': 1.026387, 'max_depth': 8, 'min_samples_leaf': 17, 'min_samples_split': 3, 'n_estimators': 193, 'train_ratio': 0.1}": {
+    "f1": 0.204,
+    "pre": 0.2386,
+    "recall": 0.2262
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D1', 'learning_rate': 0.840648, 'max_depth': 6, 'min_samples_leaf': 17, 'min_samples_split': 4, 'n_estimators': 90, 'train_ratio': 0.1}": {
+    "f1": 0.1411,
+    "pre": 0.2083,
+    "recall": 0.2381
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D1', 'learning_rate': 0.451995, 'max_depth': 8, 'min_samples_leaf': 20, 'min_samples_split': 18, 'n_estimators': 196, 'train_ratio': 0.1}": {
+    "f1": 0.1885,
+    "pre": 0.2075,
+    "recall": 0.2024
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D2', 'learning_rate': 1.561585, 'max_depth': 5, 'min_samples_leaf': 2, 'min_samples_split': 13, 'n_estimators': 24, 'train_ratio': 0.1}": {
+    "f1": 0.0043,
+    "pre": 0.0023,
+    "recall": 0.037
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D2', 'learning_rate': 1.197732, 'max_depth': 4, 'min_samples_leaf': 12, 'min_samples_split': 13, 'n_estimators': 199, 'train_ratio': 0.1}": {
+    "f1": 0.0061,
+    "pre": 0.0032,
+    "recall": 0.0556
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D2', 'learning_rate': 0.897207, 'max_depth': 8, 'min_samples_leaf': 6, 'min_samples_split': 18, 'n_estimators': 199, 'train_ratio': 0.1}": {
+    "f1": 0.0012,
+    "pre": 0.0006,
+    "recall": 0.0185
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D2', 'learning_rate': 0.20895, 'max_depth': 8, 'min_samples_leaf': 2, 'min_samples_split': 11, 'n_estimators': 184, 'train_ratio': 0.1}": {
+    "f1": 0.0015,
+    "pre": 0.0008,
+    "recall": 0.0185
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D2', 'learning_rate': 0.923905, 'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 17, 'n_estimators': 199, 'train_ratio': 0.1}": {
+    "f1": 0.004,
+    "pre": 0.0021,
+    "recall": 0.037
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D2', 'learning_rate': 0.938858, 'max_depth': 9, 'min_samples_leaf': 2, 'min_samples_split': 9, 'n_estimators': 173, 'train_ratio': 0.1}": {
+    "f1": 0.0018,
+    "pre": 0.0009,
+    "recall": 0.0185
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D2', 'learning_rate': 1.721281, 'max_depth': 2, 'min_samples_leaf': 20, 'min_samples_split': 16, 'n_estimators': 59, 'train_ratio': 0.1}": {
+    "f1": 0.0,
+    "pre": 0.0,
+    "recall": 0.0
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D2', 'learning_rate': 1.363812, 'max_depth': 10, 'min_samples_leaf': 15, 'min_samples_split': 4, 'n_estimators': 113, 'train_ratio': 0.1}": {
+    "f1": 0.0028,
+    "pre": 0.0015,
+    "recall": 0.0185
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D2', 'learning_rate': 0.906494, 'max_depth': 9, 'min_samples_leaf': 7, 'min_samples_split': 15, 'n_estimators': 141, 'train_ratio': 0.1}": {
+    "f1": 0.0041,
+    "pre": 0.0022,
+    "recall": 0.037
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D2', 'learning_rate': 0.036397, 'max_depth': 10, 'min_samples_leaf': 12, 'min_samples_split': 18, 'n_estimators': 11, 'train_ratio': 0.1}": {
+    "f1": 0.0059,
+    "pre": 0.0031,
+    "recall": 0.0556
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D2', 'learning_rate': 0.37786, 'max_depth': 8, 'min_samples_leaf': 16, 'min_samples_split': 10, 'n_estimators': 18, 'train_ratio': 0.1}": {
+    "f1": 0.0035,
+    "pre": 0.0019,
+    "recall": 0.037
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D2', 'learning_rate': 1.939473, 'max_depth': 7, 'min_samples_leaf': 13, 'min_samples_split': 16, 'n_estimators': 97, 'train_ratio': 0.1}": {
+    "f1": 0.0,
+    "pre": 0.0,
+    "recall": 0.0
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D2', 'learning_rate': 1.552514, 'max_depth': 9, 'min_samples_leaf': 18, 'min_samples_split': 14, 'n_estimators': 138, 'train_ratio': 0.1}": {
+    "f1": 0.0037,
+    "pre": 0.0019,
+    "recall": 0.037
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D2', 'learning_rate': 1.879603, 'max_depth': 8, 'min_samples_leaf': 15, 'min_samples_split': 2, 'n_estimators': 145, 'train_ratio': 0.1}": {
+    "f1": 0.0038,
+    "pre": 0.002,
+    "recall": 0.037
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D2', 'learning_rate': 1.790706, 'max_depth': 5, 'min_samples_leaf': 13, 'min_samples_split': 8, 'n_estimators': 72, 'train_ratio': 0.1}": {
+    "f1": 0.0038,
+    "pre": 0.002,
+    "recall": 0.037
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D2', 'learning_rate': 1.582449, 'max_depth': 9, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 140, 'train_ratio': 0.1}": {
+    "f1": 0.0038,
+    "pre": 0.002,
+    "recall": 0.037
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D2', 'learning_rate': 1.21586, 'max_depth': 8, 'min_samples_leaf': 3, 'min_samples_split': 4, 'n_estimators': 10, 'train_ratio': 0.1}": {
+    "f1": 0.0071,
+    "pre": 0.0038,
+    "recall": 0.0556
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D2', 'learning_rate': 1.853339, 'max_depth': 2, 'min_samples_leaf': 12, 'min_samples_split': 6, 'n_estimators': 14, 'train_ratio': 0.1}": {
+    "f1": 0.0114,
+    "pre": 0.0078,
+    "recall": 0.037
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D2', 'learning_rate': 1.305643, 'max_depth': 1, 'min_samples_leaf': 8, 'min_samples_split': 16, 'n_estimators': 151, 'train_ratio': 0.1}": {
+    "f1": 0.0035,
+    "pre": 0.0019,
+    "recall": 0.037
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D2', 'learning_rate': 1.83077, 'max_depth': 7, 'min_samples_leaf': 3, 'min_samples_split': 15, 'n_estimators': 112, 'train_ratio': 0.1}": {
+    "f1": 0.0067,
+    "pre": 0.0036,
+    "recall": 0.0556
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D2', 'learning_rate': 0.060584, 'max_depth': 4, 'min_samples_leaf': 13, 'min_samples_split': 14, 'n_estimators': 137, 'train_ratio': 0.1}": {
+    "f1": 0.001,
+    "pre": 0.0005,
+    "recall": 0.0185
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D2', 'learning_rate': 0.224704, 'max_depth': 5, 'min_samples_leaf': 7, 'min_samples_split': 7, 'n_estimators': 101, 'train_ratio': 0.1}": {
+    "f1": 0.0,
+    "pre": 0.0,
+    "recall": 0.0
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D2', 'learning_rate': 0.072544, 'max_depth': 7, 'min_samples_leaf': 19, 'min_samples_split': 13, 'n_estimators': 199, 'train_ratio': 0.1}": {
+    "f1": 0.0051,
+    "pre": 0.0028,
+    "recall": 0.037
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D2', 'learning_rate': 1.276457, 'max_depth': 7, 'min_samples_leaf': 2, 'min_samples_split': 13, 'n_estimators': 138, 'train_ratio': 0.1}": {
+    "f1": 0.0025,
+    "pre": 0.0013,
+    "recall": 0.0185
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D2', 'learning_rate': 0.635568, 'max_depth': 4, 'min_samples_leaf': 10, 'min_samples_split': 12, 'n_estimators': 130, 'train_ratio': 0.1}": {
+    "f1": 0.0038,
+    "pre": 0.002,
+    "recall": 0.037
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D2', 'learning_rate': 1.722854, 'max_depth': 3, 'min_samples_leaf': 9, 'min_samples_split': 13, 'n_estimators': 110, 'train_ratio': 0.1}": {
+    "f1": 0.0064,
+    "pre": 0.0034,
+    "recall": 0.0556
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D2', 'learning_rate': 0.023835, 'max_depth': 10, 'min_samples_leaf': 20, 'min_samples_split': 8, 'n_estimators': 122, 'train_ratio': 0.1}": {
+    "f1": 0.0063,
+    "pre": 0.0034,
+    "recall": 0.0556
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D2', 'learning_rate': 1.026387, 'max_depth': 8, 'min_samples_leaf': 17, 'min_samples_split': 3, 'n_estimators': 193, 'train_ratio': 0.1}": {
+    "f1": 0.0414,
+    "pre": 0.2261,
+    "recall": 0.0741
+  },
+  "{'algorithm': 'SAMME.R', 'dataset_name': 'D2', 'learning_rate': 0.840648, 'max_depth': 6, 'min_samples_leaf': 17, 'min_samples_split': 4, 'n_estimators': 90, 'train_ratio': 0.1}": {
+    "f1": 0.004,
+    "pre": 0.0021,
+    "recall": 0.037
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D2', 'learning_rate': 0.451995, 'max_depth': 8, 'min_samples_leaf': 20, 'min_samples_split': 18, 'n_estimators': 196, 'train_ratio': 0.1}": {
+    "f1": 0.0044,
+    "pre": 0.0023,
+    "recall": 0.037
+  }
+}

@@ -1,0 +1,26 @@
+\begin{table}
+\caption{The percentage of training data required by each algorithm to train a model, without losing model accuracy compared the full training set. }
+\label{tab:training_data_reduction_for_each_dataset_and_alg}
+\begin{tabular}{llrrrr}
+oprule
+Models & Dataset Name & best\_sr(\%) & Ori. AUC & AUC* & p-val. \\
+\midrule
+decision\_tree & Daphnet & 4.350000 & 0.620000 & 0.590000 & 0.311808 \\
+decision\_tree & ECG & 16.130000 & 0.930000 & 0.930000 & 0.929839 \\
+decision\_tree & IOPS & 5.230000 & 0.810000 & 0.710000 & 0.033603 \\
+decision\_tree & SensorScope & 0.080000 & 0.530000 & 0.530000 & 0.820685 \\
+hbos & Daphnet & 2.830000 & 0.630000 & 0.710000 & 0.222449 \\
+hbos & ECG & 3.040000 & 0.890000 & 0.920000 & 0.400460 \\
+hbos & IOPS & 0.500000 & 0.690000 & 0.770000 & 0.167631 \\
+hbos & SensorScope & 0.240000 & 0.540000 & 0.590000 & 0.082665 \\
+pca & Daphnet & 0.030000 & 0.580000 & 0.720000 & 0.035290 \\
+pca & ECG & 0.070000 & 0.910000 & 0.910000 & 0.999020 \\
+pca & IOPS & 0.040000 & 0.580000 & 0.760000 & 0.042121 \\
+pca & SensorScope & 0.030000 & 0.410000 & 0.630000 & 0.000000 \\
+svm & Daphnet & 2.440000 & 0.600000 & 0.750000 & 0.089435 \\
+svm & ECG & 2.860000 & 0.600000 & 0.940000 & 0.000491 \\
+svm & IOPS & 2.410000 & 0.770000 & 0.910000 & 0.013072 \\
+svm & SensorScope & 0.340000 & 0.580000 & 0.570000 & 0.793376 \\
+\bottomrule
+\end{tabular}
+\end{table}

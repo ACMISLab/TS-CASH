@@ -1,0 +1,35 @@
+desc: |
+  分析 A_top-n 对HPO精度的影响,只在小数据集上测试，为了节省时间
+  python main_tshpo.py --file c07_tshpo_effect_of_acc_sel_on_hpo_small_datasets.yaml
+random_state: 42
+n_fold: 5
+max_iteration: [ 300 ]
+n_high_performing_model: [ 1,2,3,4,5,6,7,8,9,10,11,12,13,14 ]
+datasets:
+  # 小
+  - dresses-sales
+  - climate-model-simulation-crashes
+  - cylinder-bands
+  - ilpd
+  - credit-approval
+  - breast-w
+  - diabetes
+  - tic-tac-toe
+  - credit-g
+  - qsar-biodeg
+  - pc1
+
+metrics:
+  - roc_auc
+  - accuracy
+feature_selec_method:
+  - RF
+feature_selec_rate:
+  - 1
+#超参数优化方法
+hpo_opt_methods:
+  - RS
+data_sample_method:
+  - RS
+data_sample_rate:
+  - 1

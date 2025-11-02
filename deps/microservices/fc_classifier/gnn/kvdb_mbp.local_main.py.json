@@ -1,0 +1,32 @@
+{
+  "{'dataset_name': 'D1', 'model_name': 'GCN'}": {
+    "f1": 0.5329,
+    "prec": 0.5178,
+    "rec": 0.5986
+  },
+  "{'dataset_name': 'D1', 'model_name': 'GAT'}": {
+    "f1": 0.5217,
+    "prec": 0.6449,
+    "rec": 0.5918
+  },
+  "{'dataset_name': 'D1', 'model_name': 'GraphSage'}": {
+    "f1": 0.509,
+    "prec": 0.505,
+    "rec": 0.5646
+  },
+  "{'dataset_name': 'D2', 'model_name': 'GCN'}": {
+    "f1": 0.3037,
+    "prec": 0.4243,
+    "rec": 0.2581
+  },
+  "{'dataset_name': 'D2', 'model_name': 'GAT'}": {
+    "f1": 0.2553,
+    "prec": 0.3067,
+    "rec": 0.2258
+  },
+  "{'dataset_name': 'D2', 'model_name': 'GraphSage'}": {
+    "f1": 0.3621,
+    "prec": 0.4505,
+    "rec": 0.3118
+  }
+}

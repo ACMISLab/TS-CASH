@@ -1,0 +1,161 @@
+{
+  "stats": {
+    "submitted": 8,
+    "finished": 0,
+    "running": 8
+  },
+  "data": [
+    [
+      1,
+      null,
+      1872583848,
+      null,
+      2147483647.0,
+      0.0,
+      0,
+      0.0,
+      0.0,
+      {}
+    ],
+    [
+      2,
+      null,
+      1872583848,
+      null,
+      2147483647.0,
+      0.0,
+      0,
+      0.0,
+      0.0,
+      {}
+    ],
+    [
+      3,
+      null,
+      1872583848,
+      null,
+      2147483647.0,
+      0.0,
+      0,
+      0.0,
+      0.0,
+      {}
+    ],
+    [
+      4,
+      null,
+      1872583848,
+      null,
+      2147483647.0,
+      0.0,
+      0,
+      0.0,
+      0.0,
+      {}
+    ],
+    [
+      5,
+      null,
+      1872583848,
+      null,
+      2147483647.0,
+      0.0,
+      0,
+      0.0,
+      0.0,
+      {}
+    ],
+    [
+      6,
+      null,
+      1872583848,
+      null,
+      2147483647.0,
+      0.0,
+      0,
+      0.0,
+      0.0,
+      {}
+    ],
+    [
+      7,
+      null,
+      1872583848,
+      null,
+      2147483647.0,
+      0.0,
+      0,
+      0.0,
+      0.0,
+      {}
+    ],
+    [
+      8,
+      null,
+      1872583848,
+      null,
+      2147483647.0,
+      0.0,
+      0,
+      0.0,
+      0.0,
+      {}
+    ]
+  ],
+  "configs": {
+    "1": {
+      "classifier": "lstm",
+      "lstm_batch_size": 58,
+      "lstm_epochs": 137,
+      "lstm_n_neurons": 74
+    },
+    "2": {
+      "classifier": "lof",
+      "lof_n_neighbors": 10
+    },
+    "3": {
+      "classifier": "hbos",
+      "hbos_alpha": 0.9998650001361966,
+      "hbos_n_bins": 1,
+      "hbos_tol": 0.08820911031216383
+    },
+    "4": {
+      "classifier": "iforest",
+      "iforest_n_estimators": 117
+    },
+    "5": {
+      "classifier": "lstm",
+      "lstm_batch_size": 80,
+      "lstm_epochs": 70,
+      "lstm_n_neurons": 92
+    },
+    "6": {
+      "classifier": "ae",
+      "ae_batch_size": 188,
+      "ae_dropout_rate": 0.7518743369728327,
+      "ae_epochs": 49,
+      "ae_hidden_activation": "softsign",
+      "ae_l2_regularizer": 0.9857303611934185
+    },
+    "7": {
+      "classifier": "hbos",
+      "hbos_alpha": 0.656607860699296,
+      "hbos_n_bins": 91,
+      "hbos_tol": 0.5196211934089661
+    },
+    "8": {
+      "classifier": "knn",
+      "knn_n_neighbors": 74
+    }
+  },
+  "config_origins": {
+    "1": "Initial Design: Sobol",
+    "2": "Initial Design: Sobol",
+    "3": "Initial Design: Sobol",
+    "4": "Initial Design: Sobol",
+    "5": "Initial Design: Sobol",
+    "6": "Initial Design: Sobol",
+    "7": "Initial Design: Sobol",
+    "8": "Initial Design: Sobol"
+  }
+}

@@ -1,0 +1,54 @@
+desc: |
+ python main.py --file c09_select_optimal_alg_in_baseline.yaml
+
+random_state: 42
+n_fold: 5
+datasets:
+  # 小数据集
+  - dresses-sales
+  - climate-model-simulation-crashes
+  - cylinder-bands
+  - ilpd
+  - credit-approval
+  - breast-w
+  - diabetes
+  - tic-tac-toe
+  - credit-g
+  - qsar-biodeg
+  - pc1
+   #  中型数据集
+  - pc4
+  - pc3
+  - kc1
+  - ozone-level-8hr
+  - madelon
+  - kr-vs-kp
+  - Bioresponse
+  - sick
+  - spambase
+  - wilt
+  - churn
+  - phoneme
+metrics:
+  - roc_auc
+feature_selec_method:
+  - RF
+  - PCA
+feature_selec_rate:
+  - 0.1
+  - 0.3
+  - 0.5
+  - 0.8
+  - 0.9
+hpo_opt_methods:
+  - RS
+n_exploration:
+  - 100
+data_sample_method:
+  - RS
+data_sample_rate:
+  - 0.1
+  - 0.3
+  - 0.5
+  - 0.8
+  - 0.9

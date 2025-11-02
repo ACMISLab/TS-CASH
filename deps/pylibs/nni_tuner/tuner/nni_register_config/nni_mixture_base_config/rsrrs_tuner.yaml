@@ -1,0 +1,3 @@
+algoType: nni_tuner
+builtinName: RSRRS
+className: nni_tuner.rsrrs_tuner.RSRRSTuner

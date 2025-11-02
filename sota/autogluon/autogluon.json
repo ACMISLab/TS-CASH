@@ -1,0 +1,62 @@
+{
+  "{'k': 'd1_0_42_precision_weighted'}": {
+    "dataset_name": "d1",
+    "eval_metric": "precision_weighted",
+    "fold_index": 0.0,
+    "model": "ExtraTreesGini",
+    "score_test": 0.549672,
+    "seed": 42.0,
+    "training_time": 748.564114,
+    "value": 0.518815
+  },
+  "{'k': 'd1_0_42_f1_weighted'}": {
+    "dataset_name": "d1",
+    "eval_metric": "f1_weighted",
+    "fold_index": 0.0,
+    "model": "LightGBM",
+    "score_test": 0.541234,
+    "seed": 42.0,
+    "training_time": 719.927409,
+    "value": 0.523284
+  },
+  "{'k': 'd2_0_42_f1_weighted'}": {
+    "dataset_name": "d2",
+    "eval_metric": "f1_weighted",
+    "fold_index": 0.0,
+    "model": "CatBoost",
+    "score_test": 0.485215,
+    "seed": 42.0,
+    "training_time": 836.158174,
+    "value": 0.476047
+  },
+  "{'k': 'd2_0_42_precision_weighted'}": {
+    "dataset_name": "d2",
+    "eval_metric": "precision_weighted",
+    "fold_index": 0.0,
+    "model": "CatBoost",
+    "score_test": 0.480817,
+    "seed": 42.0,
+    "training_time": 838.904306,
+    "value": 0.480817
+  },
+  "{'k': 'd1_0_42_recall_weighted'}": {
+    "dataset_name": "d1",
+    "eval_metric": "recall_weighted",
+    "fold_index": 0.0,
+    "model": "LightGBM",
+    "score_test": 0.582444,
+    "seed": 42.0,
+    "training_time": 237.508559,
+    "value": 0.578885
+  },
+  "{'k': 'd2_0_42_recall_weighted'}": {
+    "dataset_name": "d2",
+    "eval_metric": "recall_weighted",
+    "fold_index": 0.0,
+    "model": "CatBoost",
+    "score_test": 0.501689,
+    "seed": 42.0,
+    "training_time": 433.265963,
+    "value": 0.501689
+  }
+}

@@ -1,0 +1,64 @@
+Configuration space object:
+  Hyperparameters:
+    __choice__, Type: Categorical, Choices: {fc_mlp, fc_ada, fc_gcn, fc_svm, fc_gat, fc_sage, fc_vgae, fc_rf}, Default: fc_mlp
+    fc_ada:algorithm, Type: Categorical, Choices: {SAMME, SAMME.R}, Default: SAMME.R
+    fc_ada:learning_rate, Type: UniformFloat, Range: [0.01, 2.0], Default: 1.0
+    fc_ada:max_depth, Type: UniformInteger, Range: [1, 10], Default: 1
+    fc_ada:min_samples_leaf, Type: UniformInteger, Range: [1, 20], Default: 1
+    fc_ada:min_samples_split, Type: UniformInteger, Range: [2, 20], Default: 2
+    fc_ada:n_estimators, Type: UniformInteger, Range: [10, 200], Default: 50
+    fc_gat:batch_size, Type: UniformInteger, Range: [32, 256], Default: 128
+    fc_gat:dropout, Type: UniformFloat, Range: [0.0, 0.8], Default: 0.1
+    fc_gat:hidden_dim, Type: UniformInteger, Range: [32, 256], Default: 64
+    fc_gat:lr, Type: UniformFloat, Range: [0.001, 0.1], Default: 0.01
+    fc_gat:max_epochs, Type: UniformInteger, Range: [100, 2000], Default: 1000
+    fc_gat:min_delta, Type: UniformFloat, Range: [0.0, 0.01], Default: 0.0
+    fc_gat:num_heads, Type: UniformInteger, Range: [1, 16], Default: 8
+    fc_gat:test_batch_size, Type: UniformInteger, Range: [64, 512], Default: 256
+    fc_gcn:batch_size, Type: UniformInteger, Range: [32, 256], Default: 128
+    fc_gcn:dropout, Type: UniformFloat, Range: [0.0, 0.8], Default: 0.1
+    fc_gcn:hidden_dim, Type: UniformInteger, Range: [32, 256], Default: 64
+    fc_gcn:lr, Type: UniformFloat, Range: [0.001, 0.1], Default: 0.01
+    fc_gcn:max_epochs, Type: UniformInteger, Range: [100, 2000], Default: 1000
+    fc_gcn:min_delta, Type: UniformFloat, Range: [0.0, 0.01], Default: 0.0
+    fc_gcn:test_batch_size, Type: UniformInteger, Range: [64, 512], Default: 256
+    fc_mlp:activation, Type: Categorical, Choices: {identity, logistic, tanh, relu}, Default: relu
+    fc_mlp:alpha, Type: UniformFloat, Range: [1e-07, 0.1], Default: 0.0001, on log-scale
+    fc_mlp:early_stopping, Type: Categorical, Choices: {True, False}, Default: False
+    fc_mlp:hidden_layer_size, Type: UniformInteger, Range: [50, 500], Default: 100
+    fc_mlp:learning_rate, Type: Categorical, Choices: {constant, invscaling, adaptive}, Default: constant
+    fc_mlp:learning_rate_init, Type: UniformFloat, Range: [1e-05, 0.1], Default: 0.001, on log-scale
+    fc_mlp:max_iter, Type: UniformInteger, Range: [100, 1000], Default: 200
+    fc_mlp:solver, Type: Categorical, Choices: {lbfgs, sgd, adam}, Default: adam
+    fc_mlp:validation_fraction, Type: UniformFloat, Range: [0.1, 0.3], Default: 0.1
+    fc_rf:bootstrap, Type: Categorical, Choices: {True, False}, Default: True
+    fc_rf:max_depth, Type: UniformInteger, Range: [3, 50], Default: 10
+    fc_rf:max_features, Type: Categorical, Choices: {sqrt, log2}, Default: sqrt
+    fc_rf:min_samples_leaf, Type: UniformInteger, Range: [1, 10], Default: 1
+    fc_rf:min_samples_split, Type: UniformInteger, Range: [2, 20], Default: 2
+    fc_rf:n_estimators, Type: UniformInteger, Range: [10, 500], Default: 100
+    fc_sage:batch_size, Type: UniformInteger, Range: [32, 256], Default: 128
+    fc_sage:dropout, Type: UniformFloat, Range: [0.0, 0.8], Default: 0.1
+    fc_sage:hidden_dim, Type: UniformInteger, Range: [32, 256], Default: 64
+    fc_sage:lr, Type: UniformFloat, Range: [0.001, 0.1], Default: 0.01
+    fc_sage:max_epochs, Type: UniformInteger, Range: [100, 2000], Default: 1000
+    fc_sage:min_delta, Type: UniformFloat, Range: [0.0, 0.01], Default: 0.0
+    fc_sage:num_heads, Type: UniformInteger, Range: [1, 8], Default: 2
+    fc_sage:test_batch_size, Type: UniformInteger, Range: [64, 512], Default: 256
+    fc_svm:C, Type: UniformFloat, Range: [0.0001, 10000.0], Default: 1.0, on log-scale
+    fc_svm:coef0, Type: UniformFloat, Range: [-1.0, 1.0], Default: 0.0
+    fc_svm:degree, Type: UniformInteger, Range: [2, 5], Default: 3
+    fc_svm:gamma, Type: Categorical, Choices: {scale, auto}, Default: scale
+    fc_svm:kernel, Type: Categorical, Choices: {linear, poly, rbf, sigmoid}, Default: rbf
+    fc_svm:probability, Type: Categorical, Choices: {True, False}, Default: False
+    fc_svm:shrinking, Type: Categorical, Choices: {True, False}, Default: True
+    fc_svm:tol, Type: UniformFloat, Range: [1e-05, 0.1], Default: 0.001, on log-scale
+    fc_vgae:mlp_batch_size, Type: UniformInteger, Range: [16, 128], Default: 32
+    fc_vgae:mlp_drop_rate, Type: UniformFloat, Range: [0.1, 0.5], Default: 0.1
+    fc_vgae:mlp_hidden_dims, Type: UniformInteger, Range: [64, 512], Default: 128
+    fc_vgae:vgae_batch_size, Type: UniformInteger, Range: [64, 512], Default: 64
+    fc_vgae:vgae_drop_rate, Type: UniformFloat, Range: [0.0, 0.5], Default: 0.1
+    fc_vgae:vgae_hidden_dim, Type: UniformInteger, Range: [8, 256], Default: 8
+    fc_vgae:vgae_latent_dim, Type: UniformInteger, Range: [16, 128], Default: 16
+    fc_vgae:vgae_num_layers, Type: UniformInteger, Range: [2, 5], Default: 2
+

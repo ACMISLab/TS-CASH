@@ -1,0 +1,84 @@
+from nni.common.hpo_utils import format_search_space
+
+from pylibs.utils.util_log import get_logger
+from tuner.sampling.dds_sampling_pysample import DDSSamplingPySample
+from tuner.base_tuner import BaseTuner
+
+log = get_logger()
+
+
+class DDSTuner(BaseTuner):
+    """
+    A nni_tuner using DDS in https://dl.acm.org/doi/abs/10.1145/3127479.3128605.
+    This nni_tuner only use the sample method to work.
+    """
+
+    def __init__(self, *args, **kwargs):
+        """
+        A sample_base nni_tuner
+
+        Parameters
+        ----------
+        args :
+        kwargs :
+        """
+        super().__init__(args, kwargs)
+
+    def receive_trial_result(self, parameter_id, parameters, value, **kwargs):
+        '''
+        Receive trial's final result.
+        parameter_id: int
+        parameters: object created by 'generate_parameters()'
+        value: final metrics of the trial, including default metric.
+
+
+        E.g.
+            parameter_id:1,
+            parameters:{'latent_dim': 5.0},
+            value:1,
+            **kwargs:{'customized': False, 'trial_job_id': 'lJSJ9'}
+
+        value: float or dict
+
+        value['default']
+        '''
+
+        # your code implements here.
+
+        # metric = self.check_receive_metric(parameters, value)
+        # self.trial_results.append({
+        #     "parameter_id": parameter_id,
+        #     "metric": metric,
+        #     "parameters": parameters
+        # })ddd
+        UtilSys.is_debug_mode() and log.info(f"receive_trial_result:\n"
+                                             f"\nparameter_id:{parameter_id},"
+                                             f"\nparameters:{parameters},\n"
+                                             f"\nvalue:{value},"
+                                             f"**kwargs:{kwargs}")
+
+    def generate_parameters(self, parameter_id, **kwargs):
+        '''
+        Returns a set of trial (hyper-)parameters, as a serializable object
+        parameter_id: int
+
+        '''
+        # your code implements here.
+        return self.generate_parameters_by_parameter_id(parameter_id)
+
+    def update_search_space(self, search_space):
+        '''
+        Tuners are advised to support updating search space at run-time.
+        If a nni_tuner can only set search space once before generating first hyper-parameters,
+        it should explicitly document this behaviour.
+        cur_search_space_: JSON object created by experiment owner, e.g.:
+        {'latent_dim': {'_type': 'quniform', '_value': [2, 20, 1]}}
+        '''
+        # your code implements here.
+        UtilSys.is_debug_mode() and log.info(f"update_search_space:\n{search_space}")
+        self.format_search_space = format_search_space(search_space)
+        self.search_space = search_space
+        sampler = DDSSamplingPySample(self.n_trails, self.search_space)
+        init_samples = sampler.get_samples()
+        assert init_samples is not None
+        self.init_samples = init_samples

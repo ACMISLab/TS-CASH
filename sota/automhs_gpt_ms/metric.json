@@ -1,0 +1,38 @@
+{
+  "{'dataset': 'D1', 'gpt_version': 'gpt-4o', 'metric': 'prec'}": {
+    "dataset": "D1",
+    "gpt_version": "gpt-4o",
+    "metric": "prec",
+    "value": 0.3022
+  },
+  "{'dataset': 'D1', 'gpt_version': 'gpt-4o', 'metric': 'recall'}": {
+    "dataset": "D1",
+    "gpt_version": "gpt-4o",
+    "metric": "recall",
+    "value": 0.4286
+  },
+  "{'dataset': 'D1', 'gpt_version': 'gpt-4o', 'metric': 'f1'}": {
+    "dataset": "D1",
+    "gpt_version": "gpt-4o",
+    "metric": "f1",
+    "value": 0.3485
+  },
+  "{'dataset': 'D2', 'gpt_version': 'gpt-4o', 'metric': 'prec'}": {
+    "dataset": "D2",
+    "gpt_version": "gpt-4o",
+    "metric": "prec",
+    "value": 0.1531
+  },
+  "{'dataset': 'D2', 'gpt_version': 'gpt-4o', 'metric': 'recall'}": {
+    "dataset": "D2",
+    "gpt_version": "gpt-4o",
+    "metric": "recall",
+    "value": 0.2037
+  },
+  "{'dataset': 'D2', 'gpt_version': 'gpt-4o', 'metric': 'f1'}": {
+    "dataset": "D2",
+    "gpt_version": "gpt-4o",
+    "metric": "f1",
+    "value": 0.1532
+  }
+}

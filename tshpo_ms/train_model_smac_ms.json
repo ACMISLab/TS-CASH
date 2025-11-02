@@ -1,0 +1,46 @@
+{
+  "{'dataset_name': 'D1', 'debug': 0.0, 'entry': 'entroy.py', 'mlp_batch_size': 118.0, 'mlp_drop_rate': 0.475421, 'mlp_hidden_dims': 328.0, 'random_state': 42.0, 'train_ratio': 0.6, 'vgae_batch_size': 373.0, 'vgae_drop_rate': 0.178377, 'vgae_hidden_dim': 106.0, 'vgae_latent_dim': 57.0, 'vgae_num_layers': 4.0}": {
+    "default": 0.705,
+    "elapsed_seconds": 6.7479,
+    "f1": 0.0609,
+    "prec": 0.295,
+    "recall": 0.119
+  },
+  "{'dataset_name': 'D1', 'debug': 0.0, 'entry': 'entroy.py', 'mlp_batch_size': 67.0, 'mlp_drop_rate': 0.100312, 'mlp_hidden_dims': 409.0, 'random_state': 42.0, 'train_ratio': 0.6, 'vgae_batch_size': 254.0, 'vgae_drop_rate': 0.140467, 'vgae_hidden_dim': 179.0, 'vgae_latent_dim': 92.0, 'vgae_num_layers': 3.0}": {
+    "default": 0.53,
+    "elapsed_seconds": 6.5073,
+    "f1": 0.4997,
+    "prec": 0.47,
+    "recall": 0.5357
+  },
+  "{'dataset_name': 'D2', 'debug': 0.0, 'entry': 'entroy.py', 'mlp_batch_size': 39.0, 'mlp_drop_rate': 0.474254, 'mlp_hidden_dims': 162.0, 'random_state': 42.0, 'seed': 42.0, 'train_ratio': 0.6, 'vgae_batch_size': 429.0, 'vgae_drop_rate': 0.325981, 'vgae_hidden_dim': 155.0, 'vgae_latent_dim': 82.0, 'vgae_num_layers': 4.0}": {
+    "elapsed_seconds": 136.1338,
+    "f1": 0.6678,
+    "prec": 0.6285,
+    "recall": 0.7222
+  },
+  "{'batch_size': 98.0, 'dataset_name': 'D2', 'debug': 0.0, 'dropout': 0.165347, 'entry': 'entroy.py', 'hidden_dim': 66.0, 'lr': 0.039154, 'max_epochs': 925.0, 'min_delta': 0.008775, 'num_heads': 1.0, 'random_state': 42.0, 'seed': 42.0, 'test_batch_size': 162.0, 'train_ratio': 0.6}": {
+    "elapsed_seconds": 7.5998,
+    "f1": 0.4832,
+    "prec": 0.4813,
+    "recall": 0.5
+  },
+  "{'dataset_name': 'D2', 'debug': 0.0, 'entry': 'entroy.py', 'mlp_batch_size': 101.0, 'mlp_drop_rate': 0.237171, 'mlp_hidden_dims': 291.0, 'random_state': 42.0, 'seed': 42.0, 'train_ratio': 0.6, 'vgae_batch_size': 487.0, 'vgae_drop_rate': 0.141888, 'vgae_hidden_dim': 116.0, 'vgae_latent_dim': 68.0, 'vgae_num_layers': 4.0}": {
+    "elapsed_seconds": 19.4454,
+    "f1": 0.2823,
+    "prec": 0.2894,
+    "recall": 0.2778
+  },
+  "{'dataset_name': 'D2', 'debug': 1.0, 'entry': 'entroy.py', 'mlp_batch_size': 82.0, 'mlp_drop_rate': 0.283127, 'mlp_hidden_dims': 193.0, 'random_state': 42.0, 'seed': 42.0, 'train_ratio': 0.6, 'vgae_batch_size': 503.0, 'vgae_drop_rate': 0.213025, 'vgae_hidden_dim': 100.0, 'vgae_latent_dim': 49.0, 'vgae_num_layers': 3.0}": {
+    "elapsed_seconds": 6.4,
+    "f1": 0.2202,
+    "prec": 0.1885,
+    "recall": 0.2963
+  },
+  "{'algorithm': 'SAMME', 'dataset_name': 'D2', 'debug': 1.0, 'entry': 'entroy.py', 'learning_rate': 1.02154, 'max_depth': 7.0, 'min_samples_leaf': 16.0, 'min_samples_split': 4.0, 'n_estimators': 16.0, 'random_state': 42.0, 'seed': 42.0, 'train_ratio': 0.6}": {
+    "elapsed_seconds": 1.1383,
+    "f1": 0.0898,
+    "prec": 0.0909,
+    "recall": 0.1111
+  }
+}

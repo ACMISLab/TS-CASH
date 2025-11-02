@@ -1,0 +1,48 @@
+desc: |
+  分析 A_top-n 对HPO精度的影响,只在小数据集上测试，为了节省时间
+  python main_tshpo.py --file c07_tshpo_effect_of_atop_in_small_middle.yaml
+random_state: 42
+n_fold: 5
+max_iteration: [ 4000 ]
+n_high_performing_model: [ 1,2,3,4,5,6,7,8,9,10,11,12,13,14 ]
+datasets:
+  # 小
+  - dresses-sales
+  - climate-model-simulation-crashes
+  - cylinder-bands
+  - ilpd
+  - credit-approval
+  - breast-w
+  - diabetes
+  - tic-tac-toe
+  - credit-g
+  - qsar-biodeg
+  - pc1
+  # 中
+  - pc4
+  - pc3
+  - kc1
+  - ozone-level-8hr
+  - madelon
+  - kr-vs-kp
+  # - Bioresponse
+  - sick
+  - spambase
+  - wilt
+  - churn
+  - phoneme
+
+metrics:
+  - roc_auc
+  - accuracy
+feature_selec_method:
+  - RF
+feature_selec_rate:
+  - 0.9
+#超参数优化方法
+hpo_opt_methods:
+  - RS
+data_sample_method:
+  - RS
+data_sample_rate:
+  - 0.9

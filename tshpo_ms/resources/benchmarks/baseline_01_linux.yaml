@@ -1,0 +1,138 @@
+---
+
+- name: __defaults__
+  folds: 5  # kfold to verify
+  max_runtime_seconds: 300
+  model_name: "autosklearn"
+  seed: 42
+  dataset_home: "/remote-home/cs_acmis_xxx/automl/deps/datasets/datasets"
+  output_dir: "./outputs/baseline_03"
+  metric: "auc"
+  description: "Baseline at n_jobs = 1, max_runtime_seconds= 300（5min), 1800（30min）, 3600(1h）"
+
+
+
+# 默认运行300s，5分钟
+- name: credit-g
+- name: kc1
+- name: qsar-biodeg
+- name: phoneme
+# 下面是完整的列表
+- name: adult
+- name: airlines
+- name: Amazon_employee_access
+- name: bank-marketing
+- name: Click_prediction_small
+- name: credit-g
+- name: eeg-eye-state
+- name: electricity
+- name: kc1
+- name: mozilla4
+- name: phoneme
+- name: qsar-biodeg
+
+
+# 1 分钟
+- name: credit-g
+  max_runtime_seconds: 60
+- name: kc1
+  max_runtime_seconds: 60
+- name: qsar-biodeg
+  max_runtime_seconds: 60
+- name: phoneme
+  max_runtime_seconds: 60
+- name: adult
+  max_runtime_seconds: 60
+- name: airlines
+  max_runtime_seconds: 60
+- name: Amazon_employee_access
+  max_runtime_seconds: 60
+- name: bank-marketing
+  max_runtime_seconds: 60
+- name: Click_prediction_small
+  max_runtime_seconds: 60
+- name: credit-g
+  max_runtime_seconds: 60
+- name: eeg-eye-state
+  max_runtime_seconds: 60
+- name: electricity
+  max_runtime_seconds: 60
+- name: kc1
+  max_runtime_seconds: 60
+- name: mozilla4
+  max_runtime_seconds: 60
+- name: phoneme
+  max_runtime_seconds: 60
+- name: qsar-biodeg
+  max_runtime_seconds: 60
+
+# 30 分钟
+- name: credit-g
+  max_runtime_seconds: 1800
+- name: kc1
+  max_runtime_seconds: 1800
+- name: qsar-biodeg
+  max_runtime_seconds: 1800
+- name: phoneme
+  max_runtime_seconds: 1800
+- name: adult
+  max_runtime_seconds: 1800
+- name: airlines
+  max_runtime_seconds: 1800
+- name: Amazon_employee_access
+  max_runtime_seconds: 1800
+- name: bank-marketing
+  max_runtime_seconds: 1800
+- name: Click_prediction_small
+  max_runtime_seconds: 1800
+- name: credit-g
+  max_runtime_seconds: 1800
+- name: eeg-eye-state
+  max_runtime_seconds: 1800
+- name: electricity
+  max_runtime_seconds: 1800
+- name: kc1
+  max_runtime_seconds: 1800
+- name: mozilla4
+  max_runtime_seconds: 1800
+- name: phoneme
+  max_runtime_seconds: 1800
+- name: qsar-biodeg
+  max_runtime_seconds: 1800
+
+# 3600 分钟
+- name: credit-g
+  max_runtime_seconds: 3600
+- name: kc1
+  max_runtime_seconds: 3600
+- name: qsar-biodeg
+  max_runtime_seconds: 3600
+- name: phoneme
+  max_runtime_seconds: 3600
+- name: adult
+  max_runtime_seconds: 3600
+- name: airlines
+  max_runtime_seconds: 3600
+- name: Amazon_employee_access
+  max_runtime_seconds: 3600
+- name: bank-marketing
+  max_runtime_seconds: 3600
+- name: Click_prediction_small
+  max_runtime_seconds: 3600
+- name: credit-g
+  max_runtime_seconds: 3600
+- name: eeg-eye-state
+  max_runtime_seconds: 3600
+- name: electricity
+  max_runtime_seconds: 3600
+- name: kc1
+  max_runtime_seconds: 3600
+- name: mozilla4
+  max_runtime_seconds: 3600
+- name: phoneme
+  max_runtime_seconds: 3600
+- name: qsar-biodeg
+  max_runtime_seconds: 3600
+
+
+

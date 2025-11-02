@@ -1,0 +1,302 @@
+{
+  "{'batch_size': 134, 'dataset_name': 'D1', 'dropout': 0.623753, 'hidden_dim': 148, 'lr': 0.003038, 'max_epochs': 376, 'min_delta': 7.1e-05, 'test_batch_size': 251, 'train_ratio': 0.1}": {
+    "f1": 0.4877,
+    "pre": 0.4568,
+    "recall": 0.5238
+  },
+  "{'batch_size': 211, 'dataset_name': 'D1', 'dropout': 0.47748, 'hidden_dim': 131, 'lr': 0.097021, 'max_epochs': 1284, 'min_delta': 0.000231, 'test_batch_size': 334, 'train_ratio': 0.1}": {
+    "f1": 0.5333,
+    "pre": 0.5079,
+    "recall": 0.5714
+  },
+  "{'batch_size': 124, 'dataset_name': 'D1', 'dropout': 0.356666, 'hidden_dim': 135, 'lr': 0.083412, 'max_epochs': 559, 'min_delta': 0.005248, 'test_batch_size': 253, 'train_ratio': 0.1}": {
+    "f1": 0.4464,
+    "pre": 0.3802,
+    "recall": 0.5476
+  },
+  "{'batch_size': 46, 'dataset_name': 'D1', 'dropout': 0.07998, 'hidden_dim': 183, 'lr': 0.022022, 'max_epochs': 1437, 'min_delta': 0.003999, 'test_batch_size': 509, 'train_ratio': 0.1}": {
+    "f1": 0.479,
+    "pre": 0.4422,
+    "recall": 0.5238
+  },
+  "{'batch_size': 138, 'dataset_name': 'D1', 'dropout': 0.367399, 'hidden_dim': 162, 'lr': 0.019001, 'max_epochs': 121, 'min_delta': 0.000467, 'test_batch_size': 238, 'train_ratio': 0.1}": {
+    "f1": 0.4883,
+    "pre": 0.45,
+    "recall": 0.5357
+  },
+  "{'batch_size': 221, 'dataset_name': 'D1', 'dropout': 0.37341, 'hidden_dim': 120, 'lr': 0.01067, 'max_epochs': 134, 'min_delta': 0.007554, 'test_batch_size': 465, 'train_ratio': 0.1}": {
+    "f1": 0.5135,
+    "pre": 0.4752,
+    "recall": 0.5595
+  },
+  "{'batch_size': 82, 'dataset_name': 'D1', 'dropout': 0.687952, 'hidden_dim': 91, 'lr': 0.068739, 'max_epochs': 305, 'min_delta': 0.004252, 'test_batch_size': 281, 'train_ratio': 0.1}": {
+    "f1": 0.5019,
+    "pre": 0.4727,
+    "recall": 0.5357
+  },
+  "{'batch_size': 139, 'dataset_name': 'D1', 'dropout': 0.544246, 'hidden_dim': 45, 'lr': 0.044575, 'max_epochs': 1204, 'min_delta': 0.002079, 'test_batch_size': 107, 'train_ratio': 0.1}": {
+    "f1": 0.4938,
+    "pre": 0.4586,
+    "recall": 0.5357
+  },
+  "{'batch_size': 86, 'dataset_name': 'D1', 'dropout': 0.360399, 'hidden_dim': 40, 'lr': 0.013082, 'max_epochs': 1685, 'min_delta': 0.005677, 'test_batch_size': 225, 'train_ratio': 0.1}": {
+    "f1": 0.4354,
+    "pre": 0.3748,
+    "recall": 0.5238
+  },
+  "{'batch_size': 95, 'dataset_name': 'D1', 'dropout': 0.010612, 'hidden_dim': 121, 'lr': 0.050023, 'max_epochs': 1995, 'min_delta': 0.000313, 'test_batch_size': 265, 'train_ratio': 0.1}": {
+    "f1": 0.5036,
+    "pre": 0.47,
+    "recall": 0.5476
+  },
+  "{'batch_size': 221, 'dataset_name': 'D1', 'dropout': 0.070794, 'hidden_dim': 113, 'lr': 0.09656, 'max_epochs': 1980, 'min_delta': 0.001987, 'test_batch_size': 352, 'train_ratio': 0.1}": {
+    "f1": 0.4844,
+    "pre": 0.4443,
+    "recall": 0.5357
+  },
+  "{'batch_size': 45, 'dataset_name': 'D1', 'dropout': 0.156786, 'hidden_dim': 142, 'lr': 0.061096, 'max_epochs': 1962, 'min_delta': 5.5e-05, 'test_batch_size': 442, 'train_ratio': 0.1}": {
+    "f1": 0.5021,
+    "pre": 0.4653,
+    "recall": 0.5476
+  },
+  "{'batch_size': 126, 'dataset_name': 'D1', 'dropout': 0.036182, 'hidden_dim': 84, 'lr': 0.028324, 'max_epochs': 620, 'min_delta': 0.008155, 'test_batch_size': 324, 'train_ratio': 0.1}": {
+    "f1": 0.4586,
+    "pre": 0.4259,
+    "recall": 0.5
+  },
+  "{'batch_size': 79, 'dataset_name': 'D1', 'dropout': 0.260264, 'hidden_dim': 55, 'lr': 0.030331, 'max_epochs': 1467, 'min_delta': 0.007069, 'test_batch_size': 294, 'train_ratio': 0.1}": {
+    "f1": 0.4732,
+    "pre": 0.4042,
+    "recall": 0.5714
+  },
+  "{'batch_size': 46, 'dataset_name': 'D1', 'dropout': 0.310942, 'hidden_dim': 185, 'lr': 0.017361, 'max_epochs': 1252, 'min_delta': 0.00729, 'test_batch_size': 104, 'train_ratio': 0.1}": {
+    "f1": 0.495,
+    "pre": 0.4568,
+    "recall": 0.5476
+  },
+  "{'batch_size': 59, 'dataset_name': 'D1', 'dropout': 0.264718, 'hidden_dim': 135, 'lr': 0.03891, 'max_epochs': 497, 'min_delta': 0.004275, 'test_batch_size': 115, 'train_ratio': 0.1}": {
+    "f1": 0.4739,
+    "pre": 0.4348,
+    "recall": 0.5238
+  },
+  "{'batch_size': 166, 'dataset_name': 'D1', 'dropout': 0.050847, 'hidden_dim': 245, 'lr': 0.097199, 'max_epochs': 970, 'min_delta': 0.000254, 'test_batch_size': 159, 'train_ratio': 0.1}": {
+    "f1": 0.437,
+    "pre": 0.4041,
+    "recall": 0.4762
+  },
+  "{'batch_size': 232, 'dataset_name': 'D1', 'dropout': 0.248786, 'hidden_dim': 250, 'lr': 0.085042, 'max_epochs': 894, 'min_delta': 0.001079, 'test_batch_size': 451, 'train_ratio': 0.1}": {
+    "f1": 0.5006,
+    "pre": 0.4937,
+    "recall": 0.5357
+  },
+  "{'batch_size': 103, 'dataset_name': 'D1', 'dropout': 0.260147, 'hidden_dim': 66, 'lr': 0.072451, 'max_epochs': 492, 'min_delta': 0.000314, 'test_batch_size': 285, 'train_ratio': 0.1}": {
+    "f1": 0.4686,
+    "pre": 0.442,
+    "recall": 0.5
+  },
+  "{'batch_size': 43, 'dataset_name': 'D1', 'dropout': 0.583685, 'hidden_dim': 224, 'lr': 0.024363, 'max_epochs': 306, 'min_delta': 0.006364, 'test_batch_size': 470, 'train_ratio': 0.1}": {
+    "f1": 0.4752,
+    "pre": 0.4375,
+    "recall": 0.5238
+  },
+  "{'batch_size': 174, 'dataset_name': 'D1', 'dropout': 0.061584, 'hidden_dim': 216, 'lr': 0.01947, 'max_epochs': 1354, 'min_delta': 0.006477, 'test_batch_size': 474, 'train_ratio': 0.1}": {
+    "f1": 0.4761,
+    "pre": 0.4381,
+    "recall": 0.5238
+  },
+  "{'batch_size': 202, 'dataset_name': 'D1', 'dropout': 0.231801, 'hidden_dim': 165, 'lr': 0.089363, 'max_epochs': 289, 'min_delta': 5e-06, 'test_batch_size': 200, 'train_ratio': 0.1}": {
+    "f1": 0.495,
+    "pre": 0.4668,
+    "recall": 0.5357
+  },
+  "{'batch_size': 60, 'dataset_name': 'D1', 'dropout': 0.128977, 'hidden_dim': 59, 'lr': 0.054395, 'max_epochs': 1348, 'min_delta': 0.003526, 'test_batch_size': 381, 'train_ratio': 0.1}": {
+    "f1": 0.4741,
+    "pre": 0.4335,
+    "recall": 0.5357
+  },
+  "{'batch_size': 67, 'dataset_name': 'D1', 'dropout': 0.743758, 'hidden_dim': 59, 'lr': 0.080937, 'max_epochs': 1508, 'min_delta': 0.003048, 'test_batch_size': 228, 'train_ratio': 0.1}": {
+    "f1": 0.4355,
+    "pre": 0.3701,
+    "recall": 0.5357
+  },
+  "{'batch_size': 44, 'dataset_name': 'D1', 'dropout': 0.646496, 'hidden_dim': 139, 'lr': 0.089713, 'max_epochs': 1500, 'min_delta': 0.001647, 'test_batch_size': 288, 'train_ratio': 0.1}": {
+    "f1": 0.4933,
+    "pre": 0.453,
+    "recall": 0.5476
+  },
+  "{'batch_size': 82, 'dataset_name': 'D1', 'dropout': 0.258562, 'hidden_dim': 83, 'lr': 0.030787, 'max_epochs': 1689, 'min_delta': 0.002396, 'test_batch_size': 387, 'train_ratio': 0.1}": {
+    "f1": 0.494,
+    "pre": 0.4698,
+    "recall": 0.5238
+  },
+  "{'batch_size': 203, 'dataset_name': 'D1', 'dropout': 0.415032, 'hidden_dim': 43, 'lr': 0.029199, 'max_epochs': 954, 'min_delta': 0.001449, 'test_batch_size': 502, 'train_ratio': 0.1}": {
+    "f1": 0.4904,
+    "pre": 0.4524,
+    "recall": 0.5476
+  },
+  "{'batch_size': 183, 'dataset_name': 'D1', 'dropout': 0.562415, 'hidden_dim': 70, 'lr': 0.004652, 'max_epochs': 1859, 'min_delta': 0.004895, 'test_batch_size': 266, 'train_ratio': 0.1}": {
+    "f1": 0.5229,
+    "pre": 0.483,
+    "recall": 0.5714
+  },
+  "{'batch_size': 238, 'dataset_name': 'D1', 'dropout': 0.290904, 'hidden_dim': 161, 'lr': 0.061347, 'max_epochs': 1348, 'min_delta': 0.009857, 'test_batch_size': 247, 'train_ratio': 0.1}": {
+    "f1": 0.4861,
+    "pre": 0.4481,
+    "recall": 0.5357
+  },
+  "{'batch_size': 90, 'dataset_name': 'D1', 'dropout': 0.777426, 'hidden_dim': 162, 'lr': 0.050765, 'max_epochs': 484, 'min_delta': 0.002421, 'test_batch_size': 186, 'train_ratio': 0.1}": {
+    "f1": 0.4469,
+    "pre": 0.3897,
+    "recall": 0.5238
+  },
+  "{'batch_size': 134, 'dataset_name': 'D2', 'dropout': 0.623753, 'hidden_dim': 148, 'lr': 0.003038, 'max_epochs': 376, 'min_delta': 7.1e-05, 'test_batch_size': 251, 'train_ratio': 0.1}": {
+    "f1": 0.4449,
+    "pre": 0.4951,
+    "recall": 0.4444
+  },
+  "{'batch_size': 211, 'dataset_name': 'D2', 'dropout': 0.47748, 'hidden_dim': 131, 'lr': 0.097021, 'max_epochs': 1284, 'min_delta': 0.000231, 'test_batch_size': 334, 'train_ratio': 0.1}": {
+    "f1": 0.4765,
+    "pre": 0.5313,
+    "recall": 0.463
+  },
+  "{'batch_size': 124, 'dataset_name': 'D2', 'dropout': 0.356666, 'hidden_dim': 135, 'lr': 0.083412, 'max_epochs': 559, 'min_delta': 0.005248, 'test_batch_size': 253, 'train_ratio': 0.1}": {
+    "f1": 0.4706,
+    "pre": 0.5535,
+    "recall": 0.4444
+  },
+  "{'batch_size': 46, 'dataset_name': 'D2', 'dropout': 0.07998, 'hidden_dim': 183, 'lr': 0.022022, 'max_epochs': 1437, 'min_delta': 0.003999, 'test_batch_size': 509, 'train_ratio': 0.1}": {
+    "f1": 0.4811,
+    "pre": 0.5535,
+    "recall": 0.463
+  },
+  "{'batch_size': 138, 'dataset_name': 'D2', 'dropout': 0.367399, 'hidden_dim': 162, 'lr': 0.019001, 'max_epochs': 121, 'min_delta': 0.000467, 'test_batch_size': 238, 'train_ratio': 0.1}": {
+    "f1": 0.4953,
+    "pre": 0.5435,
+    "recall": 0.5
+  },
+  "{'batch_size': 221, 'dataset_name': 'D2', 'dropout': 0.37341, 'hidden_dim': 120, 'lr': 0.01067, 'max_epochs': 134, 'min_delta': 0.007554, 'test_batch_size': 465, 'train_ratio': 0.1}": {
+    "f1": 0.5051,
+    "pre": 0.5667,
+    "recall": 0.5
+  },
+  "{'batch_size': 82, 'dataset_name': 'D2', 'dropout': 0.687952, 'hidden_dim': 91, 'lr': 0.068739, 'max_epochs': 305, 'min_delta': 0.004252, 'test_batch_size': 281, 'train_ratio': 0.1}": {
+    "f1": 0.0821,
+    "pre": 0.0503,
+    "recall": 0.2222
+  },
+  "{'batch_size': 139, 'dataset_name': 'D2', 'dropout': 0.544246, 'hidden_dim': 45, 'lr': 0.044575, 'max_epochs': 1204, 'min_delta': 0.002079, 'test_batch_size': 107, 'train_ratio': 0.1}": {
+    "f1": 0.467,
+    "pre": 0.4995,
+    "recall": 0.463
+  },
+  "{'batch_size': 86, 'dataset_name': 'D2', 'dropout': 0.360399, 'hidden_dim': 40, 'lr': 0.013082, 'max_epochs': 1685, 'min_delta': 0.005677, 'test_batch_size': 225, 'train_ratio': 0.1}": {
+    "f1": 0.4563,
+    "pre": 0.4787,
+    "recall": 0.4444
+  },
+  "{'batch_size': 95, 'dataset_name': 'D2', 'dropout': 0.010612, 'hidden_dim': 121, 'lr': 0.050023, 'max_epochs': 1995, 'min_delta': 0.000313, 'test_batch_size': 265, 'train_ratio': 0.1}": {
+    "f1": 0.4938,
+    "pre": 0.5631,
+    "recall": 0.4815
+  },
+  "{'batch_size': 221, 'dataset_name': 'D2', 'dropout': 0.070794, 'hidden_dim': 113, 'lr': 0.09656, 'max_epochs': 1980, 'min_delta': 0.001987, 'test_batch_size': 352, 'train_ratio': 0.1}": {
+    "f1": 0.4386,
+    "pre": 0.4635,
+    "recall": 0.4444
+  },
+  "{'batch_size': 45, 'dataset_name': 'D2', 'dropout': 0.156786, 'hidden_dim': 142, 'lr': 0.061096, 'max_epochs': 1962, 'min_delta': 5.5e-05, 'test_batch_size': 442, 'train_ratio': 0.1}": {
+    "f1": 0.4808,
+    "pre": 0.5508,
+    "recall": 0.463
+  },
+  "{'batch_size': 126, 'dataset_name': 'D2', 'dropout': 0.036182, 'hidden_dim': 84, 'lr': 0.028324, 'max_epochs': 620, 'min_delta': 0.008155, 'test_batch_size': 324, 'train_ratio': 0.1}": {
+    "f1": 0.4343,
+    "pre": 0.4949,
+    "recall": 0.4074
+  },
+  "{'batch_size': 79, 'dataset_name': 'D2', 'dropout': 0.260264, 'hidden_dim': 55, 'lr': 0.030331, 'max_epochs': 1467, 'min_delta': 0.007069, 'test_batch_size': 294, 'train_ratio': 0.1}": {
+    "f1": 0.4382,
+    "pre": 0.5156,
+    "recall": 0.4259
+  },
+  "{'batch_size': 46, 'dataset_name': 'D2', 'dropout': 0.310942, 'hidden_dim': 185, 'lr': 0.017361, 'max_epochs': 1252, 'min_delta': 0.00729, 'test_batch_size': 104, 'train_ratio': 0.1}": {
+    "f1": 0.448,
+    "pre": 0.4845,
+    "recall": 0.4259
+  },
+  "{'batch_size': 59, 'dataset_name': 'D2', 'dropout': 0.264718, 'hidden_dim': 135, 'lr': 0.03891, 'max_epochs': 497, 'min_delta': 0.004275, 'test_batch_size': 115, 'train_ratio': 0.1}": {
+    "f1": 0.5028,
+    "pre": 0.5658,
+    "recall": 0.4815
+  },
+  "{'batch_size': 166, 'dataset_name': 'D2', 'dropout': 0.050847, 'hidden_dim': 245, 'lr': 0.097199, 'max_epochs': 970, 'min_delta': 0.000254, 'test_batch_size': 159, 'train_ratio': 0.1}": {
+    "f1": 0.483,
+    "pre": 0.5491,
+    "recall": 0.4815
+  },
+  "{'batch_size': 232, 'dataset_name': 'D2', 'dropout': 0.248786, 'hidden_dim': 250, 'lr': 0.085042, 'max_epochs': 894, 'min_delta': 0.001079, 'test_batch_size': 451, 'train_ratio': 0.1}": {
+    "f1": 0.4537,
+    "pre": 0.4901,
+    "recall": 0.463
+  },
+  "{'batch_size': 103, 'dataset_name': 'D2', 'dropout': 0.260147, 'hidden_dim': 66, 'lr': 0.072451, 'max_epochs': 492, 'min_delta': 0.000314, 'test_batch_size': 285, 'train_ratio': 0.1}": {
+    "f1": 0.434,
+    "pre": 0.4974,
+    "recall": 0.4074
+  },
+  "{'batch_size': 43, 'dataset_name': 'D2', 'dropout': 0.583685, 'hidden_dim': 224, 'lr': 0.024363, 'max_epochs': 306, 'min_delta': 0.006364, 'test_batch_size': 470, 'train_ratio': 0.1}": {
+    "f1": 0.4619,
+    "pre": 0.5344,
+    "recall": 0.4444
+  },
+  "{'batch_size': 174, 'dataset_name': 'D2', 'dropout': 0.061584, 'hidden_dim': 216, 'lr': 0.01947, 'max_epochs': 1354, 'min_delta': 0.006477, 'test_batch_size': 474, 'train_ratio': 0.1}": {
+    "f1": 0.5,
+    "pre": 0.5411,
+    "recall": 0.4815
+  },
+  "{'batch_size': 202, 'dataset_name': 'D2', 'dropout': 0.231801, 'hidden_dim': 165, 'lr': 0.089363, 'max_epochs': 289, 'min_delta': 5e-06, 'test_batch_size': 200, 'train_ratio': 0.1}": {
+    "f1": 0.4707,
+    "pre": 0.5341,
+    "recall": 0.463
+  },
+  "{'batch_size': 60, 'dataset_name': 'D2', 'dropout': 0.128977, 'hidden_dim': 59, 'lr': 0.054395, 'max_epochs': 1348, 'min_delta': 0.003526, 'test_batch_size': 381, 'train_ratio': 0.1}": {
+    "f1": 0.4287,
+    "pre": 0.4704,
+    "recall": 0.4259
+  },
+  "{'batch_size': 67, 'dataset_name': 'D2', 'dropout': 0.743758, 'hidden_dim': 59, 'lr': 0.080937, 'max_epochs': 1508, 'min_delta': 0.003048, 'test_batch_size': 228, 'train_ratio': 0.1}": {
+    "f1": 0.4584,
+    "pre": 0.4827,
+    "recall": 0.4444
+  },
+  "{'batch_size': 44, 'dataset_name': 'D2', 'dropout': 0.646496, 'hidden_dim': 139, 'lr': 0.089713, 'max_epochs': 1500, 'min_delta': 0.001647, 'test_batch_size': 288, 'train_ratio': 0.1}": {
+    "f1": 0.4471,
+    "pre": 0.4794,
+    "recall": 0.4444
+  },
+  "{'batch_size': 82, 'dataset_name': 'D2', 'dropout': 0.258562, 'hidden_dim': 83, 'lr': 0.030787, 'max_epochs': 1689, 'min_delta': 0.002396, 'test_batch_size': 387, 'train_ratio': 0.1}": {
+    "f1": 0.2895,
+    "pre": 0.3741,
+    "recall": 0.3148
+  },
+  "{'batch_size': 203, 'dataset_name': 'D2', 'dropout': 0.415032, 'hidden_dim': 43, 'lr': 0.029199, 'max_epochs': 954, 'min_delta': 0.001449, 'test_batch_size': 502, 'train_ratio': 0.1}": {
+    "f1": 0.4522,
+    "pre": 0.4797,
+    "recall": 0.4444
+  },
+  "{'batch_size': 183, 'dataset_name': 'D2', 'dropout': 0.562415, 'hidden_dim': 70, 'lr': 0.004652, 'max_epochs': 1859, 'min_delta': 0.004895, 'test_batch_size': 266, 'train_ratio': 0.1}": {
+    "f1": 0.451,
+    "pre": 0.4981,
+    "recall": 0.4444
+  },
+  "{'batch_size': 238, 'dataset_name': 'D2', 'dropout': 0.290904, 'hidden_dim': 161, 'lr': 0.061347, 'max_epochs': 1348, 'min_delta': 0.009857, 'test_batch_size': 247, 'train_ratio': 0.1}": {
+    "f1": 0.4714,
+    "pre": 0.5097,
+    "recall": 0.463
+  },
+  "{'batch_size': 90, 'dataset_name': 'D2', 'dropout': 0.777426, 'hidden_dim': 162, 'lr': 0.050765, 'max_epochs': 484, 'min_delta': 0.002421, 'test_batch_size': 186, 'train_ratio': 0.1}": {
+    "f1": 0.4888,
+    "pre": 0.5492,
+    "recall": 0.4815
+  }
+}

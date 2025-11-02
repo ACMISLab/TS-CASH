@@ -1,0 +1,31 @@
+# todo: this code may be error.
+from sklearn.preprocessing import MinMaxScaler
+
+from pylibs.uts_models.benchmark_models.lstm.lstm import LSTMModel
+from pylibs.uts_dataset.dataset_loader import DatasetLoader, DataDEMOKPI, KFoldDatasetLoader
+from pylibs.metrics.uts.uts_metric_helper import UTSMetricHelper
+
+window_size = 99
+dataset, data_id = "IOPS", "KPI-54350a12-7a9d-3ca8-b81f-f886b9d156fd.test.out"
+dl = KFoldDatasetLoader(dataset, data_id,
+                        window_size=window_size,
+                        is_include_anomaly_window=False,
+                        max_length=10000,
+                        sample_rate=1)
+train_x, train_y, origin_train_x, origin_train_y = dl.get_kfold_sliding_windows_train_and_test_by_fold_index()
+
+clf = LSTMModel(slidingwindow=window_size, epochs=1)
+clf.fit(train_x, train_x)
+
+score = clf.score(origin_train_x)
+
+# Post-processing
+score = MinMaxScaler(feature_range=(0, 1)).fit_transform(score.reshape(-1, 1)).ravel()
+from pylibs.utils.util_univariate_time_series_view import UnivariateTimeSeriesView
+
+uv = UnivariateTimeSeriesView(name=data_id, is_save_fig=True)
+# uv.plot_x_label_score_row2(train_x[:, -1], train_y, score)
+
+metrics = UTSMetricHelper.get_metrics_all(origin_train_y, score, window_size=window_size)
+uv.plot_x_label_score_metrics_row2(origin_train_x[:, -1], origin_train_y, score, metrics)
+print(metrics)

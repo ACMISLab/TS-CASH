@@ -1,0 +1,15 @@
+---
+- name: __defaults__ # dataset name
+  folds: 2  # kfold to verify
+  max_runtime_seconds: 30
+  description: "multiclass test dataset"
+  output_dir: "./outputs"
+  model_name: "autosklearn"
+  metric: "auc"
+  seed: 42
+  #  dataset_home: "/remote-home/cs_acmis_xxx/automl/deps/datasets/datasets"
+  dataset_home: "/Users/xxx/SW-OpenSourceCode/AutoML-Benchmark/deps/datasets/datasets"
+
+- name: credit-g # dataset name
+- name: kc1 # dataset name
+

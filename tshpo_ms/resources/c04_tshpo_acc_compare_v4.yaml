@@ -1,0 +1,58 @@
+desc: |
+  为了兼容c04_tshpo_acc_compare_v3.yaml，必须将行抽样率改为Random 0.5, 列抽样率改为0.3（RF)，这个在class HPTrimHelper中改
+
+random_state: 42
+n_fold: 5
+max_iteration: [ 50 ]
+n_high_performing_model: [ 4,5,14 ]
+datasets:
+  # 小数据集  n_row <= 1000
+  - dresses-sales
+  - cylinder-bands
+  - climate-model-simulation-crashes
+  - ilpd
+  - credit-approval
+  - breast-w
+  - tic-tac-toe
+  - diabetes
+  - credit-g
+  - qsar-biodeg
+  - pc1
+  #  中型数据集        < 1000 n_rows < 1w
+  - pc4
+  - pc3
+  - kc1
+  - ozone-level-8hr
+  - madelon
+  - kr-vs-kp
+  - Bioresponse
+  - sick
+  - spambase
+  - wilt
+  - churn
+  - phoneme
+  #  大型数据集 n row >= 1w
+  - jm1
+  - PhishingWebsites
+  - nomao
+  - bank-marketing
+  - electricity
+
+metrics:
+  - roc_auc
+  - accuracy
+feature_selec_method:
+  - RF
+feature_selec_rate:
+  - 1
+#超参数优化方法
+hpo_opt_methods:
+  - rs
+  - bo
+  - hyperband
+#n_exploration:
+#  - 30
+data_sample_method:
+  - random
+data_sample_rate:
+  - 1

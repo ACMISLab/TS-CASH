@@ -1,0 +1,31 @@
+---
+
+- name: __defaults__
+  folds: 3  # kfold to verify
+  max_runtime_seconds: 300
+  model_name: "autosklearn"
+  seed: 42
+  dataset_home: "/Users/xxx/SW-OpenSourceCode/AutoML-Benchmark/deps/datasets/datasets"
+#  dataset_home: "/remote-home/cs_acmis_xxx/automl/deps/datasets/datasets"
+
+- name: credit-g
+  description: "baseline small"
+  output_dir: "./outputs"
+  metric: "auc"
+
+- name: kc1
+  description: "baseline small"
+  output_dir: "./outputs"
+  metric: "vus_roc"
+
+- name: qsar-biodeg
+  description: "baseline small"
+  output_dir: "./outputs"
+  metric: "vus_roc"
+
+- name: phoneme
+  description: "baseline small"
+  output_dir: "./outputs"
+  metric: "vus_roc"
+
+

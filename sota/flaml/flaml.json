@@ -1,0 +1,109 @@
+{
+  "{'k': 'd1_0_42_precision_weighted'}": {
+    "best_config": {
+      "penalty": "l2",
+      "alpha": 1.081744672978736e-07,
+      "l1_ratio": 0.9999999999999999,
+      "epsilon": 0.004628051640657842,
+      "learning_rate": "invscaling",
+      "eta0": 0.0020611221332315767,
+      "power_t": 0.5784503530882908,
+      "average": false,
+      "loss": "log_loss"
+    },
+    "best_loss": 0.140254,
+    "dataset_name": "d1",
+    "eval_metric": "precision_weighted",
+    "fold_index": 0.0,
+    "model": "sgd",
+    "seed": 42.0,
+    "training_time": 155.997343,
+    "value": 0.185421
+  },
+  "{'k': 'd1_0_42_f1_weighted'}": {
+    "best_config": {
+      "n_estimators": 4,
+      "num_leaves": 5,
+      "min_child_samples": 23,
+      "learning_rate": 0.01788852343973722,
+      "log_max_bin": 10,
+      "colsample_bytree": 0.777088957130454,
+      "reg_alpha": 0.02773665801881243,
+      "reg_lambda": 4.71413345834582
+    },
+    "best_loss": 0.204078,
+    "dataset_name": "d1",
+    "eval_metric": "f1_weighted",
+    "fold_index": 0.0,
+    "model": "lgbm",
+    "seed": 42.0,
+    "training_time": 522.979101,
+    "value": 0.25922
+  },
+  "{'k': 'd2_0_42_precision_weighted'}": {
+    "best_config": {
+      "C": 0.03125
+    },
+    "best_loss": 0.077558,
+    "dataset_name": "d2",
+    "eval_metric": "precision_weighted",
+    "fold_index": 0.0,
+    "model": "lrl1",
+    "seed": 42.0,
+    "training_time": 748.267418,
+    "value": 0.291203
+  },
+  "{'k': 'd2_0_42_f1_weighted'}": {
+    "best_config": {
+      "n_estimators": 4,
+      "num_leaves": 10,
+      "min_child_samples": 17,
+      "learning_rate": 0.19591835585504755,
+      "log_max_bin": 8,
+      "colsample_bytree": 1.0,
+      "reg_alpha": 0.0009765625,
+      "reg_lambda": 667.3569805655965
+    },
+    "best_loss": 0.121324,
+    "dataset_name": "d2",
+    "eval_metric": "f1_weighted",
+    "fold_index": 0.0,
+    "model": "lgbm",
+    "seed": 42.0,
+    "training_time": 680.761925,
+    "value": 0.329524
+  },
+  "{'k': 'd1_0_42_recall_weighted'}": {
+    "best_config": {
+      "n_estimators": 4,
+      "num_leaves": 5,
+      "min_child_samples": 23,
+      "learning_rate": 0.01788852343973722,
+      "log_max_bin": 10,
+      "colsample_bytree": 0.777088957130454,
+      "reg_alpha": 0.02773665801881243,
+      "reg_lambda": 4.71413345834582
+    },
+    "best_loss": 0.374503,
+    "dataset_name": "d1",
+    "eval_metric": "recall_weighted",
+    "fold_index": 0.0,
+    "model": "lgbm",
+    "seed": 42.0,
+    "training_time": 209.27374,
+    "value": 0.430605
+  },
+  "{'k': 'd2_0_42_recall_weighted'}": {
+    "best_config": {
+      "C": 0.03701031061542462
+    },
+    "best_loss": 0.27733,
+    "dataset_name": "d2",
+    "eval_metric": "recall_weighted",
+    "fold_index": 0.0,
+    "model": "lrl1",
+    "seed": 42.0,
+    "training_time": 770.930704,
+    "value": 0.538851
+  }
+}

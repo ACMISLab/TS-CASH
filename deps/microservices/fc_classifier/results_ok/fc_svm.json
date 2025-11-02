@@ -1,0 +1,302 @@
+{
+  "{'C': 0.099156, 'coef0': -0.688011, 'dataset_name': 'D1', 'degree': 3, 'gamma': 'auto', 'kernel': 'linear', 'probability': True, 'shrinking': True, 'tol': 0.078528, 'train_ratio': 0.1}": {
+    "f1": 0.1087,
+    "pre": 0.0686,
+    "recall": 0.2619
+  },
+  "{'C': 4033.800833, 'coef0': -0.883833, 'dataset_name': 'D1', 'degree': 2, 'gamma': 'auto', 'kernel': 'linear', 'probability': False, 'shrinking': True, 'tol': 8.5e-05, 'train_ratio': 0.1}": {
+    "f1": 0.3374,
+    "pre": 0.3479,
+    "recall": 0.3333
+  },
+  "{'C': 71.771419, 'coef0': 0.732352, 'dataset_name': 'D1', 'degree': 3, 'gamma': 'auto', 'kernel': 'sigmoid', 'probability': True, 'shrinking': False, 'tol': 2.3e-05, 'train_ratio': 0.1}": {
+    "f1": 0.2433,
+    "pre": 0.3849,
+    "recall": 0.3095
+  },
+  "{'C': 6.155564, 'coef0': 0.20223, 'dataset_name': 'D1', 'degree': 5, 'gamma': 'auto', 'kernel': 'poly', 'probability': True, 'shrinking': False, 'tol': 0.002975, 'train_ratio': 0.1}": {
+    "f1": 0.1087,
+    "pre": 0.0686,
+    "recall": 0.2619
+  },
+  "{'C': 0.001771, 'coef0': 0.416145, 'dataset_name': 'D1', 'degree': 5, 'gamma': 'auto', 'kernel': 'poly', 'probability': True, 'shrinking': False, 'tol': 0.000339, 'train_ratio': 0.1}": {
+    "f1": 0.1087,
+    "pre": 0.0686,
+    "recall": 0.2619
+  },
+  "{'C': 7342.55294, 'coef0': -0.97347, 'dataset_name': 'D1', 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'probability': False, 'shrinking': False, 'tol': 0.075568, 'train_ratio': 0.1}": {
+    "f1": 0.242,
+    "pre": 0.3246,
+    "recall": 0.25
+  },
+  "{'C': 0.54213, 'coef0': 0.884404, 'dataset_name': 'D1', 'degree': 5, 'gamma': 'auto', 'kernel': 'poly', 'probability': False, 'shrinking': False, 'tol': 0.012605, 'train_ratio': 0.1}": {
+    "f1": 0.1087,
+    "pre": 0.0686,
+    "recall": 0.2619
+  },
+  "{'C': 757.745305, 'coef0': 0.126576, 'dataset_name': 'D1', 'degree': 5, 'gamma': 'scale', 'kernel': 'linear', 'probability': False, 'shrinking': False, 'tol': 0.057279, 'train_ratio': 0.1}": {
+    "f1": 0.3477,
+    "pre": 0.3553,
+    "recall": 0.3452
+  },
+  "{'C': 27.698759, 'coef0': -0.229167, 'dataset_name': 'D1', 'degree': 4, 'gamma': 'auto', 'kernel': 'sigmoid', 'probability': False, 'shrinking': False, 'tol': 0.037959, 'train_ratio': 0.1}": {
+    "f1": 0.1334,
+    "pre": 0.2156,
+    "recall": 0.25
+  },
+  "{'C': 0.401785, 'coef0': -0.968067, 'dataset_name': 'D1', 'degree': 5, 'gamma': 'scale', 'kernel': 'poly', 'probability': False, 'shrinking': True, 'tol': 0.002464, 'train_ratio': 0.1}": {
+    "f1": 0.175,
+    "pre": 0.1929,
+    "recall": 0.25
+  },
+  "{'C': 2371.34029, 'coef0': -0.222645, 'dataset_name': 'D1', 'degree': 5, 'gamma': 'scale', 'kernel': 'sigmoid', 'probability': True, 'shrinking': True, 'tol': 0.050723, 'train_ratio': 0.1}": {
+    "f1": 0.2688,
+    "pre": 0.3969,
+    "recall": 0.2857
+  },
+  "{'C': 0.00051, 'coef0': -0.457302, 'dataset_name': 'D1', 'degree': 2, 'gamma': 'scale', 'kernel': 'linear', 'probability': True, 'shrinking': True, 'tol': 0.004021, 'train_ratio': 0.1}": {
+    "f1": 0.1087,
+    "pre": 0.0686,
+    "recall": 0.2619
+  },
+  "{'C': 0.003697, 'coef0': 0.657475, 'dataset_name': 'D1', 'degree': 2, 'gamma': 'scale', 'kernel': 'sigmoid', 'probability': True, 'shrinking': True, 'tol': 0.045692, 'train_ratio': 0.1}": {
+    "f1": 0.1087,
+    "pre": 0.0686,
+    "recall": 0.2619
+  },
+  "{'C': 0.00023, 'coef0': -0.286493, 'dataset_name': 'D1', 'degree': 2, 'gamma': 'scale', 'kernel': 'sigmoid', 'probability': True, 'shrinking': True, 'tol': 0.025128, 'train_ratio': 0.1}": {
+    "f1": 0.1087,
+    "pre": 0.0686,
+    "recall": 0.2619
+  },
+  "{'C': 0.040054, 'coef0': -0.438131, 'dataset_name': 'D1', 'degree': 4, 'gamma': 'scale', 'kernel': 'sigmoid', 'probability': False, 'shrinking': True, 'tol': 0.000628, 'train_ratio': 0.1}": {
+    "f1": 0.1087,
+    "pre": 0.0686,
+    "recall": 0.2619
+  },
+  "{'C': 0.00058, 'coef0': -0.450556, 'dataset_name': 'D1', 'degree': 2, 'gamma': 'scale', 'kernel': 'poly', 'probability': True, 'shrinking': True, 'tol': 9.9e-05, 'train_ratio': 0.1}": {
+    "f1": 0.1087,
+    "pre": 0.0686,
+    "recall": 0.2619
+  },
+  "{'C': 0.092586, 'coef0': 0.122487, 'dataset_name': 'D1', 'degree': 3, 'gamma': 'scale', 'kernel': 'poly', 'probability': False, 'shrinking': False, 'tol': 0.000438, 'train_ratio': 0.1}": {
+    "f1": 0.1087,
+    "pre": 0.0686,
+    "recall": 0.2619
+  },
+  "{'C': 22.424875, 'coef0': -0.234146, 'dataset_name': 'D1', 'degree': 4, 'gamma': 'scale', 'kernel': 'sigmoid', 'probability': True, 'shrinking': False, 'tol': 0.010525, 'train_ratio': 0.1}": {
+    "f1": 0.2495,
+    "pre": 0.3625,
+    "recall": 0.2619
+  },
+  "{'C': 21.250975, 'coef0': 0.943424, 'dataset_name': 'D1', 'degree': 4, 'gamma': 'scale', 'kernel': 'linear', 'probability': True, 'shrinking': False, 'tol': 8.2e-05, 'train_ratio': 0.1}": {
+    "f1": 0.2956,
+    "pre": 0.2976,
+    "recall": 0.3095
+  },
+  "{'C': 5.375047, 'coef0': 0.697828, 'dataset_name': 'D1', 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'probability': False, 'shrinking': True, 'tol': 2e-05, 'train_ratio': 0.1}": {
+    "f1": 0.2139,
+    "pre": 0.2301,
+    "recall": 0.2738
+  },
+  "{'C': 0.020798, 'coef0': 0.742921, 'dataset_name': 'D1', 'degree': 3, 'gamma': 'auto', 'kernel': 'poly', 'probability': True, 'shrinking': True, 'tol': 0.00012, 'train_ratio': 0.1}": {
+    "f1": 0.1087,
+    "pre": 0.0686,
+    "recall": 0.2619
+  },
+  "{'C': 0.001949, 'coef0': 0.607344, 'dataset_name': 'D1', 'degree': 4, 'gamma': 'scale', 'kernel': 'linear', 'probability': True, 'shrinking': False, 'tol': 9.5e-05, 'train_ratio': 0.1}": {
+    "f1": 0.1087,
+    "pre": 0.0686,
+    "recall": 0.2619
+  },
+  "{'C': 2738.931802, 'coef0': -0.62686, 'dataset_name': 'D1', 'degree': 5, 'gamma': 'scale', 'kernel': 'sigmoid', 'probability': False, 'shrinking': True, 'tol': 4.7e-05, 'train_ratio': 0.1}": {
+    "f1": 0.2479,
+    "pre": 0.3766,
+    "recall": 0.25
+  },
+  "{'C': 291.717872, 'coef0': 0.785118, 'dataset_name': 'D1', 'degree': 2, 'gamma': 'scale', 'kernel': 'linear', 'probability': False, 'shrinking': True, 'tol': 7.5e-05, 'train_ratio': 0.1}": {
+    "f1": 0.3374,
+    "pre": 0.3479,
+    "recall": 0.3333
+  },
+  "{'C': 11.674279, 'coef0': 0.078684, 'dataset_name': 'D1', 'degree': 4, 'gamma': 'scale', 'kernel': 'linear', 'probability': True, 'shrinking': True, 'tol': 0.001708, 'train_ratio': 0.1}": {
+    "f1": 0.2777,
+    "pre": 0.2779,
+    "recall": 0.3095
+  },
+  "{'C': 0.170094, 'coef0': 0.424541, 'dataset_name': 'D1', 'degree': 5, 'gamma': 'scale', 'kernel': 'linear', 'probability': False, 'shrinking': False, 'tol': 0.000296, 'train_ratio': 0.1}": {
+    "f1": 0.1122,
+    "pre": 0.0724,
+    "recall": 0.25
+  },
+  "{'C': 0.00033, 'coef0': -0.703826, 'dataset_name': 'D1', 'degree': 3, 'gamma': 'scale', 'kernel': 'sigmoid', 'probability': True, 'shrinking': True, 'tol': 0.003382, 'train_ratio': 0.1}": {
+    "f1": 0.1087,
+    "pre": 0.0686,
+    "recall": 0.2619
+  },
+  "{'C': 0.010748, 'coef0': 0.995481, 'dataset_name': 'D1', 'degree': 4, 'gamma': 'scale', 'kernel': 'poly', 'probability': False, 'shrinking': True, 'tol': 0.003421, 'train_ratio': 0.1}": {
+    "f1": 0.1087,
+    "pre": 0.0686,
+    "recall": 0.2619
+  },
+  "{'C': 0.009441, 'coef0': -0.466438, 'dataset_name': 'D1', 'degree': 2, 'gamma': 'auto', 'kernel': 'sigmoid', 'probability': True, 'shrinking': True, 'tol': 0.00139, 'train_ratio': 0.1}": {
+    "f1": 0.1087,
+    "pre": 0.0686,
+    "recall": 0.2619
+  },
+  "{'C': 37.190685, 'coef0': 0.95323, 'dataset_name': 'D1', 'degree': 5, 'gamma': 'auto', 'kernel': 'poly', 'probability': True, 'shrinking': False, 'tol': 2.3e-05, 'train_ratio': 0.1}": {
+    "f1": 0.2798,
+    "pre": 0.31,
+    "recall": 0.3333
+  },
+  "{'C': 0.099156, 'coef0': -0.688011, 'dataset_name': 'D2', 'degree': 3, 'gamma': 'auto', 'kernel': 'linear', 'probability': True, 'shrinking': True, 'tol': 0.078528, 'train_ratio': 0.1}": {
+    "f1": 0.0011,
+    "pre": 0.0006,
+    "recall": 0.0185
+  },
+  "{'C': 4033.800833, 'coef0': -0.883833, 'dataset_name': 'D2', 'degree': 2, 'gamma': 'auto', 'kernel': 'linear', 'probability': False, 'shrinking': True, 'tol': 8.5e-05, 'train_ratio': 0.1}": {
+    "f1": 0.0538,
+    "pre": 0.0897,
+    "recall": 0.0556
+  },
+  "{'C': 71.771419, 'coef0': 0.732352, 'dataset_name': 'D2', 'degree': 3, 'gamma': 'auto', 'kernel': 'sigmoid', 'probability': True, 'shrinking': False, 'tol': 2.3e-05, 'train_ratio': 0.1}": {
+    "f1": 0.0015,
+    "pre": 0.0008,
+    "recall": 0.0185
+  },
+  "{'C': 6.155564, 'coef0': 0.20223, 'dataset_name': 'D2', 'degree': 5, 'gamma': 'auto', 'kernel': 'poly', 'probability': True, 'shrinking': False, 'tol': 0.002975, 'train_ratio': 0.1}": {
+    "f1": 0.0012,
+    "pre": 0.0006,
+    "recall": 0.0185
+  },
+  "{'C': 0.001771, 'coef0': 0.416145, 'dataset_name': 'D2', 'degree': 5, 'gamma': 'auto', 'kernel': 'poly', 'probability': True, 'shrinking': False, 'tol': 0.000339, 'train_ratio': 0.1}": {
+    "f1": 0.0012,
+    "pre": 0.0006,
+    "recall": 0.0185
+  },
+  "{'C': 7342.55294, 'coef0': -0.97347, 'dataset_name': 'D2', 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'probability': False, 'shrinking': False, 'tol': 0.075568, 'train_ratio': 0.1}": {
+    "f1": 0.0041,
+    "pre": 0.0022,
+    "recall": 0.037
+  },
+  "{'C': 0.54213, 'coef0': 0.884404, 'dataset_name': 'D2', 'degree': 5, 'gamma': 'auto', 'kernel': 'poly', 'probability': False, 'shrinking': False, 'tol': 0.012605, 'train_ratio': 0.1}": {
+    "f1": 0.0012,
+    "pre": 0.0006,
+    "recall": 0.0185
+  },
+  "{'C': 757.745305, 'coef0': 0.126576, 'dataset_name': 'D2', 'degree': 5, 'gamma': 'scale', 'kernel': 'linear', 'probability': False, 'shrinking': False, 'tol': 0.057279, 'train_ratio': 0.1}": {
+    "f1": 0.0538,
+    "pre": 0.0897,
+    "recall": 0.0556
+  },
+  "{'C': 27.698759, 'coef0': -0.229167, 'dataset_name': 'D2', 'degree': 4, 'gamma': 'auto', 'kernel': 'sigmoid', 'probability': False, 'shrinking': False, 'tol': 0.037959, 'train_ratio': 0.1}": {
+    "f1": 0.0011,
+    "pre": 0.0006,
+    "recall": 0.0185
+  },
+  "{'C': 0.401785, 'coef0': -0.968067, 'dataset_name': 'D2', 'degree': 5, 'gamma': 'scale', 'kernel': 'poly', 'probability': False, 'shrinking': True, 'tol': 0.002464, 'train_ratio': 0.1}": {
+    "f1": 0.0355,
+    "pre": 0.2229,
+    "recall": 0.037
+  },
+  "{'C': 2371.34029, 'coef0': -0.222645, 'dataset_name': 'D2', 'degree': 5, 'gamma': 'scale', 'kernel': 'sigmoid', 'probability': True, 'shrinking': True, 'tol': 0.050723, 'train_ratio': 0.1}": {
+    "f1": 0.0523,
+    "pre": 0.0889,
+    "recall": 0.037
+  },
+  "{'C': 0.00051, 'coef0': -0.457302, 'dataset_name': 'D2', 'degree': 2, 'gamma': 'scale', 'kernel': 'linear', 'probability': True, 'shrinking': True, 'tol': 0.004021, 'train_ratio': 0.1}": {
+    "f1": 0.0012,
+    "pre": 0.0006,
+    "recall": 0.0185
+  },
+  "{'C': 0.003697, 'coef0': 0.657475, 'dataset_name': 'D2', 'degree': 2, 'gamma': 'scale', 'kernel': 'sigmoid', 'probability': True, 'shrinking': True, 'tol': 0.045692, 'train_ratio': 0.1}": {
+    "f1": 0.0015,
+    "pre": 0.0008,
+    "recall": 0.0185
+  },
+  "{'C': 0.00023, 'coef0': -0.286493, 'dataset_name': 'D2', 'degree': 2, 'gamma': 'scale', 'kernel': 'sigmoid', 'probability': True, 'shrinking': True, 'tol': 0.025128, 'train_ratio': 0.1}": {
+    "f1": 0.0011,
+    "pre": 0.0006,
+    "recall": 0.0185
+  },
+  "{'C': 0.040054, 'coef0': -0.438131, 'dataset_name': 'D2', 'degree': 4, 'gamma': 'scale', 'kernel': 'sigmoid', 'probability': False, 'shrinking': True, 'tol': 0.000628, 'train_ratio': 0.1}": {
+    "f1": 0.0011,
+    "pre": 0.0006,
+    "recall": 0.0185
+  },
+  "{'C': 0.00058, 'coef0': -0.450556, 'dataset_name': 'D2', 'degree': 2, 'gamma': 'scale', 'kernel': 'poly', 'probability': True, 'shrinking': True, 'tol': 9.9e-05, 'train_ratio': 0.1}": {
+    "f1": 0.0026,
+    "pre": 0.0014,
+    "recall": 0.037
+  },
+  "{'C': 0.092586, 'coef0': 0.122487, 'dataset_name': 'D2', 'degree': 3, 'gamma': 'scale', 'kernel': 'poly', 'probability': False, 'shrinking': False, 'tol': 0.000438, 'train_ratio': 0.1}": {
+    "f1": 0.0027,
+    "pre": 0.0014,
+    "recall": 0.037
+  },
+  "{'C': 22.424875, 'coef0': -0.234146, 'dataset_name': 'D2', 'degree': 4, 'gamma': 'scale', 'kernel': 'sigmoid', 'probability': True, 'shrinking': False, 'tol': 0.010525, 'train_ratio': 0.1}": {
+    "f1": 0.0523,
+    "pre": 0.0889,
+    "recall": 0.037
+  },
+  "{'C': 21.250975, 'coef0': 0.943424, 'dataset_name': 'D2', 'degree': 4, 'gamma': 'scale', 'kernel': 'linear', 'probability': True, 'shrinking': False, 'tol': 8.2e-05, 'train_ratio': 0.1}": {
+    "f1": 0.0538,
+    "pre": 0.0897,
+    "recall": 0.0556
+  },
+  "{'C': 5.375047, 'coef0': 0.697828, 'dataset_name': 'D2', 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'probability': False, 'shrinking': True, 'tol': 2e-05, 'train_ratio': 0.1}": {
+    "f1": 0.0041,
+    "pre": 0.0022,
+    "recall": 0.037
+  },
+  "{'C': 0.020798, 'coef0': 0.742921, 'dataset_name': 'D2', 'degree': 3, 'gamma': 'auto', 'kernel': 'poly', 'probability': True, 'shrinking': True, 'tol': 0.00012, 'train_ratio': 0.1}": {
+    "f1": 0.0012,
+    "pre": 0.0006,
+    "recall": 0.0185
+  },
+  "{'C': 0.001949, 'coef0': 0.607344, 'dataset_name': 'D2', 'degree': 4, 'gamma': 'scale', 'kernel': 'linear', 'probability': True, 'shrinking': False, 'tol': 9.5e-05, 'train_ratio': 0.1}": {
+    "f1": 0.0012,
+    "pre": 0.0006,
+    "recall": 0.0185
+  },
+  "{'C': 2738.931802, 'coef0': -0.62686, 'dataset_name': 'D2', 'degree': 5, 'gamma': 'scale', 'kernel': 'sigmoid', 'probability': False, 'shrinking': True, 'tol': 4.7e-05, 'train_ratio': 0.1}": {
+    "f1": 0.0635,
+    "pre": 0.2222,
+    "recall": 0.037
+  },
+  "{'C': 291.717872, 'coef0': 0.785118, 'dataset_name': 'D2', 'degree': 2, 'gamma': 'scale', 'kernel': 'linear', 'probability': False, 'shrinking': True, 'tol': 7.5e-05, 'train_ratio': 0.1}": {
+    "f1": 0.0538,
+    "pre": 0.0897,
+    "recall": 0.0556
+  },
+  "{'C': 11.674279, 'coef0': 0.078684, 'dataset_name': 'D2', 'degree': 4, 'gamma': 'scale', 'kernel': 'linear', 'probability': True, 'shrinking': True, 'tol': 0.001708, 'train_ratio': 0.1}": {
+    "f1": 0.0538,
+    "pre": 0.0897,
+    "recall": 0.0556
+  },
+  "{'C': 0.170094, 'coef0': 0.424541, 'dataset_name': 'D2', 'degree': 5, 'gamma': 'scale', 'kernel': 'linear', 'probability': False, 'shrinking': False, 'tol': 0.000296, 'train_ratio': 0.1}": {
+    "f1": 0.0015,
+    "pre": 0.0008,
+    "recall": 0.0185
+  },
+  "{'C': 0.00033, 'coef0': -0.703826, 'dataset_name': 'D2', 'degree': 3, 'gamma': 'scale', 'kernel': 'sigmoid', 'probability': True, 'shrinking': True, 'tol': 0.003382, 'train_ratio': 0.1}": {
+    "f1": 0.0012,
+    "pre": 0.0006,
+    "recall": 0.0185
+  },
+  "{'C': 0.010748, 'coef0': 0.995481, 'dataset_name': 'D2', 'degree': 4, 'gamma': 'scale', 'kernel': 'poly', 'probability': False, 'shrinking': True, 'tol': 0.003421, 'train_ratio': 0.1}": {
+    "f1": 0.0027,
+    "pre": 0.0014,
+    "recall": 0.037
+  },
+  "{'C': 0.009441, 'coef0': -0.466438, 'dataset_name': 'D2', 'degree': 2, 'gamma': 'auto', 'kernel': 'sigmoid', 'probability': True, 'shrinking': True, 'tol': 0.00139, 'train_ratio': 0.1}": {
+    "f1": 0.0012,
+    "pre": 0.0006,
+    "recall": 0.0185
+  },
+  "{'C': 37.190685, 'coef0': 0.95323, 'dataset_name': 'D2', 'degree': 5, 'gamma': 'auto', 'kernel': 'poly', 'probability': True, 'shrinking': False, 'tol': 2.3e-05, 'train_ratio': 0.1}": {
+    "f1": 0.0,
+    "pre": 0.0,
+    "recall": 0.0
+  }
+}

@@ -1,0 +1,25 @@
+[
+"ae",
+"cnn",
+"decision_tree",
+"hbos",
+"iforest",
+"lof",
+"lstm",
+"ocsvm",
+"pca",
+"random_forest",
+"svm",
+"vae"]
+
+## cpu
+[
+"decision_tree",
+"hbos",
+"iforest",
+"lof",
+"ocsvm",
+"pca",
+"random_forest",
+"svm",
+]

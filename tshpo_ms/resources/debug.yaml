@@ -1,0 +1,23 @@
+desc: |
+  "抽样+降维 vs. 不抽样不降维选出的算法表现如何？ 作为论文中的observation实验"
+  python main.py --file debug.yaml
+
+random_state: 42
+n_fold: 1
+datasets:
+  - dresses-sales
+metrics:
+  - roc_auc
+feature_selec_method:
+  - TSNEkhorn
+  - UMAP
+feature_selec_rate:
+  - 0.1
+hpo_opt_methods:
+  - BO
+n_exploration:
+  - 1
+data_sample_method:
+  - RS
+data_sample_rate:
+  - 0.1

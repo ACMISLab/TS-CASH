@@ -1,0 +1,42 @@
+{
+  "{'dataset_name': 'D1', 'model_name': 'RF'}": {
+    "f1": 0.4235,
+    "prec": 0.4589,
+    "rec": 0.5034
+  },
+  "{'dataset_name': 'D1', 'model_name': 'SVM'}": {
+    "f1": 0.4715,
+    "prec": 0.4367,
+    "rec": 0.551
+  },
+  "{'dataset_name': 'D1', 'model_name': 'ADABOOST'}": {
+    "f1": 0.3364,
+    "prec": 0.3915,
+    "rec": 0.4014
+  },
+  "{'dataset_name': 'D2', 'model_name': 'RF'}": {
+    "f1": 0.2592,
+    "prec": 0.3923,
+    "rec": 0.2366
+  },
+  "{'dataset_name': 'D2', 'model_name': 'SVM'}": {
+    "f1": 0.3354,
+    "prec": 0.4647,
+    "rec": 0.2903
+  },
+  "{'dataset_name': 'D2', 'model_name': 'ADABOOST'}": {
+    "f1": 0.0399,
+    "prec": 0.1056,
+    "rec": 0.0538
+  },
+  "{'dataset_name': 'D1', 'model_name': 'MLP'}": {
+    "f1": 0.4392,
+    "prec": 0.457,
+    "rec": 0.483
+  },
+  "{'dataset_name': 'D2', 'model_name': 'MLP'}": {
+    "f1": 0.3561,
+    "prec": 0.45,
+    "rec": 0.3118
+  }
+}

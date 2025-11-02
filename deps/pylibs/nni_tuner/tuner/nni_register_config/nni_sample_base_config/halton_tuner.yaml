@@ -1,0 +1,3 @@
+algoType: tuner
+builtinName: HALTON
+className: tuner.sample_base.halton_tuner.HaltonTuner
